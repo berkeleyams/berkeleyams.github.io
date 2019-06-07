@@ -1,0 +1,275 @@
+Semester: Fall 2008
+Usual location: 939 Evans Hall
+Usual time: 11AM--12PM
+Usual day: Friday
+
+
+Date: September 12th
+Speaker: Jon Wilkening
+Affiliation: UC Berkeley
+Title: Time-periodic solutions of the Benjamin--Ono equation
+<html_abstract>
+<p>I will describe a spectrally accurate numerical method for finding
+non-trivial time-periodic solutions of non-linear PDE. The method is based on
+minimizing a functional (of the initial condition and the period) that is
+positive unless the solution is periodic, in which case it is zero. We solve an
+adjoint PDE to compute the gradient of this functional with respect to the
+initial condition. We include additional terms in the functional to specify the
+free parameters, which, in the case of the Benjamin&#8211;Ono equation, are the
+mean, a spatial phase, a temporal phase and the real part of one of the Fourier
+modes at <i>t</i>&nbsp;=&nbsp;0.</p>
+
+<p>We use our method to study global paths of solutions connecting stationary
+and traveling waves of the Benjamin&#8211;Ono equation. As a starting guess for
+each path, we compute periodic solutions of the linearized problem by solving
+an infinite dimensional eigenvalue problem in closed form. We then use our
+numerical method to continue these solutions beyond the realm of linear theory
+until another traveling wave is reached (or until the solution blows up). By
+experimentation with data fitting, we identify the analytic form of these
+solutions in terms of the trajectories of the Fourier modes. We then prove that
+solutions of the form suggested by our numerical experiments exist and show how
+our representation fits into the hierarchy of previously known multi-periodic
+and multi-soliton solutions.</p>
+
+<p>This is joint work with David Ambrose.</p>
+
+<h4>References</h4>
+<ul>
+	<li><a href="http://math.berkeley.edu/~wilken/papers/benj1.pdf">
+        Time-periodic solutions of the Benjamin&#8211;Ono equation</a>,
+	preprint.</li>
+</ul>
+</html_abstract>
+
+
+Date: September 19th
+Speaker: Ed Feng
+Affiliation: UC Berkeley Chemistry
+Title: Pulling on RNA and Getting Equilibrium Properties
+<abstract>
+An unresolved problem in physics is how the arrow of time due to the Second Law
+of Thermodynamics arises from dynamics such as Newton's laws that time reversal
+symmetric. However, there has been much progress over the last decade for a
+dynamical process that begins in thermal equilibrium. For these processes, one
+can not only prove the Second Law of Thermodynamics but also more general
+relations such as Jarzynski's equality and the Crooks fluctuation theorem, two
+remarkable results which will be explained in this talk. These insights have
+greatly enhanced our understanding of single molecule experiments which use
+lasers as chopsticks to manipulate a biological molecule such as RNA.
+
+While these previous results show that an arrow of time exists, we now give a
+length to this arrow. For a dynamical process beginning in equilibrium, this
+measure is based on the distinguishability of this forward process from its
+reverse process, or the time reversal of the forward process. Most importantly,
+this length of time's arrow can be measured in single molecule RNA pulling
+experiments. It is also deeply connected with determining equilibrium free
+energy differences.
+
+We also show the connection between far-from-equilibrium single molecule
+experiments and an equilibrium quantity called thermodynamic length.
+Originally, thermodynamic length generalized the notion of curve length in
+Euclidean space to the surface of equilibrium states in thermodynamics. We
+define thermodynamic length for a microscopic system such as the RNA molecule
+in a single molecule experiment. This definition reveals the link between
+thermodynamic length and equilibrium fluctuations. To measure thermodynamic
+length in far-from-equilibrium experiments, one must determine the equilibrium
+properties at an intermediate point of the dynamical process. We show how to
+re-weight the value of each pulling experiment so that one can determine these
+equilibrium properties.
+</abstract>
+
+
+Date: September 26th
+Speaker: Laurent Demanet
+Affiliation: Stanford University
+Title: Compressive wave computation
+<abstract>
+This talk presents a strategy for computational wave propagation that consists
+in decomposing the solution wavefield onto a largely incomplete set of
+eigenfunctions of the weighted Laplacian, with eigenvalues chosen randomly. The
+recovery method is the ell-1 minimization of compressed sensing. For the
+mathematician, we establish three possibly new estimates for the wave equation
+that guarantee accuracy of the numerical method in one spatial dimension. For
+the engineer, the compressive strategy offers a unique combination of
+parallelism and memory savings that should be of particular relevance to
+applications in reflection seismology. Joint work with Gabriel Peyre.
+</abstract>
+
+
+Date: October 3rd
+Speaker: Martin Bazant
+Affiliation: Stanford University
+Title: Induced-Charge Electrokinetic Phenomena
+<abstract>
+Microfluidics has rekindled interest in electrokinetics, the study of
+electrically driven fluid flow past charged surfaces (``electro-osmosis'') and
+the related motion of charged particles (``electrophoresis''), due to favorable
+scaling with miniaturization. Classical electrokinetic phenomena are linear in
+the applied voltage, due the assumption of fixed surface charge, but a much
+richer class of nonlinear electrokinetic phenomena can occur around polarizable
+surfaces, where an electric field acts on its own induced charge. This lecture
+presents the basic physics of ``induced-charge electro-osmosis'' and describes
+some engineering applications. Examples include microfluidic pumping by an
+electro-osmotic ``fluid conveyor belt,'' and transverse electrophoresis of
+metal/dielectric Janus particles in AC fields. These remarkable phenomena also
+raise fundamental questions about electrokinetics at large induced voltages,
+leading to new mathematical models accounting for the crowding of ions against
+highly charged surfaces.
+</abstract>
+
+
+Date: October 10th
+Speaker: Tom Hou
+Affiliation: Caltech
+Title: Recent Progress on Dynamic Stability and Global Regularity of 3D Incompressible Euler and Navier--Stokes Equations
+<abstract>
+Whether the 3D incompressible Euler and Navier--Stokes equations can
+develop a finite time singularity from smooth initial data with finite energy
+has been one of the most long standing open questions. We review some recent
+theoretical and computational studies which show that there is a subtle dynamic
+depletion of nonlinear vortex stretching due to local geometric regularity of
+vortex filaments. The local geometric regularity of vortex filaments can lead
+to tremendous cancellation of nonlinear vortex stretching, thus preventing a
+finite time singularity. Our studies also reveal a surprising stabilizing
+effect of convection for the 3D incompressible Euler and Navier--Stokes
+equations. Finally, we present a new class of solutions for the 3D Euler and
+Navier--Stokes equations, which exhibit very interesting dynamic growth
+property. By exploiting the special nonlinear structure of the equations, we
+prove nonlinear stability and the global regularity of this class of
+solutions.
+</abstract>
+
+
+Date: October 17th
+No talk: no seminar
+
+
+Date: October 24th
+Speaker: Mathias Drton
+Affiliation: University of Chicago
+Title: Hypothesis testing in algebraic statistical models
+<abstract>
+Many statistical models are defined in terms of polynomial constraints, or in
+terms of polynomial or rational parametrizations. In such algebraic statistical
+models, there is often an intimate connection between the geometry of parameter
+spaces and the behavior of statistical procedures. This talk will exemplify
+such connections for classical methods of statistical inference such as
+likelihood ratio and Wald tests. The focus will be on the problem of testing
+hypotheses with singularities, which arise in particular in so-called hidden or
+latent variable models.
+</abstract>
+
+
+Date: October 31st
+Speaker: David Bindel
+Affiliation: Courant Institute
+Title: Bounds and Error Estimates for Nonlinear Eigenvalue Problems
+<html_abstract>
+<p>Nonlinear eigenvalue problems occur naturally when looking at differential
+equation models that include damping, radiation, or delay effects. Such
+problems also arise when we reduce a linear eigenvalue problem, as occurs when
+we rewrite a PDE eigenvalue problem in terms of a boundary integral equation.
+In each of these cases, we are interested in studying the zeros of a
+meromorphic matrix-valued function <i>A</i> : <b>C</b> &rarr;
+<b>C</b><sup><i>n</i>&times;<i>n</i></sup>. In this talk, we describe
+extensions of some standard perturbation results and bounds for nonlinear
+eigenvalue problems, and apply these results to error estimates for computing
+resonances and eigenvalues of Schr&ouml;dinger operators.</p>
+</html_abstract>
+
+
+Date: November 7th
+Speaker: Jean-Christophe Nave
+Affiliation: MIT
+Title: Multi-Component Flows, Small Structures, and a Gradient Augmented Level Set Method
+<abstract>
+Multi-component flows occur in many areas of Physics and Engineering. The
+numerical simulation of such problems usually involves tracking one or more
+level set functions, used to define the interfaces between the components
+implicitly. A challenge in this formulation is how to correctly state boundary
+conditions across the different regions (possibly involving different PDEs).
+Another challenge is how to represent and track small (sub-grid) structures
+without loss of mass. After some motivating examples (falling liquid films,
+solid/fluid interaction, bubbles on soap films, and thin filaments in complex
+fluids) we will present a new method for solving the advection equation for a
+level set function. The approach relies on carrying both function values and
+gradients of the level set function as coupled evolved quantities, using
+Hermite interpolants and a CIR (Courant--Isaacson--Rees) strategy.
+This allows for improved mass conservation, removes the need to solve a
+reinitialization equation, and allows capturing features smaller than the grid
+resolution on a regular Eulerian mesh. For the specific choice of bi
+(tri)-cubic Hermite interpolation we obtain a stable globally 3rd order method.
+We will discuss some advantages of the proposed approach: locality, easy
+computation of curvature and surface normals, application to quadtree/octree
+structures, and possible extensions to higher order.
+</abstract>
+
+
+Date: November 14th
+Speaker: Silas Alben
+Affiliation: Georgia Tech
+Title: Optimal flexibility in flapping appendages
+<abstract>
+When oscillated in a fluid, appendages such as insect wings and fish fins
+can produce large thrust forces while undergoing considerable bending. We
+attempt to understand the role of flexibility by formulating a simple
+optimization problem. Can we determine the flexibility which produces maximum
+thrust, or a given thrust at maximum efficiency? We present first a general
+model for how flexible surfaces produce vorticity and bend passively in a
+fluid. The model combines a nonlinear ODE for elastic bodies with a singular
+integral equation for a potential flow with velocity discontinuities. We solve
+the linearized model and find a series of local thrust optima with power-law
+dependences on rigidity and driving frequency. These optima are resonant peaks,
+damped by fluid inertia, and can be predicted with a scaling analysis. We
+discuss extensions to large-amplitude motions, and motions of actual fish
+fins.
+</abstract>
+
+
+Date: November 19th
+Speaker: Leslie Greengard
+Note: (Wednesday)
+Affiliation: Georgia Tech
+Title: A New Formalism for Electromagnetic Scattering in Complex Geometry
+<abstract>
+We will describe some recent, elementary results in the theory of
+electromagnetic scattering. There are two classical approaches that we will
+review -- one based on the vector and scalar potential and applicable in
+arbitrary geometry, and one based on two scalar potentials (due to Lorenz,
+Debye and Mie), valid only in the exterior of a sphere. In trying to extend the
+Lorenz--Debye--Mie approach to arbitrary geometry, we have encountered some new
+mathematical questions involving differential geometry, partial differential
+equations and numerical analysis. This is joint work with Charlie Epstein.
+</abstract>
+
+
+Date: November 28th
+No talk: Thanksgiving
+
+
+Date: December 5th
+Speaker: J. Nathan Kutz
+Affiliation: University of Washington
+Title: Models for High-Power Pulsed Lasers
+<abstract>
+In general, there exist no analytical methods for quantitative analysis of the
+nonlinear propagation of ultrashort optical pulses in fiber, which underlies
+the operation of femtosecond-pulse fiber lasers. Such methods are needed now as
+the current generation of fiber lasers promise to greatly enhance the
+performance of practical instruments. In general, a pulse undergoes large
+changes in its temporal shape, spectral shape, and phase or frequency as it
+traverses a fiber laser, which in turn pose severe challenges to mathematical
+models. Self-similar pulse evolution is remarkable because
+monotonically-evolving, asymptotic solutions of the governing wave equation
+exist, despite the periodic boundary condition of a laser resonator.
+Highly-chirped pulse solutions can also exist in the presence of strong
+dissipation, and these so-called dissipative solitons represent a new class of
+laser pulses that offers remarkable behavior and performance. Quantitative
+models for lasers based on these pulses will be developed from first
+principles. These models will be studied in appropriate parameter regimes where
+simplified nonlinear dynamical systems theory can be utilized. In all cases,
+stability of the pulse solutions is the crucial issue. The theoretical efforts
+are highly interdisciplinary: combining asymptotic and perturbation methods,
+scientific computation, and rigorous mathematical analysis with models that are
+based on, and validated by, experimental observations.
+</abstract>

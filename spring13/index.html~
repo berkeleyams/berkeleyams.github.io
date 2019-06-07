@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UC Berkeley / LBL Applied Math Seminar</title>
+	<base href="http://math.lbl.gov/ams/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+				<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+			<h3>Organized by <a href="http://math.berkeley.edu/~chr/">Chris Rycroft</a>,<br/><a href="http://math.lbl.gov/~mmo/">Matthias Morzfeld</a>,<br/>and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a></h3>
+		</div>
+<h4 class="top">Spring 2013 Schedule</h4>
+<p>Unless otherwise noted, all seminars are on Wednesdays from 4PM&ndash;5PM in 939 Evans Hall.</p>
+<table class="talks">
+<tr><td class="date">January 29th:</td><td><b>Alan Edelman</b>, Massachusetts Institute of Technology<br /><a href="spring13/edelman.html">Julia: A high-performance dynamic programming language for technical computing</a></td></tr>
+<tr><td class="date">January 30th:</td><td><b>Trevor Potter</b>, UC Berkeley<br /><a href="spring13/potter.html">Standing waves and stability of a viscoelastic cylinder</a></td></tr>
+<tr><td class="date">February 6th:</td><td><b>Daniel Hodyss</b>, Naval Research Laboratory<br /><a href="spring13/hodyss.html">Errors in the position of vortices and fronts and its impact on data assimilation in the geosciences</a></td></tr>
+<tr><td class="date">February 13th:</td><td><b>Eran Bouchbinder</b>, Weizmann Institute<br /><a href="spring13/bouchbinder.html">Instabilities in Dynamic Fracture</a></td></tr>
+<tr><td class="date">February 20th:</td><td><b>Paul Ullrich</b>, UC Davis</td></tr>
+<tr><td class="date">February 27th:</td><td><b>No seminar</b></td></tr>
+<tr><td class="date">March 6th:</td><td><b>TBA</b></td></tr>
+<tr><td class="date">March 13th:</td><td><b>Kevin Lin</b>, University of Arizona</td></tr>
+<tr><td class="date">March 20th:</td><td><b>Nic Brummell</b>, UC Santa Cruz</td></tr>
+<tr><td class="date">March 27th:</td><td><b>Spring Break</b></td></tr>
+<tr><td class="date">April 3th:</td><td><b>Brad Froehle</b>, UC Berkeley</td></tr>
+<tr><td class="date">April 10th:</td><td><b>Benni Seibold</b>, Temple University</td></tr>
+<tr><td class="date">April 17th:</td><td><b>Chun Liu</b>, Penn State University</td></tr>
+<tr><td class="date">April 24th:</td><td><b>Juan Restrepo</b>, University of Arizona</td></tr>
+<tr><td class="date">May 1st:</td><td><b>Jakub Kominiarczuk</b>, UC Berkeley</td></tr>
+<tr><td class="date">May 8th:</td><td><b>Richard Martin</b>, Lawrence Berkeley Laboratory</td></tr>
+</table>
+<h4>Schedules from previous semesters</h4>
+<ul>
+	<li>2012 academic year, organized by Chris Rycroft and Matthias Morzfeld:
+	<ul>
+		<li><a href="fall12/">Fall 2012</a></li>
+	</ul></li>
+	<li>2011 academic year, organized by Alexandre Chorin:
+	<ul>
+		<li><a href="fall11/">Fall 2011</a></li>
+		<li><a href="spring12/">Spring 2012</a></li>
+	</ul></li>
+	<li>2010 academic year, organized by Marcus Roper and Jon Wilkening:
+	<ul>
+		<li><a href="fall10/">Fall 2010</a></li>
+		<li><a href="spring11/">Spring 2011</a></li>
+	</ul></li>
+	<li>2009 academic year, organized by Alexandre Chorin and Marcus Roper:
+	<ul>
+		<li><a href="fall09/">Fall 2009</a></li>
+		<li><a href="spring10/">Spring 2010</a></li>
+	</ul></li>
+<li>2008 academic year, organized by Jon Wilkening and Chris Rycroft:
+        <ul>
+                <li><a href="fall08/">Fall 2008</a></li>
+                <li><a href="spring09/">Spring 2009</a></li>
+        </ul></li>
+
+</ul>
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+		<div class="trail">
+			Website maintained by <a href="http://math.berkeley.edu/~chr/">Chris Rycroft</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

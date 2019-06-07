@@ -1,0 +1,311 @@
+Semester: Spring 2013
+Usual location: 939 Evans Hall
+Usual time: 4PM--5PM
+Usual day: Wednesday
+
+Date: January 29th
+Time: 4PM--5PM
+Location: 891 Evans Hall
+Speaker: Alan Edelman
+Affiliation: Massachusetts Institute of Technology
+Title: Julia: A high-performance dynamic programming language for technical computing
+<html_abstract>
+<p>Julia is a high-level, high-performance dynamic programming language for technical computing. It provides a sophisticated compiler, distributed parallel execution, numerical accuracy, and an extensive mathematical function library. The library, largely written in Julia itself, also integrates mature, best-of-breed C and Fortran libraries for linear algebra, random number generation, signal processing, and string processing. Julia programs are typically organized around multiple dispatch; by defining functions and overloading them for different combinations of argument types, which can also be user-defined. Julia has a rapidly growing community comprising of academics, professionals and students, with developers contributing a number of external packages through Julia’s built-in package manager. Julia is open source and available under the MIT license.</p>
+
+<p><i>This is joint work with Viral B. Shah, Jeff Bezanson, and Stefan Karpinski.</i></p>
+
+<p>Julia website: <a href="http://www.julialang.org/">http://www.julialang.org</a></p>
+</html_abstract>
+
+
+Date: January 30th
+Speaker: Trevor Potter
+Affiliation: UC Berkeley
+Title: Standing waves and stability of a viscoelastic cylinder
+<html_abstract>
+<p>Oden and Lin [1] discovered that an elastic cylinder, when rotated at
+certain speeds, displays standing wave solutions that bifurcate from the
+axisymmetric solution. They noted a hierarchy of <i>N</i>-bump standing wave
+solutions, where the rotation speed decreases to a critical value as <i>N</i>
+goes to infinity. In the first part of my talk, I observe a more complex
+hierarchy of standing wave solutions using numerical eigenvalue software. If a
+viscoelastic model is added, the <i>N</i>-bump standing waves disappear and
+become decaying modes. In the second part of my talk, I observe that a commonly
+used viscoelastic model can lead to nonphysical blow-up of the cylinder at high
+speeds. The blow-up is shown not to occur for a fully nonlinear viscoelastic
+model based on the 2nd Law of Thermodynamics.</p>
+
+<h4>References</h4>
+<ol>
+<li>J. Oden and T. Lin, <i>On the general rolling contact problem for finite deformations of a viscoelastic cylinder</i>, Computer Methods in Applied Mechanics and Engineering <b>57</b>, 297&#8211;367 (1986). <a href="http://dx.doi.org/10.1016/0045-7825(86)90143-X">[Link]</a></li>
+</ol>
+</html_abstract>
+
+Date: February 6th 
+Speaker: Daniel Hodyss
+Affiliation: Naval Research Laboratory
+Title: Errors in the position of vortices and fronts and its impact on data assimilation in the geosciences
+<html_abstract>
+<p>The uncertainty in the position of features of a fluid (<i>e.g.</i> vortices
+and fronts) is ubiquitous in geophysical fluid dynamics. This talk will begin
+by exploring the structure of distributions arising from the uncertainty in the
+location of a flow feature. It will be shown that the probability density
+functions associated with these distributions have surprisingly complex,
+non-Gaussian characteristics. Data assimilation, which is the act of combining
+information from observations with model forecasts to obtain a state estimate,
+will be shown to be highly sensitive to the shape of these distributions. It
+will be argued that the lowest-order effect that should be accounted for in
+these situations will be the skewness (third moment) of the probability density
+function. A simple modification to an Ensemble Kalman Filter will be described
+that adds the capability to use the skewness in the calculation of the state
+estimate. Along the way I will describe a few contemporary data assimilation
+algorithms commonly used in the geosciences (<i>i.e.</i> state vectors of
+10<sup>7</sup> to 10<sup>8</sup> elements).</p>
+</html_abstract>
+
+Date: February 13th
+Speaker: Eran Bouchbinder
+Affiliation: Weizmann Institute
+Title: Instabilities in Dynamic Fracture
+<abstract>
+Rapidly propagating cracks are known to undergo a variety of dynamic
+instabilities. While some of these bear similarities to other well-understood
+instabilities in condensed matter physics, e.g. side-branching in dendritic
+crystal growth, as of yet we have no comparable understanding of dynamic
+fracture instabilities. In this talk I will briefly review the experimental
+observation of various crack instabilities and explain the origin of the
+difficulty. I will then discuss recent progress in understanding some of these
+instabilities: the ``Weakly nonlinear theory of dynamic fracture'' and its
+relation to the oscillatory crack instability in 2D and a crack front
+corrugation instability in 3D. Open challenges will be briefly discussed.
+</abstract>
+
+Date: February 20th
+Speaker: Paul Ullrich
+Affiliation: UC Davis
+Title: Understanding the treatment of waves in atmospheric models: The shortest resolved waves of the linear wave equation
+<abstract>
+To a close approximation, the atmosphere is in a state of geostrophic and
+hydrostatic balance. For atmospheric flows, departures from geostrophy are
+approximately linear. The Mach number of these flows is generally much less
+than one, and shock waves are not present. In this regime, the dynamical
+character of the fluid is dominated by wave motion. As a result, the correct
+treatment of linear waves is intrinsic to any accurate approach for modeling
+the equations of motion.
+
+This talk provides an intercomparison of the dispersive and diffusive
+properties of several standard numerical methods as applied to the linear wave
+equation, including upwind and central finite-volume, spectral finite-volume,
+discontinuous Galerkin, spectral element, and staggered finite-volume. All
+methods are studied up to tenth-order accuracy, where possible. A consistent
+framework is developed which allows for direct intercomparison of the ability
+of these methods to capture the behavior of wave-like motions. The goal of this
+work is threefold: first, to determine the shortest wavelength which can be
+considered ``resolved'' for a particular method; second, to determine the
+effect of increasing the order of accuracy on the ability of a method to
+capture wave-like motion; third, to determine which numerical methods offer the
+best treatment of wave-like motion.
+</abstract>
+
+Date: February 27th
+No talk: No seminar
+
+Date: March 6th
+Speaker: Oliver O'Reilly
+Affiliation: Mechanical Engineering, UC Berkeley
+Title: When is Sticking Stable?
+<abstract>
+Motivated by applications such as gecko-inspired adhesives and microdevices
+featuring slender rodlike bodies, there has been an increase in interest in the
+deformed shapes of elastic rods adhering to rigid surfaces. A central issue in
+analyses of the rod-based models for these systems is the stability of the
+predicted equilibrium conﬁgurations. In this talk, we discuss the recent
+development of nonlinear criteria to access stability. Surprisingly, these
+criteria arose from work examining the buckling of tree-like structures and the
+human spine. The criteria feature Riccati equations and exploit a classic
+construction by Legendre in his examination of the second variation of a
+functional. The talk is based on joint work with my former students Tim
+Tresierras and Daniel Peters along with Jeffrey Lotz (UCSF), Carmel Majidi
+(CMU), and John Williams (Cambridge University).
+</abstract>
+
+Date: March 13th
+Speaker: Kevin Lin
+Affiliation: University of Arizona
+Title: Variance Reduction via Markov Couplings
+<abstract>
+Dynamic Monte Carlo methods are widely used in scientific and engineering
+computing. In this talk, I will report on some recent efforts to accelerate
+dynamic Monte Carlo calculations using Markov couplings. Specifically, I will
+describe coupling-based algorithms for computing sensitivities of stationary
+averages for stochastic differential equations, and discuss some of the
+strengths and limitations of these algorithms. Time permitting, I will also
+discuss how these ideas may be applied to nonequilibrium steady-state
+calculations in statistical physics.
+</abstract>
+
+Date: March 20th
+Speaker: Nic Brummell
+Affiliation: UC Santa Cruz
+Title: Essentially nonlinear dynamos
+<abstract>
+The origin of magnetic fields in cosmological bodies is often attributed to the expected presence of dynamo action, where magnetic fields are amplified and sustained against dissipative processes. It is expected that any sufficiently turbulent flow in an electrically conducting fluid is likely to be able to sustain a dynamo on the scales of the velocity field, but producing magnetic field on scales much larger than those of the velocity is a much more difficult problem. However, this situation typifies the astrophysical situation: the solar magnetic activity cycle is a classic example. Highly simplified modelling such as mean field electrodynamics and thin flux tube models have provided significant intuition about large-scale dynamos, but with the advent of modern computing, many of the simple ideas generated have failed to operate in fully nonlinear modelling. Many of these ideas are based upon an essentially kinematic paradigm, where the velocity field is dynamically unaffected by the presence of the magnetic field. We therefore here examine a different scenario, where the magnetic field is dynamic and indeed drives a component of the very flows that then achieve dynamo action, making the induction process now essentially nonlinear. The hope is that such novel dynamo mechanisms might be more robust at high magnetic Reynolds numbers. We illustrate these ideas with a fully nonlinear simulation, and attempt to distill the essence of these results into a simpler semi-analytical mathematical model.
+</abstract>
+
+Date: March 27th
+No talk: Spring Break
+
+Date: April 3rd
+Speaker: Brad Froehle
+Affiliation: UC Berkeley
+Title: A High-Order Implicit--Explicit Discontinuous Galerkin Scheme for Fluid--Structure Interaction
+<abstract>
+We present a high-order discontinuous Galerkin Arbitrary Lagrangian Eulerian
+formulation for the Navier--Stokes equations coupled to various structure
+models including pitching airfoils, non-linear membranes, and neo-Hookean
+solids. We use standard continuous Galerkin discretizations of the solids,
+which are coupled to the fluid using standard techniques. Using
+implicit--explicit Runge--Kutta time integrators with explicit predictors for
+the coupling variables, we effectively decouple the system into two implicit
+problems---one for the fluid and one for the structure. This allows the use of
+efficient parallel domain specific solvers while maintaining a high formal
+order of accuracy in time. The talk is based on joint work with Per-Olof
+Persson (UC
+Berkeley).
+</abstract>
+
+Date: April 10th
+Speaker: Benni Seibold
+Affiliation: Temple University
+Title: Jet Schemes and Gradient-Augmented Level Set Methods
+<abstract>
+Jet schemes are semi-Lagrangian advection approaches that evolve parts of the
+jet of the solution (i.e., function values and higher derivatives) along
+characteristic curves. Suitable Hermite interpolations give rise to methods
+that are high order accurate, yet optimally local, i.e., the update for the
+data at any grid point uses information from a single grid cell only. Jet
+schemes can be systematically derived from an evolve-and-project methodology in
+function spaces, which in particular yields stability estimates. We present a
+comparison of the accuracy and computational cost of jet schemes with WENO and
+Discontinuous Galerkin schemes.
+
+For interface evolution problems, jet schemes give rise to gradient-augmented
+level set methods (GALSM). These possess sub-grid resolution and yield accurate
+curvature approximations. We demonstrate how the optimal locality of jet
+schemes gives rise to a straightforward combination with adaptive mesh
+refinement (AMR), and provide an outlook on jet schemes for nonlinear
+Hamilton--Jacobi equations.
+</abstract> 
+
+Date: April 17th
+Speaker: Chun Liu
+Affiliation: Penn State University
+Title: Modeling for selectivity mechanism in ion channels: An energetic variational approach
+<abstract>
+The interactions of ions flowing through biological systems has been a central
+topic in biology for more than 100 years. Flows of ions produce signaling in
+the nervous system, initiation of contraction in muscle, coordinating the
+pumping of the heart and regulating the flow of water through kidney and
+intestine.
+
+Ion concentrations inside cells are controlled by ion channel proteins through
+the lipid membranes. In this talk, a continuum model  is derived from the
+energetic variational approach which include the coupling between the
+electrostatic forces, the hydrodynamics, diffusion and crowding (due to the
+finite size effects).  The model provides some basic understanding of one of
+the most important properties of proteins, the ion selectivity.
+
+Transport of charged particles and ions in biological environments is by nature
+a multiscale and multiphysics problem. I will also discuss the roles of other
+important ingredients such as those of nonlocal diffusion and also the
+connection between kinetic description and continuum approaches.
+
+This is a joint work with Yunkyong Hyon (NIMS, Korea), Taichia Lin (National
+Taiwan University), Hao Wu (Fudan University)  and  Robert Eisenberg (Rush
+Medical School).
+</abstract>
+
+Date: April 24th
+Speaker: Juan Restrepo
+Affiliation: University of Arizona
+Title: How do you determine whether the Earth is warming up?
+<abstract>
+How does one determine whether the high summer temperatures in Moscow of a few
+years ago was an extreme climatic fluctuation or the result of a systematic
+global warming trend? How does one perform an analysis of the causes of this
+summer's high temperatures in the US, if climate variability is poorly
+constrained? It is only under exceptional circumstances that one can determine
+whether a climate signal belongs to a particular statistical distribution. In
+fact, climate signals are rarely ``statistical;'' there is usually no way to
+obtain enough field data to produce a trend or tendency, based upon data alone.
+There are other challenges to obtaining a trend: inherent multi-scale
+manifestations, and nonlinearities and our incomplete knowledge of climate
+variability. We propose a trend or tendency methodology that does not make use
+of a parametric or a statistical assumption and it is capable of dealing with
+multi-scale time series. The most important feature of this trend strategy is
+that it is defined in very precise mathematical terms.
+</abstract>
+
+Date: May 1st
+Speaker: Jakub Kominiarczuk
+Affiliation: UC Berkeley
+Title: Acyclic Monte Carlo: Marginalizing your problems for fun and profit
+<abstract>
+We present a method for sampling high-dimensional probability spaces,
+applicable to Markov fields with both discrete and continuous variables, based
+on an approximate acyclic representation of the probability density. Our method
+generalizes and places in a common framework some recent work on computing
+renormalized Hamiltonians and stochastic multigrid sampling.
+
+An acyclic representation of a probability distribution function (PDF) is
+obtained when one chooses an ordering of the variables and writes the PDF as a
+product of conditional probabilities, so that the probability of any variable
+is conditional only on the variables that precede it in the ordering. An
+acyclic representation makes the sampling efficient, because it uses the
+sparsity present in the model. We derive an approximate acyclic representation
+for general graphs by finding marginals through a fast marginalization scheme.
+The partial derivatives of the logarithm of the marginal probability are
+computed approximately through stochastic linear projection onto a polynomial
+basis, followed by reconstruction of the marginal through integration.  The
+projection is based on an optimized inner product, making possible the use of
+Gaussian quadrature. Probability distributions involving discrete variables are
+handled by embedding the PDFs in differentiable extensions. Our algorithm can
+be extended to the evaluation of renormalized Hamiltonians formed using general
+renormalization schemes.
+
+The approximate acyclic representation of the PDF is then used for sampling.
+The variables are sampled in a fixed order, producing independent samples
+together with their sampling weights. We present an optimized sampling strategy
+that uses a maximum amount of information to choose individual variable values.
+The samples are further improved using techniques from particle filtering. We
+also introduce a block Markov chain Monte Carlo scheme based on the sampling
+weights. Finally, we present applications of our methodology to lattice
+models: the Ising model and the Edwards--Anderson spin glass.
+</abstract>
+
+Date: May 8th
+Speaker: Richard Martin
+Affiliation: Lawrence Berkeley Laboratory
+Title: Material Informatics: Analysis, Discovery and Design of Porous Materials 
+<abstract>
+Porous materials such as zeolites and metal-organic frameworks (MOFs) have
+applications as materials for separations, catalysis and storage. In
+particular, they are promising candidates for use as selective adsorbents for
+carbon dioxide capture, or in vehicular storage of natural gas. In recent
+years, thousands of new porous materials have been synthesized, and databases
+comprising millions of hypothetical materials have been developed. In
+principle, promising candidate materials can be identified by screening large
+material databases. However, while computational techniques such as molecular
+simulation enable accurate prediction of individual material properties, their
+computational expense prohibit application to very large datasets.
+
+In this presentation, I will discuss our recent efforts in the field of
+material informatics, introducing tools for accelerating the computational
+discovery and design of materials. We utilize the Voronoi decomposition to
+efficiently compute geometric pore space descriptors which enable the
+representation, searching and screening of materials. Promising carbon dioxide
+adsorbents are identified two orders of magnitude faster than through molecular
+simulation, by screening for local binding sites, and new record high surface
+area MOFs are automatically designed by combining high-throughput geometric
+analysis and mathematical optimization.
+</abstract>

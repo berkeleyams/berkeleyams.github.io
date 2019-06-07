@@ -1,0 +1,238 @@
+Semester: Spring 2012
+Usual location: 939 Evans Hall
+Usual time: 4PM--5PM
+Usual day: Wednesday
+
+Date: January 18th
+Speaker: Jianfeng Lu
+Affiliation: Courant Institute
+Title: Multiscale analysis of solid materials:  From electronic structure models to continuum theories
+<abstract>
+Modern material sciences focus on studies on the microscopic scale. This calls
+for mathematical understanding of electronic structure and atomistic models,
+and also their connections to continuum theories. In this talk, we will
+discuss some recent works where we develop and generalize ideas and tools from
+mathematical analysis of continuum theories to these microscopic models. We
+will focus on macroscopic limit and microstructure pattern formation of
+electronic structure models
+</abstract>
+
+Date: January 25th
+Speaker: Eric Cances and Yvon Maday
+Affiliation: CERMICS and Paris VI
+Title: Numerical analysis of linear and nonlinear eigenvalue problems for electronic structure calculations
+<html_abstract>
+<p>The numerical computation of the eigenvalues and eigenvectors of a
+self-adjoint operator on an infinite dimensional separable Hilbert space is a
+standard problem of numerical analysis and scientific computing, with a wide
+range of applications in science and engineering. Such problems are
+encountered in particular in mechanics (vibrations of elastic structures),
+electromagnetism and acoustics (resonant modes of cavities), and quantum
+mechanics (bound states of quantum systems).</p>
+
+<p>Galerkin methods provide an efficient way to compute the discrete
+eigenvalues of a bounded-from-below self-adjoint operator <i>A</i> lying below
+the bottom of the essentialspectrum of <i>A</i>. On the other hand, Galerkin
+methods may fail to approximate discrete eigenvalues located in spectral gaps,
+that is between two points of the essentialspectrum of <i>A</i>. In some cases,
+the Galerkin method cannot find some of the eigenvalues of <i>A</i> located in
+spectral gaps (lack of approximation); in other cases, the limit set of the
+spectrum of the Galerkin approximations of <i>A</i> contains points which do
+not belong to the spectrum of <i>A</i> (spectral pollution). Such problems
+arise in various applications, such as the numerical simulation of photonic
+crystals, of doped semiconductors, or of heavy atoms with relativistic
+models.</p>
+
+<p>Another aspect of this problem is the large nonlinearity and the complexity
+that arise in the models derived from the Schr&ouml;dinger model. The numerical
+analysis of these nonlinear eigenvalue problems makes it possible to understand
+the convergence behavior, when it works but also when and why the numerical
+algorithm lacks optimality. From this analysis corrections can be proposed and
+implemented.</p>
+
+<p>We will present recent results on the numerical analysis of these problems,
+obtained in collaboration with Rachida Chakir (University Paris 6) and Virginie
+Ehrlacher (Ecole des Ponts and INRIA).</p>
+</html_abstract>
+
+Date: Feburary 1st
+No talk: No seminar
+
+Date: February 8th 
+Speaker: Lin Lin
+Affiliation: Lawrence Berkeley Laboratory
+Title: Recent developments of fast algorithms for Kohn--Sham density functional theory
+<html_abstract>
+<p>Kohn&#8211Sham density functional theory (KSDFT) is the most widely used
+electronic structure theory for condensed matter systems. The standard method
+for solving KSDFT requires solving <i>N</i> eigenvectors for an
+<i>O</i>(<i>N</i>)&nbsp;&times;&nbsp;<i>O</i>(<i>N</i>) Kohn&#8211;Sham
+Hamiltonian matrix, with <i>N</i> being the number of electrons in the system.
+This procedure is expensive and scales as <i>O</i>(<i>N</i><sup>3</sup>). We
+have developed a pole expansion plus selected inversion (PEpSI) method, in
+which the KSDFT is solved by evaluating selected elements of the inverse of a
+series of sparse symmetric matrices, and the overall algorithm scales as at
+most <i>O</i>(<i>N</i><sup>2</sup>) for all materials including metallic and
+insulating systems. Recently we generalized the new method to nonorthogonal
+basis sets, with the electron density, total energy, Helmholtz free energy and
+atomic force calculated simultaneously and accurately. Combined with atomic
+orbital basis functions, the new method can be applied to study the electronic
+structure of boron nitride nanotube and carbon nanotube with more than 10,000
+atoms on a single processor.</p>
+</html_abstract>
+
+Date: February 15th
+Speaker: Allan Sly
+Affiliation: UC Berkeley Statistics
+Title: Phase Transitions and Sampling
+<html_abstract>
+<p>I will discuss two recent pieces of work relating phases transitions of
+spin-systems to questions of sampling their distributions.</p>
+ 
+<ol>
+<li>For the heat bath Glauber dynamics for the two dimensional Ising model, the
+growth of the mixing time is now known at all temperatures. The final case was
+at the critical temperature which was completed using new ideas from the study
+of SLE.</li>
+<li>The question of what relationships exist between phase transitions in
+statistical physics and the computational complexity of sampling and counting
+has been of ongoing interest in theoretical computer science. Recent progress
+has established the computational complexity of sampling on <i>d</i>-regular
+graphs for essentially all 2-spin systems. The complexity depends on whether
+the model has a unique Gibbs measure on the infinite <i>d</i>-regular tree
+establishing the equivalence of phase transitions and computational thresholds
+in these cases.</li>
+</ol>
+</html_abstract>
+
+Date: Feburary 22nd
+No talk: No seminar
+
+Date: February 29th
+No talk: No seminar (Bowen lectures)
+
+Date: March 7th
+Speaker: William Collins
+Affiliation: Earth Sciences, Lawrence Berkeley Laboratory
+Title: Reliable Projections of Strange Weather:  How Good is Good Enough?
+<abstract>
+Extreme climate change, also known as ``strange weather,'' is anticipated to
+increase in frequency and magnitude as the effects of anthropogenic climate
+change amplify over the 21st century. Examples of strange weather include
+intense downpours, heat waves, and droughts. These increases are driven by the
+basic physics of the climate system. Extreme climate change will test the
+resilience of both society and the environment. One of the challenges for the
+climate community is to advance the mathematical and physical formulation of
+climate models to provide robust projections of these extreme phenomena. In
+this talk, we review the state of the science and the prospects for convergent
+projections of extreme climate change in the limit of ultra-high model
+resolution.
+</abstract>
+
+Date: March 14th
+No talk: No seminar
+
+Date: March 21st
+Speaker: David Nicholls
+Affiliation: University of Illinois, Chicago
+Title: A Boundary Perturbation Method for Recovering Interface Shapes in Layered Media
+<abstract>
+The scattering of linear acoustic radiation by a periodic layered structure is
+a fundamental model in the geosciences as it closely approximates the
+propagation of pressure waves in the Earth's crust. In this talk, the speaker
+will describe new algorithms for (1.) the forward problem of prescribing
+incident radiation and, given known structure, determining the scattered field,
+and (2.) the inverse problem of approximating the form of the structure given
+prescribed incident radiation and measured scattered data. Each of these
+algorithms is based upon a novel statement of the problem in terms of boundary
+integral operators (Dirichlet--Neumann operators), and a Boundary Perturbation
+algorithm (the Method of Operator Expansions) for their evaluation. Detailed
+formulas and numerical simulations will be presented to demonstrate the utility
+of these new approaches.
+</abstract>
+
+Date: Marth 28th
+No talk: Spring Break
+
+Date: April 4th
+Speaker: Alex Bayen
+Affiliation: UC Berkeley Systems Engineering
+Title: Estimation of Traffic Using Hamilton--Jacobi Equations
+<abstract>
+This work focuses on estimation of traffic using a Hamilton-Jacobi model of
+traffic. The recent explosion of smartphones with Internet connectivity and GPS
+created an increase in data available to monitor traffic. The talk will present
+theoretical results, algorithms and implementations designed to integrate
+mobile measurements obtained from smartphones into Hamilton Jacobi models of
+traffic. Using a Lax--Hopf formula, analytical solutions to the
+Hamilton--Jacobi equations are computed, which result in an explicit expression
+of the solution to an initial / boundary value problem for piecewise affine
+initial and boundary conditions. These results are extended to ``internal''
+conditions (i.e. situations in which the value function is provided inside the
+computational domain). The dependency of the solution in the parameters of the
+piecewise affine functions (initial and boundary conditions) is studied and
+shown to result in convex formulations of estimation problems. The results are
+tried on data collected by the Mobile Millennium system, a system launched at
+Berkeley, which is operational in Northern California and streams more than 60
+million data points a day into traffic models.
+</abstract>
+
+Date: April 11th
+No talk: No seminar
+
+Date: April 18th
+Speaker: Jonathan Weare
+Affiliation: University of Chicago
+Title: Coarse graining results in crystal surface relaxation
+<abstract>
+I will present recent results on the coarse graining of two models of crystal
+surface relaxation. First, I will discuss joint work with Hala Al Hajj
+Shehadeh and Robert V. Kohn on an ODE model of a 1D monotone crystal surface.
+We prove that the slope of a finite size crystal in this setting converges (in
+the long time limit) to a similarity solution. We also give an informal
+derivation of a fully nonlinear fourth order PDE (large crystal) limit of the
+ODE's as well as analogues of our similarity results in the continuum.  Next,
+I'll discuss current work with Jeremy Marzuola investigating certain scaling
+limits of a general family of Kinetic Monte Carlo models of crystal surface
+relaxation. We informally derive two fully non-linear fourth order PDE in two
+different scaling limits. Both PDE's are similar to (but not exactly the same
+as) PDE's that have been proposed as large-scale limits for the models in
+question. Our aim is to clarify how each arises as well as to establish the
+limits rigorously.
+</abstract>
+
+Date: April 25th
+Speaker: Selim Esedoglu
+Affiliation: University of Michigan
+Title: Threshold dynamics for the mean curvature motion of networks with unequal surface tensions
+<abstract>
+Threshold dynamics is an algorithm for moving an interface (e.g. a surface in
+3D) by mean curvature motion. It was proposed by Merriman, Bence, and Osher in
+1992, and also extended to networks of surfaces in the same paper. This dynamic
+arises as gradient flow for the sum of the areas of the surfaces in the
+network, and plays a prominent role in materials science applications where it
+describes the motion of grain boundaries in polycrystals (such as most metals)
+under heat treatment.
+
+Further extension of the algorithm to gradient flow for a weighted energy where
+the area of each surface in the network is weighted by possibly different
+constants (called surface tensions) is of great interest for applications, but
+has remained elusive. In fact, previous attempts at this turn out to be flawed,
+mainly due to the difficulty of ensuring that certain natural angle conditions
+are satisfied along triple curves (where three surfaces meet). We describe how
+to extend threshold dynamics to this unequal surface tension setting. Joint
+work with Felix Otto.
+</abstract>
+
+Date: May 2nd
+Speaker: Fei Lu
+Affiliation: University of Kansas
+Title: Convergence of Densities of Some Functionals of Gaussian Processes
+<abstract>
+We characterize the convergence of densities to the standard normal density for
+a sequence of multiple stochastic integrals of a fixed order with variance
+converging to 1. Parallel results for the multidimensional case and for general
+random variables are also studied. Applications to sequences of random
+variables on the second Wiener chaos are introduced, in particular the
+convergence of densities of the Ornstein--Ulenbeck parameter estimator.
+</abstract>

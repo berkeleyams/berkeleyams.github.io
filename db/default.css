@@ -1,0 +1,178 @@
+body {
+	background-color: #224;
+}
+
+p, li {
+	color: #000;
+	font: normal 16px Helvetica, Arial, Georgia, "Bitstream Vera Serif", serif;
+	line-height: 1.4em;
+	text-align: justify;
+}
+
+ul li ul {
+	padding-bottom: 5px;
+}
+
+hr {
+	display: none;
+}
+
+.skip {
+	display: none;
+}
+
+#container {
+	background: #fff;
+	border: solid 1px #448;
+	width: 700px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 14px;
+}
+
+#head {
+	background: #d0d8ff;
+	padding: 5px 10px 5px 10px;
+	height: 65px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #abd;
+}
+
+#head #maintitle {
+	margin-top:0;
+	float: left;
+}
+
+#head h1 {
+	margin-top: 0;
+	margin-bottom: 0.25em;
+	font: bold 28px Helvetica, Arial, sans-serif;
+	color: #14a;
+}
+
+#head h1 a,
+#head h1 a:visited,
+#head h1 a:active,
+#head h1 a:focus,
+#head h1 a:hover {
+	text-decoration: none;
+	color: #14a;
+}
+
+#head h2 {
+	margin-top: 0;
+	margin-bottom: 0.16em;
+	font: normal 16px Helvetica, Arial, sans-serif;
+	color: #456;
+}
+
+#head h3 {
+	margin-top:0;
+	color: #456;
+	font: normal 13px Helvetica, Arial, sans-serif;
+	text-align: right;
+	float: right;
+	line-height: 1.4em;
+}
+
+#head a,
+#head a:visited,
+#head a:hover,
+#head a:active,
+#head a:focus {
+	color: #456;
+}
+
+h4 {
+	font: bold 20px Helvetica, Arial, sans-serif;
+	color: #46a;
+	/* Hide from IE Mac \*/
+	border-bottom: 1px solid #cde;
+	/* */
+	margin-top: 35px;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+}
+
+h4.top {
+	margin-top: 20px;
+}
+
+h5 {
+	font: normal 18px Helvetica, Arial, sans-serif;
+	color: #00a;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+h5 .alter {
+	color: #500;
+	font-style: italic;
+}
+
+#content a {
+	color: #357;	
+}
+
+#content a:visited {
+	color: #638;
+}
+
+#content a:hover,
+#content a:active {
+	color: #d54;
+}
+
+table.talks {
+	margin-bottom: 20px;
+	border: none;
+}
+
+table.talks tr td {
+	border: none;
+	padding: 4px 5px 4px 5px;
+	vertical-align: top;
+	color: #000;
+	font: normal 16px Helvetica, Arial, sans-serif;
+	line-height: 1.3em;
+}
+
+table.talks tr td.date {
+	width: 125px;
+}
+
+td .alter {
+	color: #500;
+	font: italic 14px Helvetica, Arial, sans-serif;
+}
+
+#foot {
+	background: #d0d8ff;
+	border: solid 1px #abd;
+	clear: both;
+	margin-top: 5px;
+	color: #456;
+	padding: 5px;
+	font: normal 12px Helvetica, Arial, sans-serif;
+}
+
+#foot a,
+#foot a:visited,
+#foot a:hover,
+#foot a:active,
+#foot a:focus {
+	color: #456;
+}
+
+.links {
+	float: right;
+	text-align: right;
+}
+
+.trail {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}

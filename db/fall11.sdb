@@ -1,0 +1,235 @@
+Semester: Fall 2011
+Usual location: 939 Evans Hall
+Usual time: 4PM--5PM
+Usual day: Wednesday
+
+
+Date: September 14th
+Speaker: Michael Pejic 
+Affiliation: UC Berkeley 
+Title: Bayesian Quantum Mechanics Incorporating Weak Measurements 
+<abstract>
+The probability calculations of quantum mechanics are generally interpreted in
+the frequentist viewpoint, where small sample sizes are meaningless.  With the
+current experimental ability to manipulate individual particles, there is a
+need for a Bayesian interpretation, where probabilities for even a single
+sample are meaningful. Using graphical models, it is possible to create such a
+formulation that naturally incorporates weak measurements. In addition, these
+models allow observers with access to different sets of garbled records of the
+measurement outcomes to make self-consistent predictions. 
+</abstract>
+
+
+Date: September 21st
+Speaker: Robert Saye
+Affiliation: UC Berkeley / LBL
+Title: A new interface tracking method for multiphase physics: geometry, foams and thin films
+<abstract>
+Many scientific and engineering problems involve interconnected moving
+interfaces separating different regions, including dry foams, crystal grain
+growth and multi-cellular structures in man-made and biological materials.
+Producing consistent and well-posed mathematical models that capture the
+motion of these interfaces, especially at degeneracies, such as triple
+points and triple lines where multiple interfaces meet, is challenging. In
+this talk, we will introduce a new computational method for tracking the
+interface in general multiphase problems. It combines properties of level
+set methods with a geometric construction, yielding a robust, accurate and
+efficient numerical method that automatically deals with evolution of triple
+points/lines and topological change in the multiphase system. We present
+applications in geometric and fluid flow problems that show many of the
+method's virtues, including a model for liquid drainage in an unstable foam
+leading to thin-film interference patterns.
+</abstract>
+
+
+Date: September 28th
+Speaker: Ethan Atkins
+Affiliation: UC Berkeley / LBL
+Title:  Exact Coulomb Propagators for Green's Function Monte Carlo
+<html_abstract>
+<p>Quantum Monte Carlo (QMC) refers to a set of stochastic algorithms that
+evaluate quantitative properties of a quantum mechanical system, most typically
+the ground-state energy.</p>
+
+<p>Random walk methods, most notably diffusion Monte Carlo (DMC) and Green's
+function Monte Carlo (GFMC), estimate the ground state by taking an ensemble of
+random walkers and propagating them in time so that the invariant distribution
+of walkers is the ground state. These algorithms generate correlated sequences
+of random walkers, often requiring many steps of the algorithm to obtain
+statistically independent samples. The average time step of GFMC can become
+small due to the singularities in the potential.</p> 
+
+<p>I will show that by explicitly accounting for the local Coulomb potential,
+one can achieve significantly larger mean time steps. The resulting algorithm
+will be applied to the Helium (He) and Hydrogen (H<sub>2</sub>) atoms,
+achieving high accuracy and good speedup.</p>
+</html_abstract>
+
+Date: October 5th
+Speaker: Sergey Fomel
+Affiliation: UT Austin
+Title: Wave Equations and Wave Extrapolations in Seismic Imaging
+<abstract>
+Numerical solutions of the classic wave equation and its companion
+characteristic and bi-characteristic equations (the eikonal equation and ray
+equations) are widely used in the practice of seismic imaging. In reflection
+seismology, seismic data are collected on the surface in multiple experiments
+with moving sources and receivers. Exploring the geometrical nature of seismic
+wavefields and the physical connection between different experiments makes it
+possible to define common imaging tasks as imaginary wave propagation processes
+described by their own partial differential equations or pseudo-differential
+equations. A constructive way for defining numerical wave-extrapolation
+operators follows from a low-rank matrix approximation of Fourier symbols. 
+</abstract>
+
+Date: October 12th
+No talk: No seminar
+
+
+Date: October 19th
+No talk: No seminar
+
+
+Date: October 26th
+Speaker: Mohammad Rafiee
+Affiliation: UC Berkeley Mechanical Engineering
+Title: State Estimation in Large-Scale Open Channel Networks Using Sequential Monte Carlo
+<abstract>
+We investigate the performance of sequential Monte Carlo estimation methods for
+estimation of flow state in large-scale open channel networks. After
+constructing a state space model of the flow based on the Saint-Venant
+equations, we implement the optimal sequential importance resampling (SIR)
+filter to perform state estimation in a case in which measurements are
+available every time step. Considering a case in which measurements become
+available intermittently, a random map implementation of the implicit particle
+filter is applied to estimate the state trajectory in the interval between the
+measurements. Finally, some heuristics are proposed which are shown to improve
+the estimation results and lower the computational cost. In the first
+heuristics, considering the case in which measurements are available every time
+step, we apply the implicit particle filter over time intervals of a desired
+size while incorporating all the available measurements over the corresponding
+time interval. As a second heuristic, we apply an approximate maximum a
+posteriori (MAP) method which does not require sampling. It is seen, through
+implementation, that the MAP method provides more accurate results in the
+specific case of our application while having a smaller computational cost. All
+estimation methods are tested on a network of 19 subchannels and one reservoir,
+Clifton Court Forebay, in Sacramento-San Joaquin Delta in California and
+numerical results are presented.
+</abstract>
+
+Date: November 2nd
+Speaker: Heinz Kreiss
+Affiliation: Swedish Academy of Sciences
+Title: The initial boundary value problems for symmetric second order hyperbolic systems
+Location: 891 Evans Hall
+Time: 2PM--3PM
+<html_abstract>
+<p>Recently, Anders Petersson, Omar Ortiz and myself have developed a rather
+general theory for second order hyperbolic systems based on Laplace and Fourier
+transforms, with particular emphasis on boundary processes corresponding to
+generalized eigenvalues. Our theory uses mode analysis and builds upon the
+theory for first order systems, developed a long time ago. This approach has
+many desirable properties: 1) Once a second order system has been Laplace and
+Fourier transformed it can always be written as a system of 2<i>n</i> first
+order pseudo-differential equations. Therefore the above theory also applies
+here. 2) We can localize the problem, <i>i.e.</i>, it is only necessary to
+study the Cauchy problem and halfplane problems with constant coefficients. 3)
+The class of problems we can treat is much larger than previous approaches
+based on &#8220;integration by parts&#8221;. 4) The relation between boundary
+conditions and boundary phenomena becomes transparent.</p> 
+
+<p>I will not bore you with complicated proofs.  Instead, I will discuss a number of examples.</p>
+
+<ol>
+<li>Wave equation (Kreiss, Ortiz, Petersson)</li>
+<li>Einstein's equation of general relativity (harmonic gage) (Kreiss, Winicour)</li>
+<li>Elastic wave equation (Kreiss, Petersson)</li>
+<li>Characteristic boundary conditions (Kreiss, Winicour).</li>
+</ol>
+</html_abstract>
+
+Date: November 9th
+Speaker: John Bell
+Affiliation: Lawrence Berkeley Laboratory
+Title: Finite volume methods for fluctuating hydrodynamics
+<abstract>
+At small scales, the Navier--Stokes equations traditionally used for modeling
+fluid flow break down and thermal fluctuations play an important role in the
+dynamics. Landau and Lifshitz proposed a modified version of the Navier--Stokes
+equations, referred to as the fluctuating Navier--Stokes equations (FNS), that
+adds stochastic flux terms designed to incorporate the effect of fluctuations.
+These stochastic fluxes are constructed so that the FNS equations are
+consistent with equilibrium fluctuations from statistical mechanics. Here we
+describe the development and analysis of finite-volume methods for PDEs with
+stochastic flux terms. 
+
+A key element in the construction of the numerical methods is designing
+discretizations that satisfy a discrete fluctuation-dissipation principle. We
+introduce a systematic approach based on studying discrete equilibrium
+structure factors (spectra) as a function of wavenumber and frequency. Within
+this framework we then discuss the construction of explicit discretizations for
+miscible fluid mixtures. Finally, we present results on giant fluctuations in
+diffusively-mixing fluids and discuss the role of fluctuations in the
+construction of hybrid atomistic/continuum algorithms.
+</abstract>
+
+Date: November 16th
+Speaker: Lisa Goldberg
+Affiliation: UC Berkeley
+Title: Will My Risk Parity Strategy Outperform?
+<abstract>
+We gauge the return-generating potential and risk inherent in four investment
+strategies: value weighting, a fixed mix, and levered and unlevered risk
+parity, over an 85-year horizon. There are three essential conclusions from our
+study.  First, even over periods lasting decades, the specific start and end
+dates of a backtest can have a material effect on the results; second,
+transaction costs can negate apparent outperformance; third, statistical
+significance of findings needs to be assessed.
+</abstract>
+
+Date: November 23rd
+No talk: Thanksgiving
+
+
+Date: November 30th
+Speaker: Molei Tao
+Affiliation: Caltech
+Title: Multiscale Geometric Integration and Analysis of Deterministic and Stochastic Systems
+<abstract>
+In order to accelerate computations, improve long time accuracy of numerical
+simulations, and sample statistics distribution by dynamics, we develop
+multiscale geometric integrators. Most of the talk will be focused on the
+description of FLow AVeraging integratORs (FLAVORs), which apply to general
+multiscale stiff ODEs, SDEs, and PDEs. These integrators employ coarse
+integration steps that do not resolve the fast timescale in the dynamics;
+nevertheless, they capture the correct effective contribution of the fast
+dynamics. Distinct from existing approaches, an identification of the
+underlying slow variables (or process) is not required, and intrinsic geometric
+structures (e.g. symplecticity, conservation laws) can be preserved by the
+multiscale simulation.
+</abstract>
+
+Date: December 7th
+Speaker: James Bremer
+Title: Recent Progress in Integral Equation Methods
+<abstract>
+Despite offering significant advantages over more direct approaches, integral
+equation methods are not widely used for the numerical solution of elliptic
+boundary value problems. This is primarily due to several unresolved issues
+which hamper the competitiveness of integral equation methods in certain
+situations. In this talk, I will describe several of these unresolved issues
+and discuss one in detail.
+
+In particular, I will focus on recent work regarding the numerical solution of
+integral equations given on domains with singularities. Solutions of integral
+equations arising from elliptic boundary value problems given on irregular
+domains often exhibit singularities which are more severe than those exhibited
+by the solution of the original equation. This is sometimes cited as a serious
+drawback of integral equation methods. In fact, as I will show, it turns out to
+be essentially harmless.
+
+If time permits, I will also discuss the efficient evaluation of a class of
+singular integrals which arises from the discretization of integral equations
+on surfaces.
+</abstract>
+

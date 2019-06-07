@@ -1,0 +1,311 @@
+Semester: Spring 2009
+Usual location: 939 Evans Hall
+Usual time: 11AM--12PM
+Usual day: Friday
+
+
+Date: January 30th
+Speaker: Alex Vladimirsky
+Affiliation: Cornell University
+Title: Homogenization and multiobjective optimization -- computational challenges
+<abstract>
+I will present two recent projects related to front propagation & optimal
+control.
+
+The first of these (joint with A. Oberman and R. Takei) deals with 2-scale
+and 3-scale computations in geometric optics. We propose a new & efficient
+method to homogenize first-order Hamilton--Jacobi PDEs. Unlike the prior
+cell-problem methods, our algorithm is based on homogenizing the related
+geodesic distance function. We illustrate by computing the effective velocity
+profiles for a number of periodic and "random" composite materials.
+
+The second project (joint with A. Kumar) deals with multiple criteria for
+optimality (e.g., fastest versus shortest trajectories) and optimality
+under integral constraints. We show that an augmented PDE on a
+higher-dimensional domain describes all Pareto-optimal trajectories. Our
+numerical method uses the causality of this PDE to approximate its
+discontinuous viscosity solution efficiently. The method is illustrated by
+problems in robotic navigation (e.g., minimizing the path length and
+exposure to an enemy observer simultaneously).
+</abstract>
+
+
+Date: February 6th
+Speaker: Eric Lauga
+Affiliation: UC San Diego
+Title: Swimming on small scales: Physical and mathematical constraints
+<abstract>
+Fluid mechanics plays a crucial role in many cellular processes. One example
+is the external fluid mechanics of motile cells such as bacteria, spermatozoa,
+and essentially half of the microorganisms on earth. These organisms typically
+possess flagella, slender whiplike appendages which are actuated in a periodic
+fashion in a fluid environment, thereby giving rise to propulsion. The type of
+periodic actuation which cannot be exploited for locomotion was established in
+1977 by Purcell, and is referred to as the Scallop theorem: It states that, due
+to the linearity of Stokes's equations of motion, time-reversible movement
+(i.e. movement that is identical under time-reversal) cannot not lead to
+any average locomotion. In this talk, we ask the following question: What
+ingredients are necessary to escape the constraints of the Scallop theorem? We
+will discuss in particular the role of body kinematics, flow and swimmer
+inertia, collective motion, and the physical nature of the surrounding
+fluid.
+</abstract>
+
+
+Date: February 13th
+Speaker: Jay Walton
+Affiliation: Texas A&M University
+Title: A Theory of Brittle Fracture Based upon an Extension of Continuum Mechanics to the Nano-Scale
+<abstract>
+A theory of fracture of brittle materials is presented that is formulated
+with a continuum theory incorporating nano-scale effects in the vicinity of
+fracture surfaces. These nano-scale effects account for changes in the bulk
+behavior of material near in interfacial regions due to long range
+intermolecular forces from adjoining phases. These effects are incorporated
+into the theory by two mechanisms: a mutual force correction to the balance of
+linear momentum and idealizing a material interface (fracture surface in this
+case) as a dividing surface (in the sense of Gibbs) endowed with excess
+properties such as surface tension, surface internal energy and free energy,
+surface entropy, surface mass and momentum. It is shown that for special
+classes of constitutive assumptions concerning the dependence of surface
+tension (of fracture surfaces) upon curvature, that the crack tip singular
+stresses and strains of classical brittle fracture theories do not occur. More
+specifically, the theory predicts bounded crack tip stress and a cusp-shaped
+crack tip profile. This necessitates a new notion of energy release rate and a
+new approach to developing a fracture criterion, which is also discussed.
+</abstract>
+
+
+Date: February 20th
+Speaker: Alex Bayen
+Affiliation: UC Berkeley Civil and Environmental Engineering
+Title: Construction of lower semi continuous solutions to the Hamilton--Jacobi equation with internal boundary conditions: application to highway traffic monitoring
+<html_abstract>
+<p>This talk describes the construction of lower semi continuous solutions to a
+specific class of Hamilton&#8211;Jacobi equations with concave Hamiltonians.
+The problem is posed as a capture basin problem, in which the target is defined
+in epigraphical form to encode the boundary and initial conditions of the
+problem.  The solution is computed through its epigraph, which is the capture
+basin of the target under a set valued dynamics involving the Fenchel transform
+of the Hamiltonian. The resulting solution is a Barron&#8211;Jensen /
+Frankowska solution, which is lower semi continuous. The target is generalized
+to functions which enable one to include conditions inside the domain (internal
+boundary conditions), which in the context of traffic engineering can be
+interpreted as vehicle trajectories. A Lax&#8211;Hopf formula enables the
+computation of the solutions, which can be carried out explicitly in the case
+of piecewise affine conditions.</p>
+
+<p>The resulting algorithms are applied to the problem of Lagrangian data
+assimilation for hydrodynamic models of traffic. Results from experimental
+deployments in California and New York will be also presented, as well as
+preliminary results from the Mobile Millennium field operational test in
+California
+(<a href="http://traffic.berkeley.edu/">http://traffic.berkeley.edu</a>),
+which is planned to reach 10,000 probe vehicles in a few months.</p>
+</html_abstract>
+
+
+Date: February 27th
+Speaker: Georgy Golitsyn
+Affiliation: A. M. Obukhov Institute for Atmospheric Physics
+Title: Is our global warming anthropogenic?
+<html_abstract>
+<p>The talk will follow several US NRC reports starting with 1979 and IPCC FAR
+(Fourth Assesment Report, 2007) added by personal and Russian experience with
+minimum slides. In 1906&#8211;2005 the annual mean global temperature has
+increased by 0.74&nbsp;&deg;C&nbsp;=&nbsp;1.33&nbsp;&deg;F, with more than half
+increase during last third of the century. Such rapid changes are unknown in
+the Earth's history Examples. Cooling of the winter stratosphere and mesosphere
+by 10&nbsp;&deg;C&nbsp;&#8211;&nbsp;30&nbsp;&deg;C is another example of the
+global change since IGY, 1957. The 1990s were the decade of mitigation and
+prevention of natural catastrophes. During this period losses from catastrophes
+of geophysical origin: earthquakes, volcanoes, etc. were more or less level
+while the losses from the ones of meteorological origin nearly doubled.</p>
+
+<p>The main greenhouse gas, GHG, in our climate system is water vapour, then
+rated by their effects are CO<sub>2</sub>, methane, CFCs, O<sub>3</sub>,
+N<sub>2</sub>O, etc. The GHG-effect is that the atmosphere is more transparent
+to the incoming solar radiation than to outgoing thermal IR. When IR opacity
+increases then part of the additionally absorbed IR is radiated back warming up
+the surface. There is the antiGHG-effect, dust storms on Mars and here,
+&#8220;nuclear winter&#8221; (solar radiation is absorbed more by the
+atmosphere than surface IR).</p>
+
+<p>Thermodynamics: Clapeyron&#8211;Clausius equation,
+<i>e<sub>s</sub></i>(&tau;) - exponential, the warming of the water surface
+increases atmospheric water vapour: chief positive feedback, clouds are mostly
+negative feedback: US DOE ARM Program. Aerosol: dust volcanic, organic, human
+made.</p>
+
+<p>Residence times. Models: solar, IR, aerosol, etc. Climate &#8211; statistics
+of weathers. ECMRWF: 512 harmonics, &sim;50 levels in the vertical, 10 day
+forecast is mean of 10 forecasts from tiny different initial conditions, a
+hundred teraflop computers. Climate change models &sim;42,84 harmonics, &sim;20
+levels in the vertical, ocean-better resolution. Parameterizations: expression
+of subgrid processes through variables computed at the grid, e.g. air&#8211;sea
+interaction.</p>
+
+<p>Model sensitivities. Test of the model performance: XX century,
+1950&nbsp;&#8211;&nbsp;u/p: reanalysis of global weather maps, every 6 hours,
+several levels. PDF for vortices on (<i>&delta;p</i>)&sup2;, geostrophy,
+exponential, but different for cyclones and anticyclones at high tails,
+hurricanes PDF also exponential, as well as tornadoes and dust devils.</p>
+
+<p>Model prediction: in warmer climate more intense hydrological cycle, but
+less rain days more days with intense rains, i.e. more probability for both
+droughts and floods (Vladimir Semenov, IAP and Kiel). Found for US by Pavel
+Groisman (NCC Ashville, N.C.)</p>
+
+<p>Solar activity: <i>&delta;T</i>&nbsp;&asymp;&nbsp;0.2&nbsp;&deg;C.</p>
+
+<p>Paleoevidence: 7 ice ages, holocene optimum <i>&Delta;T</i> &sim; 1 &deg;C
+but for several hundred years, not in Tasmania, never high trends global or
+regional? Little ice age 1640&#8211;1820, more regional. 20000&nbsp;y&nbsp;BP
+<i>&Delta;T</i>&nbsp;&sim;&nbsp;&minus;5&nbsp;&deg;C,
+10000&nbsp;yr&nbsp;-&nbsp;5&nbsp;&deg;C &#8211; 0.05 &deg;C/100&nbsp;yr.</p>
+
+<p>Cretaceous 120&#8211;60&nbsp;MyBP:
+<i>&Delta;T</i>&nbsp;&sim;&nbsp;+5&nbsp;&deg;C, warm Arctic + Siberia, due to
+CO<sub>2</sub>. 55&nbsp;My&nbsp;&plusmn;&nbsp;100&nbsp;ky,
+<i>&Delta;T</i>&nbsp;=&nbsp;+&nbsp;several&nbsp;&deg;C, due to CH<sub>4</sub>
+sudden release.</p>
+
+<p>Main aims: regional changes with better models, PDFs for anomalies as TC,
+PL, tornadoes, etc. Many better specialists in particular areas are in US!</p>
+</html_abstract>
+
+
+Date: March 6th
+Speaker: Jan Nordstr&ouml;m
+Affiliation: Uppsala University
+Title: A Hybrid Methodology for Unsteady Compressible Flows
+<abstract>
+Unsteady compressible flow problems exhibit many flow features such as
+vortices, shocks, turbulence, etc. It is highly unlikely that any single
+numerical method can be the ``best one'' for all cases. We discuss
+the concept of hybrid methods in terms of accuracy, stability and efficiency
+and exemplify with problems that deal with complex geometry and shocks.
+</abstract>
+
+
+Date: March 13th
+Speaker: Alex Arenas
+Affiliation: Universidad Rovira i Virgili
+Title: Synchronization in complex networks
+<abstract>
+Synchronization processes in populations of locally interacting elements are
+in the focus of intense research in physical, biological, chemical,
+technological and social systems. The many efforts devoted to understand
+synchronization phenomena in natural systems take now advantage of the recent
+theory of complex networks. In this talk, we will summarize the advances in the
+comprehension of synchronization phenomena when oscillating elements are
+constrained to interact in a complex network topology. We also overview the
+new emergent features coming out from the interplay between the structure and
+the function of the underlying pattern of connections. An example about the
+synchronization in the actual network of the connectivity of the cat cortical
+areas is presented.
+</abstract>
+
+
+Date: March 20th
+Speaker: Panos Stinis
+Affiliation: University of Minnesota
+Title: Phase transition approach to detecting singularities of partial differentialequations
+<abstract>
+Dimensional reduction of complex systems has been a subject of intense
+research in recent years. However, the construction of a reduced model is not
+the final step. The reduced model can be used for different tasks. In this talk
+I will present a simple mesh refinement algorithm which utilizes a reduced
+model and allows to detect singularities of time-dependent PDEs. The algorithm
+is inspired by renormalization constructions in the theory of phase
+transitions. Results for the inviscid Burgers, critical and supercritical
+nonlinear Schrodinger equations will be provided.
+</abstract>
+
+
+Date: March 27th
+No talk: Spring Break
+
+
+Date: April 3rd
+Speaker: Agnese Seminara
+Affiliation: Harvard University
+Title: Droplet condensation in warm clouds
+<abstract>
+From their formation onto tiny solid particles, droplets must grow of more
+than three orders of magnitude in size, in order to become raindrops. To bridge
+this gap, two main physical mechanisms are at work in warm clouds. The first
+one is the growth by condensation of the surrounding vapor, dominant
+immediately after droplet formation. Later, when droplets become sufficiently
+large, collisions become relevant and droplets undergo a rapid growth yielding
+rain. The great efficiency of the collision/coalescence processes depends on
+the preceding condensation stage. In particular, since the probability of
+collision is proportional to the velocity difference between the two colliding
+droplets, it turns out that a population of identical droplets would be
+eventually unable to produce rain. A population of very similar droplets is
+exactly what one expects on the basis of a mean-field type analysis of the
+condensation equation. The narrowing of the droplet size distribution and the
+consequent bottleneck in droplet growth, are long-standing problems of cloud
+physics. A better understanding of these issues is needed in order to get
+reliable estimates of cloud lifetime, radiative balances and rain formation
+-- important parameters of global climate models. I will focus on this
+problem and discuss numerical results suggesting that a broadening of droplet
+size distributions can be ascribed to turbulence.
+</abstract>
+
+
+Date: April 10th
+No talk: no seminar
+
+
+Date: April 17th
+Speaker: David Chopp
+Affiliation: Northwestern University
+Title: A Multi-Species Model for Bacterial Biofilms used in Wastewater Treatment
+<abstract>
+Bacterial biofilms are aggregations of bacteria at the solid/liquid or
+solid/gas interface, and are the most common form of life on the planet.
+Biofilms are capable of complex structure that includes both competition and
+cooperation, as well as inter-cellular communication. Biofilms are responsible
+for both positive impact (e.g. water treatment and chemical manufacture) and
+negative impact (e.g. Legionnaire's disease and corrosion of pipes) on human
+society. In this talk, we will develop a mathematical model for a beneficial
+biofilm system that is used to remove nitrates from wastewater streams. We will
+also discuss the numerical methods used to solve the model equations, which
+includes a combination of the level set method for capturing the location of
+the biofilm/fluid interface, and the extended finite element method for solving
+elliptic equations on complex geometries.
+</abstract>
+
+
+Date: April 24th
+Speaker: Anja Slim
+Affiliation: Harvard University
+Title: Elastic-skinned gravity currents
+<abstract>
+The surface of an active pahohoe lava flow rapidly cools to form a
+thin solid crust above a still-molten, flowing interior. I consider
+how stresses induced in the solid crust due to the underlying fluid
+motion can result in wrinkling of the surface, producing a
+characteristic ``ropy'' appearance.
+
+I begin by reconsidering buckling of a plate in pure shear, using the
+Foppl--von Karman equations to explore the onset of linear instability
+and the subsequent weakly and fully nonlinear development of patterns.
+I then extend this study to the case where an underlying fluid flow
+induces the shear stress within the plate. The theory is complemented
+with a suite of experiments.
+</abstract>
+
+
+Date: May 1st
+Speaker: Frederic Gibou
+Affiliation: UC Santa Barbara
+Title: Sharp Interface Numerical Methods for Moving Boundary Problems
+<abstract>
+In this talk, we will describe recent (and less recent) advances in the field
+of free boundary problems, with an emphasis on level-set and ghost-fluid
+methods. We will discuss their applications to two-phase flows, the Stefan
+problem and image guided surgery. Novel methods for adaptive mesh refinement
+will be discussed as well.
+</abstract>

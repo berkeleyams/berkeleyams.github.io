@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Raunak Borker &#8211; A High-Order Discontinuous Galerkin Method for Variable-Coefficient Advection-Diffusion Problems</title>
+	<base href="http://math.lbl.gov/ams/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+			<h3>Organized by <a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/><a href="http://math.lbl.gov/~mjzahr/">Matthew J. Zahr</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a><br/> </h3>
+		</div>
+<h4 class="top">A High-Order Discontinuous Galerkin Method for Variable-Coefficient Advection-Diffusion Problems</h4>
+<h5><b>Raunak Borker</b></h5>
+<h5>November 8th, 2017 at 4:00PM&ndash;5:00PM in 891 Evans Hall <a href="http://www.berkeley.edu/map/maps/BC45.html">[Map]</a></h5>
+<p>A high-order discontinuous Galerkin method with Lagrange multipliers (DGLM)
+is presented for the solution of the steady advection-diffusion equation
+with a variable advection field in the high Peclet number regime. In this
+regime, the standard finite element method (FEM) might produce non-physical
+oscillations in the solution at practical mesh resolutions. Like a
+Discontinuous Enrichment Method (DEM) [1], the DGLM method described in
+this presentation overcomes the issue of spurious oscillations near boundary
+layers by attempting to resolve them using appropriate shape functions.
+Specifically, these are chosen as polynomials that are additively enriched
+with free-space solutions of the governing differential equation. Also like a
+DEM, the DGLM method presented here in enforces a weak continuity of the
+solution across inter-element boundaries using Lagrange multipliers and is
+amenable to efficient numerical technique of static condensation. DGLM is
+based on the primal hybrid-variational formulation. Unlike a Hybrid
+Discontinuous Galerkin (HDG) method [2] however, it operates directly on the
+second-order form of the advection-diffusion equation and does not require
+any stabilization.
+</p><p>
+Recently in [3], DGLM was developed for the constant coefficient
+advection-diffusion problem. The present work focuses on the extensions of
+this approach to the variable coefficient problem. The major challenge in this
+extension is in deriving free-space solutions for the variable advection-field
+case. This challenge is overcome by using asymptotic analysis which provides
+enrichment functions for exponential and parabolic boundary layers. The
+resulting DGLM method is theoretically proven to be well-posed.
+</p><p>
+This talk will introduce the DGLM framework, the enrichment functions for the
+constant and variable coefficient cases, and discuss possible extensions to
+the incompressible Navier-Stokes equations. Numerical results for the
+advection-diffusion equation demonstrating the benefits of the enrichment
+functions in overcoming oscillations by reducing the error constant while
+maintaining a high-order convergence will be presented.
+</p><p>
+[1] C. Farhat, I. Harari, L. P. Franca, The discontinuous enrichment method, Comput. Methods Appl. Mech. Eng., 190, 6455- 6479, 2001.
+</p><p>
+[2] N. C. Nguyen, J. Peraire, B. Cockburn, An implicit high-order hybridizable discontinuous Galerkin method for linear convection-diffusion equations, J. Comput. Phys., 228, 3232-3254, 2009.
+</p><p>
+[3] R. Borker, C. Farhat, R. Tezaur, A high-order discontinuous Galerkin method for unsteady advection-diffusion problems, J. Comput. Phys., 332, 2017.
+</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+		<div class="trail">
+			Website maintained by <a href="http://math.lbl.gov/~mmo/">Matthias Morzfeld</a> and <a href="http://math.berkeley.edu/~chr/">Chris Rycroft</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
