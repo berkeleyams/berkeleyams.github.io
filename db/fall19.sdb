@@ -17,8 +17,9 @@ Date: 9/12
 Host: Lin
 Speaker: Di Fang
 Affiliation: UC Berkeley
-Title: 
+Title: Diabatic Surface Hopping, Marcus Rate and Ehrenfest dynamics 
 <abstract>
+Surface hopping algorithms are popular tools to study dynamics of the quantum-classical mixed systems. In this talk, we will present a surface hopping algorithm in diabatic representations, in the view point of time dependent perturbation theory and semiclassical analysis. The algorithm is validated numerically in both weak coupling and avoided crossing regimes. We then discuss some recent progress on the asymptotics of the algorithm in weak and large coupling regimes.
 </abstract>
 
 Date: 9/19
