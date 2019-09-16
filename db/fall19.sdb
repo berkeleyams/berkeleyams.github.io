@@ -37,8 +37,17 @@ Date: 9/26
 Host: Lin
 Speaker: Joan Bruna
 Affiliation: Courant Institute
-Title: 
+Title: On Large Deviations for Large Neural Networks
 <abstract>
+Virtually all modern deep learning systems are trained with some form of local descent algorithm over a high-dimensional parameter space. Despite its apparent simplicity, the mathematical picture of the resulting setup contains several mysteries that combine statistics, approximation theory and optimization, all intertwined in a curse of dimensionality. 
+
+In order to make progress, authors have focused in the so-called ‘overparametrised’ regime, which studies asymptotic properties of the algorithm as the number of neurons grows. In particular, neural networks with a large number of parameters admit a mean-field description, which has recently served as a theoretical explanation for its favorable training properties. In this regime, gradient descent obeys a deterministic partial differential equation (PDE) that converges to a globally optimal solution for networks with a single hidden layer under appropriate assumptions. 
+
+In this talk, we will review recent progress on this problem, and argue that such framework might provide crucial robustness against the curse of dimensionality. First, we will describe a non-local mass transport dynamics that leads to a modified PDE with the same minimizer, that can be implemented as a stochastic neuronal birth-death process, and such that it provably accelerates the rate of convergence in the mean-field limit. Next, such dynamics fit naturally within the framework of total-variation regularization, which following [Bach’17] have fundamental advantages in the high-dimensional regime. We will discuss a unified framework that controls both optimization, approximation and generalisation errors using large deviation principles, and discuss current open problems in this research direction.
+
+Joint work with G. Rotskoff (NYU), and E. Vanden-Eijnden (NYU). 
+
+Bio: https://cims.nyu.edu/~bruna/bioshort.txt
 </abstract>
 
 Date: 10/3
