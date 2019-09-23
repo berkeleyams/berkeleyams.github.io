@@ -62,8 +62,24 @@ Date: 10/10
 Host: Lin
 Speaker: Alex Barnett
 Affiliation: Flatiron institute
-Title: 
+Title: Fast boundary integral tools for the rheology of periodic suspensions and other Stokes flow problems
 <abstract>
+Integral equation methods are ideal for high-order accurate,
+linear-scaling solvers for viscous flows involving rigid or non-rigid
+particles, possibly in confined geometries.  We focus on computing the
+effective shear viscosity of a suspension of 2D rigid particles with
+periodic boundary conditions, whose applications include industrial
+flows and complex fluids. We overview recent new tools needed for
+efficient and accurate solution: 1) Boundary integral quadratures for
+handling close-to-touching curves. 2) Periodization of the fast
+multipole method in arbitrary lattices (which also applies to other
+PDEs such as the 3D Maxwell equations).  In the context of Stokes flow
+through channels, we also discuss: 3) Adaptive panel quadratures to
+handle complex boundary shapes and corners. We highlight the beautiful
+complex analysis needed to develop these tools.
+
+Joint work with Jun Wang (Flatiron Institute), Ehssan Nazockdast
+(UNC), Shravan Veerapaneni, Bowei Wu, and Hai Zhu (Michigan).
 </abstract>
 
 
