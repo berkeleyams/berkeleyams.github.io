@@ -54,8 +54,9 @@ Date: 10/3
 Host: Lin
 Speaker: Nathan Wiebe
 Affiliation: University of Washington
-Title: 
+Title: New approaches to simulating quantum dynamics on quantum computers
 <abstract>
+Over the last several years quantum simulation has emerged as arguably the preeminent application for quantum computers.  In this period the field has seen massive growth culminating in advanced quantum simulation algorithms that are provably near-optimal for general purpose solution of the Schrodinger equation.  However, recently new methods have been developed that can exploit properties of a quantum dynamical system to simulate quantum systems more efficiently than even the optimal general purpose methods.  In this talk I will give a high level introduction to quantum simulation algorithms and present some of the mathematical methods used to solve the Schrodinger equation on them.  In particular, I will discuss multiproduct formulas, interaction picture simulation methods and recent work that shows that Trotter-Suzuki formulas can yield much better simulations than previously believed.  Finally, I will discuss the application of these methods to simulate chemistry and give an overview of the remaining open problems left to be solved in the field.
 </abstract>
 
 Date: 10/10
