@@ -97,8 +97,11 @@ Date: 10/24
 Host: Lin
 Speaker: Ojas Parekh
 Affiliation: Sandia National Laboratories
-Title:  
+Title: Quantum discrete optimization and approximation algorithms
 <abstract>
+In this talk I will motivate quantum approaches to discrete optimization by highlighting fundamental connections between quantum physics and discrete optimization.  I will explain popular quantum discrete optimization techniques such as the Quantum Adiabatic Algorithm and the Quantum Approximate Optimization Algorithm (QAOA).  I will present results on quantum approximation algorithms, demonstrating rigorous bounds on the performance of QAOA for an NP-hard special case of the Maximum Cut problem (Max-Cut).  Finally, I will describe an almost optimal classical approximation algorithm for a physically motivated quantum generalization of Max-Cut and discuss future prospects for quantum approximation algorithms.
+
+This talk is aimed at a general math/CS audience and assumes no familiarity with quantum computing.
 </abstract>
 
 
