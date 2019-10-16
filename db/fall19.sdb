@@ -92,11 +92,30 @@ This talk is aimed at a general math/CS audience and assumes no familiarity with
 Date: 10/31
 Host: Sunny
 Speaker: Dmitri Kuzmin
-Affiliation: University of Dortmund
-Title: 
+Affiliation: TU Dortmund University
+Title: Algebraic flux correction for finite element discretizations of hyperbolic conservation laws
 <abstract>
+In this talk, we review some recent advances in the analysis and design of algebraic flux correction (AFC)
+schemes for hyperbolic problems. In contrast to most variational stabilization techniques, AFC approaches
+modify the standard Galerkin discretization in a way which provably guarantees the validity of discrete
+maximum principles for scalar conservation laws and invariant domain preservation for hyperbolic systems.
+The corresponding inequality constraints are enforced by adding diffusive fluxes, and bound-preserving
+antidiffusive corrections are performed to obtain nonlinear high-order approximations. After introducing the
+AFC methodology and the underlying theoretical framework in the context of continuous piecewise-linear finite
+element discretizations, we present some of the limiting techniques that we use in high-resolution AFC schemes.
+As an alternative to flux-corrected transport (FCT) algorithms which apply limited antidiffusive corrections
+to bound-preserving low-order solutions, we propose a new limiting strategy based on representation of these
+solutions as convex combinations of "bar states" satisfying physical and numerical admissibility conditions.
+Each antidiffusive flux is limited so as to guarantee that the associated bar state remains in the convex
+invariant set and preserves appropriate local bounds. There is no free parameter, and the nonlinear discrete
+problem is well-defined even in the steady-state limit. In the case study for the Euler equations of gas
+dynamics, we enforce local maximum principles for the density, velocity, and specific total energy in addition
+to positivity preservation for the density and pressure. The results of numerical studies for standard test
+problems illustrate the ability of the methods under investigation to resolve steep gradients without
+generating spurious oscillations. In the last part of this talk, we discuss the design of AFC schemes for
+high-order finite elements. The approaches to be explored are based on the use of Bernstein basis functions
+and partitioned finite element spaces.
 </abstract>
-
 
 Date: 11/7
 Host: 
