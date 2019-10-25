@@ -130,8 +130,13 @@ Date: 11/14
 Host: Sunny
 Speaker: Marta D'Elia
 Affiliation: Sandia National Laboratory
-Title: 
+Title: Nonlocal models in computational science and engineering: challenges and applications
 <abstract>
+Nonlocal models such as peridynamics and fractional equations can capture effects that classical partial differential equations fail to capture. These effects include multiscale behavior, discontinuities in the solutions such as cracks, and anomalous behavior such as super- and sub-diffusion. For this reason, they provide an improved predictive capability for a large class of engineering and scientific applications including fracture mechanics, subsurface flow, turbulence, plasma dynamics, and image processing, to mention a few.
+However, the improved accuracy of nonlocal formulations comes at the price of modeling and computational challenges that may hinder the usability of these models. Challenges include the prescription of nonlocal boundary conditions, the treatment of nonlocal interfaces, the identification of model parameters and the incredibly high computational cost.
+In this talk I will discuss these challenges and describe how we are addressing some of them at Sandia National Labs.
+Specifically, first, I will describe a new nonlocal interface theory for modeling and simulation of heterogeneous materials in presence of nonlocality. Our theory, based on energy principles, is mathematically rigorous and physically consistent and recovers the classical (local) behavior as the nonlocality vanishes.
+Then, I will introduce a new physics-based machine-learning algorithm for the estimation of model parameters in nonlocal equations. Our method is based on physics-informed neural networks, which prove to be versatile surrogates for the prediction of complex nonlocal behaviors, including turbulence.
 </abstract>
 
 
