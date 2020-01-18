@@ -16,12 +16,15 @@ Computationally, these predictions are enabled through a novel spline-based stoc
 </abstract>
 
 
-Date: 1/22
+Date: 1/22 Evans 740
+Note: Note the special time and location. This is joint with the
+Thematic Seminar
 Host: 
 Speaker: Yingzhou Li
 Affiliation: Duke University
-Title: 
+Title: Coordinate Descent Methods for Full Configuration Interactions
 <abstract>
+The edge eigenvalue problems arise in many applications. When the dimension of the matrix is extremely large, such as in quantum many-body problems, conventional algorithms become impractical. We reformulate the problem as a non-convex optimization problem and propose a family of coordinate descent methods to address it. Based on our convergence analysis of these proposed methods, we tailored one with a deterministic compression strategy, named CDFCI, for the ground state calculation in the configuration interaction framework. If time permits, this talk also discusses other fast algorithms, including butterfly factorization, block basis factorization, solve-training framework, etc.
 </abstract>
 
 
