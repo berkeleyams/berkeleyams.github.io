@@ -28,13 +28,14 @@ The edge eigenvalue problems arise in many applications. When the dimension of t
 </abstract>
 
 
-Date: 1/29
+Date: 1/29  Evans 740
 Note: Note the special time and location. This is joint with the Thematic Seminar
 Host: 
 Speaker: David Rolnick
 Affiliation: University of Pennsylvania
-Title: 
+Title: Deep neural networks: structure and function
 <abstract>
+Deep neural networks have revolutionized artificial intelligence in recent years but remain poorly understood. Even as algorithms based on neural networks are used to drive cars and diagnose diseases, their design continues to rely more on trial and error than mathematics. In this talk, we provide rigorous grounding for the relationship between structure and function in neural networks. A neural network represents a complicated function as the composition of many simple parts, with the structure of the network influencing what functions can be expressed and learned from data. We show that deep networks can express many functions with exponentially fewer parameters than shallow networks. We prove there exists a massive gap between the maximum complexity of the functions that a network can express and the expected complexity of the functions that it learns in practice. Building on this work, we find that the generalized hyperplane arrangements defined by neural networks allow us to reverse-engineer a network from the function it computes.
 </abstract>
 
 
