@@ -53,8 +53,9 @@ Date: 2/12
 Host: Lin 
 Speaker: Eric Neuscamann
 Affiliation: UC Berkeley
-Title: 
+Title: Variational Excited State Optimization
 <abstract>
+Predicting the properties of molecules and materials that have absorbed light requires knowledge about excited state wave functions.  We will discuss variational strategies and related nonlinear optimization challenges encountered in pursuit of this information, with examples drawn from both quantum chemistry and quantum Monte Carlo.
 </abstract>
 
 
