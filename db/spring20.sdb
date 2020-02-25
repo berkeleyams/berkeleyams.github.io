@@ -83,8 +83,9 @@ Date: 3/4
 Host: Di	 
 Speaker: Jacob Bedrossian
 Affiliation: University of Maryland 
-Title: 
+Title: The power spectrum of passive scalar turbulence in the Batchelor regime 
 <abstract>
+In 1959, Batchelor predicted that passive scalars advected in fluids at finite Reynolds number with small diffusivity κ should display a |k|−1 power spectrum over a small-scale inertial range in a statistically stationary experiment. This prediction has been experimentally and numerically tested extensively in the physics and engineering literature and is a core prediction of passive scalar turbulence. Together with Alex Blumenthal and Sam Punshon-Smith, we have provided the first mathematically rigorous proof of this prediction for a scalar field evolving by advection-diffusion in a fluid governed by the 2D Navier-Stokes equations and 3D hyperviscous Navier-Stokes equations in a periodic box subjected to stochastic forcing at arbitrary Reynolds number. These results are proved by studying the Lagrangian flow map using infinite dimensional extensions of ideas from random dynamical systems. We prove that the Lagrangian flow has a positive Lyapunov exponent (Lagrangian chaos) and show how this can be upgraded to almost sure exponential (universal) mixing of passive scalars at zero diffusivity and further to uniform-in-diffusivity mixing. This in turn is a sufficiently precise understanding of the low-to-high frequency cascade to deduce Batchelor's prediction.
 </abstract>
 
 
