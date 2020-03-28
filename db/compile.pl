@@ -117,7 +117,7 @@ print B "<h4 class=\"top\">$seme Schedule</h4>\n";
 
 # If this is the current schedule, add in a line about the time and place
 if($curr==1) {
-	$_="<p>Unless otherwise noted, all seminars are on ${uday}s from $utim in $uloc.<br> <br> To subscribe to our mailing list, <a href="https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/appliedmathseminar/join">click here</a>.<br>";
+	$_="<p>Unless otherwise noted, all seminars are on ${uday}s from $utim in $uloc.<br> <br> To subscribe to our mailing list, <a href=\"https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/appliedmathseminar/join\">click here</a>.<br>";
 #	$_="<p>Unless otherwise noted, all seminars are on ${uday}s from $utim in $uloc.<br>*This week's applied math seminar is joint with the math department colloquium.  </p>\n";
 	htmlfix($_);
 	print B;
