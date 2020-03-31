@@ -128,12 +128,13 @@ Title:
 
 
 Date: 4/8 
-Note: CANCELED
+Note: 
 Host: Lin
-Speaker: Zhizhen Zhao
-Affiliation: University of Illinois Urbana-Champaign
-Title: 
+Speaker: Lexing Ying
+Affiliation: Stanford University
+Title: Solving inverse problems with deep learning
 <abstract>
+This talk is about some recent progress on solving inverse problems using deep learning. Compared to traditional machine learning problems, inverse problems are often limited by the size of the training data set. We show how to overcome this issue by incorporating mathematical analysis and physics into the design of neural network architectures. We first describe neural network representations of pseudodifferential operators and Fourier integral operators. We then continue to discuss applications including electric impedance tomography, optical tomography, inverse acoustic/EM scattering, and travel-time tomography.
 </abstract>
 
 
