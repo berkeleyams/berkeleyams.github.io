@@ -123,10 +123,10 @@ This talk is about some recent progress on solving inverse problems using deep l
 
 
 Date: 4/15
-Note: On Zoom
-Host: 
-Speaker: 
-Affiliation: 
+Note: Special time 10:10AM-11AM. On Zoom.
+Host: Lin
+Speaker: Matthew Colbrook 
+Affiliation: Cambridge University
 Title:
 <abstract>
 </abstract>
@@ -144,12 +144,18 @@ Randomized Numerical Linear Algebra (RandNLA) is an area which uses randomness, 
 
 
 Date: 4/29
-Note: Special time 10:10AM-11AM. On Zoom.
+Note: On Zoom
 Host: Lin
-Speaker: Matthew Colbrook 
-Affiliation: Cambridge University
-Title: 
+Speaker: Ken Kamrin
+Affiliation: MIT
+Title:  Toward reduced-order models for flowing grains: Surprising
+complexity meets surprising simplicity
 <abstract>
+Despite the commonality of granular materials in day-to-day life, modeling systems of millions or more flowing particles has proven historically difficult. This has direct real-world ramifications owing to the prominent role granular media play in multiple industries and in terrain dynamics. One can attempt to track every grain with discrete particle methods, but realistic systems are often too large for this approach and a continuum model is desired. However, granular media display unusual behaviors that complicate the continuum treatment: they can behave like solid, flow like liquid, or separate into a “gas”, and the rheology of the flowing state displays remarkable subtleties.
+
+To address these challenges, in this talk we develop a family of continuum models and solvers, permitting quantitative modeling capabilities.  We discuss a variety of applications, ranging from general problems to specific techniques for problems of intrusion, impact, driving, and locomotion in granular media. To calculate flows in general cases, a rather significant nonlocal effect is evident, which is well-described with our recent nonlocal model accounting for grain cooperativity within the flow rule. On the other hand, to model only intrusion forces on submerged objects, we will show, and explain why, many of the experimentally observed results can be captured from a much simpler tension-free frictional plasticity model. This approach gives way to some surprisingly simple general tools, including the granular Resistive Force Theory, and a broad set of scaling laws inherent to the problem of granular locomotion. These scalings are validated directly and suggest a new down-scaled paradigm for granular locomotive design, on earth and beyond, to be used much like scaling laws in fluid mechanics.
+
+We close with a brief discussion of ongoing modeling efforts for wet granular systems, including those with non-trivial grain-grain interactions and those with highly deformable particles.
 </abstract>
 
 
