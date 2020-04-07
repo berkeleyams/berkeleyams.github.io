@@ -148,8 +148,7 @@ Note: On Zoom
 Host: Lin
 Speaker: Ken Kamrin
 Affiliation: MIT
-Title:  Toward reduced-order models for flowing grains: Surprising
-complexity meets surprising simplicity
+Title:  Toward reduced-order models for flowing grains: Surprising complexity meets surprising simplicity
 <abstract>
 Despite the commonality of granular materials in day-to-day life, modeling systems of millions or more flowing particles has proven historically difficult. This has direct real-world ramifications owing to the prominent role granular media play in multiple industries and in terrain dynamics. One can attempt to track every grain with discrete particle methods, but realistic systems are often too large for this approach and a continuum model is desired. However, granular media display unusual behaviors that complicate the continuum treatment: they can behave like solid, flow like liquid, or separate into a “gas”, and the rheology of the flowing state displays remarkable subtleties.
 
