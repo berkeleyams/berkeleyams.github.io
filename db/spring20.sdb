@@ -137,8 +137,9 @@ Note: On Zoom
 Host: Lin
 Speaker: Michael Mahoney
 Affiliation: UC Berkeley
-Title: 
+Title: Determinantal Point Processes and Randomized Numerical Linear Algebra
 <abstract>
+Randomized Numerical Linear Algebra (RandNLA) is an area which uses randomness, most notably random sampling and random projection methods, to develop improved algorithms for ubiquitous matrix problems, such as those that arise in scientific computing, data science, machine learning, etc.  A seemingly different topic, but one which has a long history in pure and applied mathematics, is that of Determinantal Point Processes (DPPs), which are stochastic point processes, the probability distribution of which is characterized by sub-determinants of some matrix.  Recent work has uncovered deep and fruitful connections between DPPs and RandNLA.  For example, random sampling with a DPP leads to new kinds of unbiased estimators for classical RandNLA tasks, enabling more refined statistical and inferential understanding of RandNLA algorithms; a DPP is, in some sense, an optimal randomized method for many RandNLA problems; and a standard RandNLA technique, called leverage score sampling, can be derived as the marginal distribution  of a DPP.  This work will be reviewed, as will recent algorithmic developments, illustrating that, while not quite as efficient as simply applying a random projection, these DPP-based algorithms are only moderately more expensive.  Joint work with Michal Derezinski.
 </abstract>
 
 
