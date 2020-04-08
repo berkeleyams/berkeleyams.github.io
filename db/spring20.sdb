@@ -108,8 +108,46 @@ Note: Special time 10:10AM-11AM. On Zoom.
 Host: Lin
 Speaker: Matthew Colbrook 
 Affiliation: Cambridge University
-Title:
+Title: The Foundations of Infinite-Dimensional Spectral Computations
 <abstract>
+Spectral computations in infinite dimensions are ubiquitous in the
+sciences and computing spectra is one of the most studied areas of
+computational mathematics over the last half-century. However, the
+infinite-dimensional problem is notoriously difficult, since standard
+approaches do not, in general, produce correct solutions. We introduce
+new classes of algorithms that solve longstanding computational spectral
+problems for the first time, such as: computing spectra with error
+control; spectral measures, decompositions and the functional calculus;
+fractal dimensions, capacity and transport properties of spectra;
+discrete and essential spectra; and the spectral gap problem.
+Furthermore, these algorithms are optimal, encompassing both Turing's
+classical work and Smale's program on the foundations of computational
+mathematics, with ramifications beyond spectral theory (e.g. Fefferman's
+work on the Dirac-Schwinger conjecture).
+
+We show how to rigorously compute spectra of infinite-dimensional
+operators with guaranteed error control (e.g. for general classes of
+partial differential operators on L^2(R^d) via point sampling
+coefficients). One surprising consequence is that the problem of
+computing spectra of compact operators, whose resolution has been known
+for decades, is strictly harder than the problem of computing spectra of
+Schrödinger operators on L^2(R^d), which was open for more than half a
+century.
+
+We show how to diagonalise general self-adjoint operators - such as
+differential, integral and lattice operators - via computing their
+spectral measures (previous methods are case specific, relying on
+analytical formulae). The algorithm can achieve arbitrarily high-orders
+of convergence and explicit pointwise and L^p -error bounds are derived
+in terms of the local regularity of the measure. Moreover, this allows
+the computation of the functional calculus and spectral type
+decompositions.
+
+Finally, these algorithms are embarrassingly parallelisable. We give
+numerical examples, demonstrating efficiency and tackling difficult
+problems in the sciences. The discussed computational problems are
+samples of what is likely to be a very rich classification theory, with
+applications beyond spectral theory.
 </abstract>
 
 
