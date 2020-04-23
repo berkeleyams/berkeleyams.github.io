@@ -183,6 +183,7 @@ Note: On Zoom.
 Host: Lin
 Speaker: Tamara Kolda
 Affiliation: Sandia National Laboratory
-Title:
+Title: Practical Leverage-Based Sampling for Low-Rank Tensor Decomposition
 <abstract>
+Conventional algorithms for finding low-rank canonical polyadic (CP) tensor decompositions are unwieldy for large sparse tensors. The CP decomposition can be computed by solving a sequence of overdetermined least problems with special Khatri-Rao structure. In this work, we present an application of randomized algorithms to fitting the CP decomposition of sparse tensors, solving a significantly smaller sampled least squares problem at each iteration with probabilistic guarantees on the approximation errors. Prior work has shown that sketching is effective in the dense case, but the prior approach cannot be applied to the sparse case because a fast Johnson-Lindenstrauss transform (e.g., using a fast Fourier transform) must be applied in each mode, causing the sparse tensor to become dense. Instead, we perform sketching through leverage score sampling, crucially relying on the fact that the structure of the Khatri-Rao product allows sampling from overestimates of the leverage scores without forming the full product or the corresponding probabilities. Naïve application of leverage score sampling is infective because we often have cases where a few scores are quite large, so we propose a novel hybrid of deterministic and random leverage-score sampling which is more efficient and effective. Numerical results on real-world large-scale tensors show the method is faster than competing methods without sacrificing accuracy. This is joint work with Brett Larsen at Stanford University.
 </abstract>
