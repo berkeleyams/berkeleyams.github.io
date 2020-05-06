@@ -189,3 +189,13 @@ Title: Estimating Higher-Order Moments Using Symmetric Tensor Decomposition
 We consider the problem of decomposing higher-order moment tensors, i.e., the sum of symmetric outer products of data vectors. Such a decomposition can be used to estimate the means in a Gaussian mixture model and for other applications in machine learning. The dth-order empirical moment tensor of a set of p observations of n variables is a symmetric d-way tensor. Our goal is to find a low-rank tensor approximation comprising r << p symmetric outer products. The challenge is that forming the empirical moment tensor costs O(pn^d) operations and O(n^d) storage, which may be prohibitively expensive; additionally, the algorithm to compute the low-rank approximation costs O(n^d) per iteration. Our contribution is avoiding formation of the moment tensor, computing the low-rank tensor approximation of the moment tensor implicitly using O(pnr) operations per iteration and no extra memory. This advance opens the door to more applications of higher-order moments since they can now be efficiently computed. We present numerical evidence of the computational savings and show an example of estimating the means for higher-order moments. We also show how this can be done stochastically for massive datasets. This work is joint with Samantha Sherman, University of Notre Dame.
 </abstract>
 
+Date: 5/13
+Note: On Zoom.
+Host: Lin
+Speaker: Linfeng Zhang
+Affiliation: Princeton University
+Title: 
+
+<abstract>
+</abstract>
+
