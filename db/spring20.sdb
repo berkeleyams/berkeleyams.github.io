@@ -194,11 +194,9 @@ Note: On Zoom.
 Host: Lin
 Speaker: Linfeng Zhang
 Affiliation: Princeton University
-Title: Symmetry preserving neural network models for molecular
-modelling
+Title: Symmetry preserving neural network models for molecular modelling
 <abstract>
 We discuss how to leverage the fitting ability of neural networks to accurately and efficiently represent two types of maps in molecular modelling problems. The first type takes as input the coordinates of atoms and their associated chemical species, and outputs physical observables such as the interatomic potential energy (a scalar), the electric polarization (a vector) and polarizability (a tensor), and the charge density (a field). The second type, like post–Hartree–Fock methods, uses the ground-state electronic orbitals as the input, and predicts the energy difference between results of highly accurate models such as the coupled-cluster method and low accuracy models such as the Hartree-Fock (HF) method. Special attentions are paid to how the neural network models take care of physical properties like symmetry and locality, so that models trained with small-size systems can be transferred to different and large-size ones; and how they are made end-to-end, so that little human intervention is required for various complex tasks.
-
 This is joint work with Yixiao Chen, Han Wang, and Weinan E.
 </abstract>
 
