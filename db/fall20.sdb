@@ -9,8 +9,9 @@ Date: 8/26
 Host: Lin 
 Speaker: Stefan Steinerberger
 Affiliation: University of Washington
-Title: 
+Title: Solving Linear Systems of Equations via Randomized Kaczmarz/Stochastic Gradient Descent
 <abstract>
+The Randomized Kaczmarz method is a classical iterative method to solve linear systems: the solution of a system Ax = b is simply the point of intersection of several hyperplanes. The Kaczmarz method (also known as the Projection Onto Convex Sets Method) proceeds by simply starting with a point and then iteratively projecting it on these hyperplanes. If the hyperplanes (=rows of the matrix) are picked in random order, the algorithm was analyzed by Strohmer & Vershynin and has linear convergence.  We show that the method, as a byproduct, also computes small singular vectors and, in fact, the iterates tend to approach the true solution from the direction of the smallest singular vector in a meta-stable way. This also explains why the algorithm has such wonderful regularization properties. The arguments are all fairly self-contained, elementary and nicely geometric. This gives a pretty clear picture -- the question is: can this picture be used to improve the method?
 </abstract>
 
 
