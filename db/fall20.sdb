@@ -31,8 +31,9 @@ Date: 9/2
 Host: Lin
 Speaker: Chao Ma
 Affiliation: Stanford University
-Title: 
+Title: The Slow Deterioration of the Generalization Error of the Random Feature Model
 <abstract>
+The random feature model exhibits a kind of resonance behavior when the number of parameters is close to the training sample size. This behavior is characterized by the appearance of large generalization gap, and is due to the occurrence of very small eigenvalues for the associated Gram matrix. In this paper, we examine the dynamic behavior of the gradient descent algorithm in this regime. We show, both theoretically and experimentally, that there is a dynamic self-correction mechanism at work: The larger the eventual generalization gap, the slower it develops, both because of the small eigenvalues. This gives us ample time to stop the training process and obtain solutions with good generalization property.
 </abstract>
 
 
