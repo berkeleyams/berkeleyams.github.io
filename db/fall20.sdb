@@ -60,8 +60,9 @@ Date: 9/23
 Host: Sunny
 Speaker: Martina Bukac
 Affiliation: University of Notre Dame
-Title: 
+Title: A computational framework for fluid-structure interaction problems 
 <abstract>
+Fluid-structure interaction (FSI) problems arise in many applications, such as aerodynamics, geomechanics and hemodynamics. They are moving domain, multiphysics problems characterized by nonlinear coupling between a fluid and structure. As a result, FSI problems are challenging to numerically solve and analyze. A popular approach is to solve the fluid and structure sub-problems in a partitioned manner, allowing the use of solvers specifically designed for the physics of each subproblem. However, stability issues often arise as a result of FSI coupling unless the design and implementation of a partitioned scheme is carefully developed. We will present a family of partitioned numerical schemes for the interaction between an incompressible, viscous fluid and an elastic structure.  We will consider cases where the structure is thick, i.e., described using the same number of spatial dimensions as the fluid, and when the structure is thin, i.e., described using a lower-dimensional model. We will present stability and convergence results, as well as numerical examples where the presented methods are compared to other methods in the literature.
 </abstract>
 
 
