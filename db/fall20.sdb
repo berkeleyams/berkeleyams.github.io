@@ -95,8 +95,9 @@ Date: 10/7
 Host: Lin
 Speaker: Aditi Krishnapriyan
 Affiliation: Lawrence Berkeley National Lab
-Title: 
+Title: Persistent Homology Advances Interpretable Machine Learning for Scientific Applications
 <abstract>
+Machine learning for scientific applications, ranging from physics and materials science to biology, has emerged as a promising alternative to more time-consuming experiments and simulations. The challenge with this approach is the selection of features that enable universal and interpretable system representations across multiple prediction tasks. We use persistent homology to construct holistic feature representations to describe the structure of scientific systems; for example, material and protein structures. We show that these representations can also be augmented with other generic features to capture further information. We demonstrate our approaches on multiple scientific datasets by predicting a variety of different targets across different conditions. Our results show considerable improvement in both accuracy and transferability across targets compared to models constructed from commonly used manually curated features. A key advantage of our approach is interpretability. For example, in material structures, our persistent homology features allow us to identify the location and size of pores in the structure that correlate best to different materials properties, contributing to understanding atomic level structure-property relationships for materials design.
 </abstract>
 
 
