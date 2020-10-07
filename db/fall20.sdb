@@ -105,8 +105,9 @@ Date: 10/14
 Host: Sunny
 Speaker: Franziska Weber 
 Affiliation: Carnegie Mellon University
-Title: 
+Title: Numerical approximation of statistical solutions of hyperbolic systems of conservation laws 
 <abstract>
+Statistical solutions are time-parameterized probability measures on spaces of integrable functions, which have been proposed recently as a framework for global solutions for multi-dimensional hyperbolic systems of conservation laws. We develop a numerical algorithm to approximate statistical solutions of conservation laws and show that under the assumption of ‘weak statistical scaling’, which is inspired by Kolmogorov’s 1941 turbulence theory, the approximations converge in an appropriate topology to statistical solutions. Numerical experiments confirm that the assumption might hold true.
 </abstract>
 
 
