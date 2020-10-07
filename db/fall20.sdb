@@ -115,8 +115,9 @@ Date: 10/21
 Host: Lin
 Speaker: Rolando Somma
 Affiliation: Los Alamos National Laboratory
-Title: 
+Title: Quantum linear systems problem: solution and verification.
 <abstract>
+The goal of the quantum linear systems problem is to prepare a quantum state proportional to the solution of a system of linear equations with a quantum computer. The first quantum algorithm to this end was provided by Harrow, Hassidim, and Lloyd, who also showed that an exponential quantum speedup is indeed possible for this basic linear algebra task. In this talk, I will describe significantly improved quantum algorithms for this problem based on more recent primitives. One such algorithm improves the complexity dependence of the HHL algorithm exponentially in the precision. The other quantum algorithm is inspired by quantum adiabatic evolutions, is conceptually simple, does not use complex subroutines as other quantum algorithms do, and also improves upon HHL. Last, I will present some recent results on the complexity of quantum state verification that show that verifying the solution to this problem is as hard as solving it, in terms of specific resources.
 </abstract>
 
 
