@@ -125,8 +125,9 @@ Date: 10/28
 Host: Lin
 Speaker: Dong An
 Affiliation: UC Berkeley
-Title: 
+Title: Quantum adiabatic evolution and applications in computational physics and quantum computing
 <abstract>
+Originally discovered by Born and Fock (1928), a quantum mechanical system almost remains in its instantaneous eigenstates if the Hamiltonian varies sufficiently slowly and there is a gap between the eigenvalue and the rest of the Hamiltonian’s spectrum. Such a system is said to be a quantum adiabatic evolution, and has become a powerful tool for analyzing quantum dynamics and designing fast classical and quantum algorithms. In this talk, I will first discuss the mathematical formulation of quantum adiabatic evolutions, namely quantum adiabatic theorem. Several versions of the theorem will be discussed, with a focus on the factors that might significantly influence the adiabaticity. Then I will present two applications of the adiabatic evolutions and adiabatic theorems. One is accelerating numerical simulation of Schrodinger equations on classical computers, and the other is a quantum algorithm for solving linear system of equations with near optimal complexity on a quantum computer.
 </abstract>
 
 
