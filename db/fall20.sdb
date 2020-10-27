@@ -134,7 +134,7 @@ Originally discovered by Born and Fock (1928), a quantum mechanical system almos
 Date: 11/4
 Host: Di 
 Speaker: Xiaochuan Tian 
-Affiliation: UCSD
+Affiliation: University of California San Diego
 Title: Reproducing kernel collocation methods for nonlocal models: asymptotic compatibility and numerical stability 
 <abstract>
 Nonlocal continuum models are in general integro-differential equations in place of the conventional partial differential equations. While nonlocal models show their effectiveness in modeling a number of anomalous and singular processes in physics and material sciences, for example, the peridynamics model of fracture mechanics, they also come with increased difficulty in computation with nonlocality involved. Aiming at both rigorous numerical analysis and computational efficiency, we present the reproducing kernel collocation methods, a class of meshfree methods, for approximating nonlocal models characterized by a length parameter that may change with the models. A central idea is to design asymptotic compatible schemes that are robust under the change of the nonlocal length parameter.  
