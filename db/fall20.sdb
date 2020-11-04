@@ -145,8 +145,9 @@ Date: 11/11
 Host: Lin
 Speaker: Jiequn Han 
 Affiliation: Princeton University
-Title: 
+Title:  Solving High-Dimensional PDEs, Controls, and Games with Deep Learning
 <abstract>
+Developing algorithms for solving high-dimensional partial differential equations, controls, and games has been an exceedingly difficult task for a long time, due to the notorious "curse of dimensionality". In this talk we introduce a series of deep learning-based algorithms for these problems. The algorithms exploit the mathematical structure of problems and utilize deep neural networks as efficient approximations to high-dimensional functions. Numerical results of a variety of examples demonstrate the efficiency and accuracy of the proposed algorithms in high-dimensions. This opens up new possibilities in economics, finance, operational research, and physics, by considering all participating agents, assets, resources, or particles together at the same time, instead of making ad hoc assumptions on their inter-relationships.
 </abstract>
 
 
