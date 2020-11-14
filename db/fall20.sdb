@@ -155,8 +155,19 @@ Date: 11/18
 Host: Lin
 Speaker: James Stokes
 Affiliation: Flatiron Institute
-Title: 
+Title:  First-quantized neural networks for lattice fermions
 <abstract>
+First-quantized deep neural network techniques are developed
+for analyzing strongly coupled fermionic systems on the lattice. Using
+a Slater-Jastrow inspired ansatz which exploits deep residual networks
+with convolutional residual blocks, we approximately determine the
+ground state of spinless fermions on a square lattice with
+nearest-neighbor interactions. The flexibility of the neural-network
+ansatz results in a high level of accuracy when compared to exact
+diagonalization results on small systems, both for energy and
+correlation functions. On large systems, we obtain accurate estimates
+of the boundaries between metallic and charge ordered phases as a
+function of the interaction strength and the particle density.
 </abstract>
 
 
