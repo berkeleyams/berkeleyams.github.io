@@ -184,6 +184,7 @@ Date: 12/2
 Host: Lin
 Speaker: Robert Webber
 Affiliation: Courant Institute
-Title: 
+Title: Monte Carlo methods for the Hermitian eigenvalue problem
 <abstract>
+ In quantum mechanics and the analysis of Markov processes, Monte Carlo methods are needed to identify low-lying eigenfunctions of dynamical generators. The standard Monte Carlo approaches for identifying eigenfunctions, however, can be inaccurate or slow to converge. What limits the efficiency of the currently available spectral estimation methods, and what is needed to build more efficient methods for the future? Through numerical analysis and computational examples, we begin to answer these questions. We present the first-ever convergence proof and error bounds for the variational approach to conformational dynamics (VAC), the dominant method for estimating eigenfunctions used in biochemistry. Additionally, we analyze and optimize variational Monte Carlo (VMC), which combines Monte Carlo with neural networks to accurately identify low-lying eigenstates of quantum systems.
 </abstract>
