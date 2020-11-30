@@ -196,7 +196,7 @@ Time: 3-4PM
 Note: Note the special date and time. 
 Speaker: Zixi Hu
 Affiliation: Berkeley
-Title: Monte Carlo methods for the Hermitian eigenvalue problem
+Title: A Mathematical Algorithm for Estimating Rotational Diffusion Coefficient From X-ray Photon Correlation Spectroscopy Data
 <abstract>
 Coming upgrades of the synchrotron X-ray light sources will provide unprecedented coherence and time resolution, granting more detailed ability to capture dynamic motions with time scale below rotational diffusion relaxation time. The X-ray Photon Correlation Spectroscopy (XPCS) experiment is able to reveal valuable information about the rotational diffusion coefficient that provides insight into both the static structures and dynamic properties of particles. Though the required data will be provided, there is no algorithm for estimating this coefficient from the XPCS data. In this talk, I will present mathematical theory describing the XPCS data, and a numerical algorithm, XPCS-CAM, for measuring this coefficient. The XPCS-CAM algorithm decomposes the complex optimization into subparts that can be mathematically inverted and subparts that require iterative solvers. Numerical results demonstrating the capability of the algorithm will also be presented.
 </abstract>
