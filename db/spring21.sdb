@@ -9,8 +9,9 @@ Date: 1/20
 Host: Lin
 Speaker: Andrew Horning
 Affiliation: Cornell University
-Title: 
+Title: Computing spectral properties of infinite-dimensional operators
 <abstract>
+Computing the spectrum of a differential or integral operator is usually done in two steps: (1) discretize the operator to obtain a matrix eigenvalue problem and (2) compute eigenvalues of the matrix with numerical linear algebra. This “discretize-then-solve” paradigm is flexible and powerful, but tension between spectral properties of the operator and the matrix discretizations can lead to numerical artifacts that pollute computed spectra and degrade accuracy. Moreover, it is unclear how to robustly capture infinite-dimensional phenomena, like continuous spectra, with “discretize-then-solve.” In this talk, we introduce a new computational framework that extracts discrete and continuous spectral properties of a broad class of operators by strategically sampling the resolvent operator in the complex plane. The resulting algorithms respect key structure from the operator, regardless of the underlying matrix discretizations used for computation. We illustrate the approach through a range of examples, including a Dirac operator and a magnetic tight-binding model of graphene.
 </abstract>
 
 
