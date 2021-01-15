@@ -54,9 +54,9 @@ Date: 2/17
 Host: 	
 Speaker: Zhewei Yao
 Affiliation: University of California, Berkeley
-Title: 
+Title: Second Order Methods for Neural Network Analysis, Training, and Inference
 <abstract>
-TBA
+Second order based analysis/computation is widely used in scientific computing due to its fast convergence rate and extra useful curvature information as compared to first order methods. However, the application of second order methods is very limited for neural networks since naive Hessian-based computations are infeasible for large NN problems. In this talk, I will present fast and efficient ways to compute different metrics of second order information, including eigenvalues, trace, and estimated spectral density. As an application, I will show how we can use those to analyze the generalization ability of a neural network, and the effectiveness of neural network design choices. Furthermore, I will introduce a novel adaptive second order optimizer for machine learning, and show its superb performance on computer vision, natural language processing, and recommendation system as compared to first order methods. Finally, I will discuss how to leverage the second order information to systematically study neural network quantization, and present the new SOTA results on both computer vision and natural language processing.
 </abstract>
 
 
@@ -87,9 +87,11 @@ Date: 3/10
 Host: Di
 Speaker: ‪Fernando Casas
 Affiliation: Universitat Jaume I, Spain
-Title: 
+Title: Symmetric-conjugate composition methods in the numerical integration of differential equations
 <abstract>
-TBA
+In this talk I will analyze composition methods with complex coefficients exhibiting
+ the so-called ``symmetry-conjugate'' pattern in their distribution. In particular, I will study
+their behavior with respect to preservation of qualitative properties when projected on the real axis and how they compare with the usual left-right palindromic compositions. New schemes within this family up to order 8 will be proposed and illustrated on several examples. Some of the special features of this class of methods will also be reviewed.
 </abstract>
 
 
