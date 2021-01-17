@@ -21,9 +21,9 @@ Date: 1/27
 Host: Di	
 Speaker: Ruiwen Shu
 Affiliation: University of Maryland, College Park
-Title: 
+Title: Linear interpolation convexity/concavity in the minimization of attractive-repulsive energy
 <abstract>
-TBA
+Energy minimization problems of attractive-repulsive pairwise interactions are very important in the study of pattern formation in biological and social sciences. In this talk, I will discuss some recent progress (joint work with Jose Carrillo) on the study of Wasserstein-$\infty$ local energy minimizers by using the method of linear interpolation convexity/concavity. In the first part, we prove the radial symmetry and uniqueness of local minimizers for interaction potentials satisfying the 'linear interpolation convexity', which generalizes the result of O. Lopes 17' for global minimizers. In the second part, we show that the failure of linear interpolation convexity could lead to the formation of small scales in the support of local minimizers, and construct interaction potentials whose local minimizers are supported on fractal sets. To our best knowledge, this is the first time people observe fractal sets as the support of local minimizers.
 </abstract>
 
 
