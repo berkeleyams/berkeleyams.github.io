@@ -11,7 +11,7 @@ PAGES=../fall08/index.html \
 ../spring18/index.html ../fall18/index.html \
 ../spring19/index.html ../fall19/index.html \
 ../spring20/index.html ../fall20/index.html \
-../spring21/index.html 
+../spring21/index.html  
 
 all: $(PAGES)
 

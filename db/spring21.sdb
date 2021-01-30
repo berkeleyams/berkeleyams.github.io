@@ -32,9 +32,16 @@ Date: 2/3
 Host: Di	
 Speaker: Jianfeng Lu
 Affiliation: Duke University
-Title: 
+Title: Towards solving high dimensional PDEs using neural networks
 <abstract>
-TBA
+Numerical solution to high dimensional PDEs has been one of the
+central challenges in scientific computing due to curse of
+dimension. In recent years, we have seen tremendous progress in
+applying neural networks to solve high dimensional PDEs, while the
+analysis for such methods is still lacking. In this talk, we will
+discuss some of these numerical methods for high dimensional PDEs and
+also some initial attempts in numerical analysis for high dimensional
+PDEs. 
 </abstract>
 
 
@@ -136,18 +143,16 @@ Speaker: Zhennan Zhou
 Affiliation: Peking University
 Title: 
 <abstract>
-TBA
 </abstract>
 
 
 
 Date: 4/21
-Host: 	
-Speaker: 
-Affiliation: 
+Host: Di	
+Speaker: Alexandre Chorin
+Affiliation: University of California, Berkeley
 Title: 
 <abstract>
-TBA
 </abstract>
 
 
@@ -158,7 +163,6 @@ Speaker: Seung-Yeal Ha
 Affiliation: Seoul National University
 Title: 
 <abstract>
-TBA
 </abstract>
 
 
