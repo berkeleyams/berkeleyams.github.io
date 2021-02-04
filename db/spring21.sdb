@@ -50,9 +50,17 @@ Date: 2/10
 Host: Di	
 Speaker: Dongbin Xiu
 Affiliation: The Ohio State University
-Title: 
+Title: Data Driven Modeling of Unknown Systems with Deep Neural Networks
 <abstract>
-TBA
+We present effective numerical approaches for modeling unknown system from
+measurement data. By utilizing deep neural network (DNN), we seek to approximate the
+flow map of the underlying system. Once an accurate DNN model for the flow map is
+constructed, it serves as a predictive model for the unknown system and enables us to
+conduct system analysis. We demonstrate that residual network (ResNet) is particularly
+suitable for modeling autonomous dynamical systems. Extensions to other types of
+systems will be discussed, including non-autonomous systems, systems with uncertain
+parameters, and more importantly, systems with missing variables. Finally, we discuss
+deep learning of unknown partial differential equations (PDEs).
 </abstract>
 
 
