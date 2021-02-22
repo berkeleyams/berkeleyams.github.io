@@ -91,9 +91,9 @@ Date: 3/3
 Host: Di
 Speaker: Doron Levy
 Affiliation: University of Maryland, College Park
-Title: 
+Title: Fighting drug resistance with math
 <abstract>
-TBA
+The emergence of drug-resistance is a major challenge in chemotherapy. In this talk we will overview some of our recent mathematical models for describing the dynamics of drug-resistance in solid tumors. These models follow the dynamics of the tumor, assuming that the cancer cell population depends on a phenotype variable that corresponds to the resistance level to a cytotoxic drug.  Under certain conditions, our models predict that multiple resistant traits emerge at different locations within the tumor, corresponding to heterogeneous tumors. We show that a higher drug dosage may delay a relapse, yet, when this happens, a more resistant trait emerges. We will show how mathematics can be used to propose an efficient drug schedule aiming at minimizing the growth rate of the most resistant trait, and how such resistant cells can be eliminated.
 </abstract>
 
 
