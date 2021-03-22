@@ -137,6 +137,7 @@ Affiliation: University of Minnesota
 Title: Mathematics and Physics at the Moiré Scale
 <abstract>
 Placing a two-dimensional lattice on another with a small rotation gives rise to periodic “moire” patterns on a superlattice scale much larger than the original lattice. This effective large-scale fundamental domain allows phenomena such as the fractal Hofstadter butterfly in the spectrum of Harper’s equation to be observed in real crystals. Experimentalists have more recently observed new correlated phases at the “magic” twist angles predicted by theorists. 
+
 We will give mathematical and computational models to predict and gain insight into new physical phenomena at the moiré scale including our recent mathematical and experimental results for twisted trilayer graphene.
 </abstract>
 
