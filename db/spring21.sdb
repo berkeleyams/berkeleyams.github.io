@@ -147,8 +147,9 @@ Date: 4/7
 Host: Per
 Speaker: Jimmy Xia 
 Affiliation: University of California, Berkeley
-Title: 
+Title: Mathematical modeling of human learning and decision making
 <abstract>
+Reinforcement learning (RL) has been widely used to study and model human, animal and artificial intelligence. In this talk, we focus on modeling human learning and decision making, and exemplify two ways that mathematical RL modeling adds to our existing knowledge of human cognition: (1) as a powerful quantitative tool for parametrizing and compressing individual differences in human behavior, and (2) as an important theoretical framework for complex human cognition. In the first study, we use RL modeling to capture trial-by-trial learning dynamics in a probabilistic task and to understand how learning changes during puberty. In the second study, we augment existing RL models to explain transfer and generalization effects in multi-step learning and decision making tasks.
 </abstract>
 
 
