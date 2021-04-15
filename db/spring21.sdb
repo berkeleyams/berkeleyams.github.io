@@ -169,8 +169,11 @@ Date: 4/21
 Host: Alexandre
 Speaker: Phillip Colella
 Affiliation: Lawrence Berkeley National Laboratory and UC Berkeley
-Title: 
+Title: Numerical Analysis of Particle-in-Cell Methods for Advection-Type Partial Differential Equations
 <abstract>
+Particle-in-cell (PIC) methods for advection equations use particles that move along integral curves of the advection velocity to represent the primary dependent variables, while using a structured grid to which the particle state has been interpolated to compute the dependence of the  velocities, and forcing terms on the solution. PIC is one of the oldest methods in numerical PDE, dating back to the 1950s for fluid dynamics, and the 1960s for plasma physics, and are still used extensively today. Nonetheless, there appears to be no mathematically-systematic numerical analysis framework for understanding the error in PIC methods. This is in contrast to traditional finite-difference, finite element, and grid-free particle methods, for which such framework exist and are used very successfully to design methods for complex problems. In this talk, we will present such a numerical analysis framework for both advection and for kinetics problems. One of the principal results is that PIC methods, as they are currently used in scientific applications, have an O(1) contribution to the error, relative to the number of particles, that grows exponentially in time. We will describe the source of this error, and strategies for controlling it.
+
+Joint work with Henry Boateng, Bhavna Singh, Erick Velez, and Colin Wahl.
 </abstract>
 
 
