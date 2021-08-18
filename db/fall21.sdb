@@ -8,8 +8,9 @@ Date: 9/1
 Host: Jon
 Speaker: Thomas Hou
 Affiliation: Caltech
-Title: 
+Title: Potential singularity of 3D incompressible Euler equations and the nearly singular behavior of 3D Navier-Stokes equations
 <abstract>
+Whether the 3D incompressible Euler and Navier-Stokes equations can develop a finite time singularity from smooth initial data is one of the most challenging problems in nonlinear PDEs. In an effort to provide a rigorous proof of the potential Euler singularity revealed by Luo-Hou's computation, we develop a novel method of analysis and prove that the original De Gregorio model and the Hou-Lou model develop a finite time singularity from smooth initial data. Using this framework and some techniques from Elgindi's recent work on the Euler singularity, we prove the finite time blowup of the 2D Boussinesq and 3D Euler equations with $C^{1,\alpha}$ initial velocity and boundary. Further, we present some new numerical evidence that the 3D incompressible Euler equations with smooth initial data develop a potential finite time singularity at the origin, which is quite different from the Luo-Hou scenario.  Our study also shows that the 3D Navier-Stokes equations develop nearly singular solutions with maximum vorticity increasing by a factor of $10^7$. However, the viscous effect eventually dominates vortex stretching and the 3D Navier-Stokes equations narrowly escape finite time blowup.  Finally, we present strong numerical evidence that the 3D Navier-Stokes equations with slowly decaying viscosity develop a finite time singularity.
 </abstract>
 
 
