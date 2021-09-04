@@ -18,8 +18,9 @@ Date: 9/8
 Host: Sunny
 Speaker: Jeffrey Kuan
 Affiliation: UC Berkeley
-Title: 
+Title: A stochastic fluid-structure interaction problem describing Stokes flow interacting with a membrane
 <abstract>
+In this talk, we present a well-posedness result for a stochastic fluid-structure interaction model. We study a fully coupled stochastic fluid-structure interaction problem, with linear coupling between Stokes flow and an elastic structure modeled by the wave equation, and stochastic noise in time acting on the structure. Such stochasticity is of interest in applications of fluid-structure interaction, in which there is random noise present which may affect the dynamics and statistics of the full system. We construct a solution by using a new splitting method for stochastic fluid-structure interaction, and probabilistic methods. To the best of our knowledge, this is the first result on well-posedness for fully coupled stochastic fluid-structure interaction. This is joint work with Sunčica Čanić (UC Berkeley).
 </abstract>
 
 
