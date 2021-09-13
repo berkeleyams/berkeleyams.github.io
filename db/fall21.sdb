@@ -28,8 +28,9 @@ Date: 9/15
 Host: Sunny
 Speaker: Natalia Komarova
 Affiliation: UC Irvine
-Title: 
+Title: Mathematical methods in cancer dynamics
 <abstract>
+Evolutionary dynamics are at the core of carcinogenesis. Mathematical methods can be used to study evolutionary processes, such as selection and mutation, and to shed light onto cancer origins, progression, and mechanisms of treatment. I will present two broad approaches to cancer modeling that we have developed. One is concerned with near-equilibrium dynamics of stem cells, with the goal of figuring out how tissue cell turnover is orchestrated, and how control networks prevent “selfish” cell growth. The other direction is studying evolutionary dynamics of drug resistance in cancer.
 </abstract>
 
 
