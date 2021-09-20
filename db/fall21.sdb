@@ -38,8 +38,9 @@ Date: 9/22
 Host: Lin
 Speaker: Michael Lindsey
 Affiliation: Courant Institute
-Title: 
+Title: Embedding approaches for classical and quantum statistical mechanics
 <abstract>
+We show how a synthesis of ideas from graphical models, tensor networks, optimal transport, and semidefinite programming can be brought to bear on problems from classical and quantum statistical mechanics, broadly construed. Specifically, we discuss applications including classical and quantum spin systems on the lattice, continuous global optimization, and electronic structure.
 </abstract>
 
 
@@ -47,8 +48,26 @@ Date: 9/29
 Host: Lin
 Speaker: Simon Becker 
 Affiliation: University of Cambridge
-Title: 
+Title: Mathematical properties of twisted bilayer graphene
 <abstract>
+Twistronics is the study of how the angle (the twist) between layers of
+two-dimensional materials can change their electronic structure. When
+two sheets of graphene are twisted by those angles the resulting
+material exhibits flat bands which, as argued in the physics literature,
+is related to superconductivity, ferromagnetism, and Mott-insulators. I
+will start with a very simple operator whose spectral properties are
+supposed to determine which angles are magical and describe some of the
+mathematical challenges and results. Then, I will introduce a method to
+study the response of this material to an external magnetic field in a
+regime of large magnetic fields and explain some of the phenomena.
+Finally, I will move on to even simpler one-dimensional models, that
+naturally appear when strain is applied in one direction of the van der
+Waals material to make it periodic in one spatial direction, which allow
+for a more refined mathematical analysis (Cantor spectrum and
+metal/insulator transitions). If time permits, I will briefly touch upon
+the connection between such materials and topological insulators.
+
+This is joint work with M Embree, R Kim, J Wittsten, X Zhu, M Zworski.
 </abstract>
 
 
