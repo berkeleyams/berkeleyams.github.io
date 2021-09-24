@@ -72,11 +72,12 @@ This is joint work with M Embree, R Kim, J Wittsten, X Zhu, M Zworski.
 
 
 Date: 10/6
-Host: 
-Speaker: 
-Affiliation: 
-Title: 
+Host: Lin
+Speaker: Di Fang
+Affiliation: UC Berkeley
+Title: Time-dependent unbounded Hamiltonian simulation with vector norm scaling
 <abstract>
+Hamiltonian simulation is a basic task in quantum computation. The accuracy of such simulation is usually measured by the error of the unitary evolution operator in the operator norm, which in turn depends on certain norm of the Hamiltonian. For unbounded operators, after suitable discretization, the norm of the Hamiltonian can be very large, which significantly increases the simulation cost. However, the operator norm measures the worst-case error of the quantum simulation, while practical simulation concerns the error with respect to a given initial vector at hand. We demonstrate that under suitable assumptions of the Hamiltonian and the initial vector, if the error is measured in terms of the vector norm, the computational cost may not increase at all as the norm of the Hamiltonian increases using Trotter type methods. In this sense, our result outperforms all previous error bounds in the quantum simulation literature. We also clarify the existence and the importance of commutator scalings of Trotter and generalized Trotter methods for time-dependent Hamiltonian simulations.
 </abstract>
 
 
