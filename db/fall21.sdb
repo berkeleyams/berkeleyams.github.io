@@ -94,8 +94,9 @@ Date: 10/20
 Host: Lin
 Speaker: 	Emanuel Gull 
 Affiliation: University of Michigan
-Title: 
+Title: Nevanlinna Analytical Continuation
 <abstract>
+Simulations of finite temperature quantum systems provide imaginary frequency Green’s functions that correspond one-to-one to experimentally measurable real-frequency spectra. However, due to the bad conditioning of the continuation transform from imaginary to real frequencies, established methods tend to either wash out spectral features at high frequencies or produce spectral functions with unphysical negative parts. Here, we show that explicitly respecting the analytic ‘Nevanlinna' structure of the Green’s function leads to intrinsically positive and normalized spectral functions and we present a continued fraction expansion that yields all possible functions consistent with the analytic structure. Application to synthetic trial data shows that sharp, smooth, and multi-peak data is resolved accurately. Application to the band structure of silicon demonstrates that high energy features are resolved precisely. Continuations in a realistic correlated setup reveal additional features that were previously unresolved. By substantially increasing the resolution of the real frequency calculations, our work overcomes one of the main limitations of finite-temperature quantum simulations.
 </abstract>
 
 
