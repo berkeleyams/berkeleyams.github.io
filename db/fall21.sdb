@@ -85,8 +85,9 @@ Date: 10/13
 Host: Sunny	
 Speaker: Franziska Weber
 Affiliation: Carnegie Mellon University
-Title: 
+Title: A Convergent Numerical Method for a Model of Liquid Crystal Director Coupled to An Electric Field
 <abstract>
+Starting from the Oseen-Frank theory, we derive a simple model for the dynamics of a nematic liquid crystal director field under the influence of an electric field. The resulting nonlinear system of partial differential equations consists of the electrostatics equations for the electric field coupled with the damped wave map equation for the evolution of the liquid crystal director field, which is a normal vector pointing in the direction of the main orientation of the liquid crystal molecules. The liquid crystal director field enters the electrostatics equations in the constitutive relations while the electric field enters the wave map equation in the form of a nonlinear source term. Since it is a normal vector, the variable for the liquid crystal director field has to satisfy the constraint that it takes values in the unit sphere. We derive an energy-stable and constraint preserving numerical method for this system and prove convergence of a subsequence of approximations to a weak solution of the system of partial differential equations. In particular, this implies the existence of weak solutions for this model.
 </abstract>
 
 
