@@ -116,8 +116,9 @@ Date: 11/3
 Host: Lin
 Speaker: Yu Tong
 Affiliation: UC Berkeley
-Title: 
+Title: Quantum eigenstate filtering and its applications
 <abstract>
+In this talk I will introduce a quantum algorithmic technique called quantum eigenstate filtering, which is based on approximation theory results and the quantum singular value transformation. I will discuss its applications in preparing eigenstates, solving quantum linear systems, and estimating the ground state energy. For these tasks this technique leads to significantly better query complexities, fewer ancilla qubits, and does so without requiring complex subroutines that may not be realistically implementable. Besides these algorithmic applications, the essential idea also leads to a useful proof technique for studying the ground state property of quantum many-body systems.
 </abstract>
 
 
