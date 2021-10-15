@@ -15,11 +15,12 @@ Whether the 3D incompressible Euler and Navier-Stokes equations can develop a fi
 
 
 Date: 9/8
-Host: Lin
-Speaker: Jason Kaye
-Affiliation: Flatiron institute
-Title: 
+Host: Sunny
+Speaker: Jeffrey Kuan
+Affiliation: UC Berkeley
+Title: A stochastic fluid-structure interaction problem describing Stokes flow interacting with a membrane
 <abstract>
+In this talk, we present a well-posedness result for a stochastic fluid-structure interaction model. We study a fully coupled stochastic fluid-structure interaction problem, with linear coupling between Stokes flow and an elastic structure modeled by the wave equation, and stochastic noise in time acting on the structure. Such stochasticity is of interest in applications of fluid-structure interaction, in which there is random noise present which may affect the dynamics and statistics of the full system. We construct a solution by using a new splitting method for stochastic fluid-structure interaction, and probabilistic methods. To the best of our knowledge, this is the first result on well-posedness for fully coupled stochastic fluid-structure interaction. This is joint work with Sunčica Čanić (UC Berkeley).
 </abstract>
 
 
@@ -27,8 +28,9 @@ Date: 9/15
 Host: Sunny
 Speaker: Natalia Komarova
 Affiliation: UC Irvine
-Title: 
+Title: Mathematical methods in cancer dynamics
 <abstract>
+Evolutionary dynamics are at the core of carcinogenesis. Mathematical methods can be used to study evolutionary processes, such as selection and mutation, and to shed light onto cancer origins, progression, and mechanisms of treatment. I will present two broad approaches to cancer modeling that we have developed. One is concerned with near-equilibrium dynamics of stem cells, with the goal of figuring out how tissue cell turnover is orchestrated, and how control networks prevent “selfish” cell growth. The other direction is studying evolutionary dynamics of drug resistance in cancer.
 </abstract>
 
 
@@ -36,8 +38,9 @@ Date: 9/22
 Host: Lin
 Speaker: Michael Lindsey
 Affiliation: Courant Institute
-Title: 
+Title: Embedding approaches for classical and quantum statistical mechanics
 <abstract>
+We show how a synthesis of ideas from graphical models, tensor networks, optimal transport, and semidefinite programming can be brought to bear on problems from classical and quantum statistical mechanics, broadly construed. Specifically, we discuss applications including classical and quantum spin systems on the lattice, continuous global optimization, and electronic structure.
 </abstract>
 
 
@@ -45,26 +48,46 @@ Date: 9/29
 Host: Lin
 Speaker: Simon Becker 
 Affiliation: University of Cambridge
-Title: 
+Title: Mathematical properties of twisted bilayer graphene
 <abstract>
+Twistronics is the study of how the angle (the twist) between layers of
+two-dimensional materials can change their electronic structure. When
+two sheets of graphene are twisted by those angles the resulting
+material exhibits flat bands which, as argued in the physics literature,
+is related to superconductivity, ferromagnetism, and Mott-insulators. I
+will start with a very simple operator whose spectral properties are
+supposed to determine which angles are magical and describe some of the
+mathematical challenges and results. Then, I will introduce a method to
+study the response of this material to an external magnetic field in a
+regime of large magnetic fields and explain some of the phenomena.
+Finally, I will move on to even simpler one-dimensional models, that
+naturally appear when strain is applied in one direction of the van der
+Waals material to make it periodic in one spatial direction, which allow
+for a more refined mathematical analysis (Cantor spectrum and
+metal/insulator transitions). If time permits, I will briefly touch upon
+the connection between such materials and topological insulators.
+
+This is joint work with M Embree, R Kim, J Wittsten, X Zhu, M Zworski.
 </abstract>
 
 
 Date: 10/6
-Host: Sunny
-Speaker: Jeffrey Kuan
+Host: Lin
+Speaker: Di Fang
 Affiliation: UC Berkeley
-Title: 
+Title: Time-dependent unbounded Hamiltonian simulation with vector norm scaling
 <abstract>
+Hamiltonian simulation is a basic task in quantum computation. The accuracy of such simulation is usually measured by the error of the unitary evolution operator in the operator norm, which in turn depends on certain norm of the Hamiltonian. For unbounded operators, after suitable discretization, the norm of the Hamiltonian can be very large, which significantly increases the simulation cost. However, the operator norm measures the worst-case error of the quantum simulation, while practical simulation concerns the error with respect to a given initial vector at hand. We demonstrate that under suitable assumptions of the Hamiltonian and the initial vector, if the error is measured in terms of the vector norm, the computational cost may not increase at all as the norm of the Hamiltonian increases using Trotter type methods. In this sense, our result outperforms all previous error bounds in the quantum simulation literature. We also clarify the existence and the importance of commutator scalings of Trotter and generalized Trotter methods for time-dependent Hamiltonian simulations.
 </abstract>
 
 
 Date: 10/13
-Host: 
-Speaker: 
-Affiliation: 
-Title: 
+Host: Sunny	
+Speaker: Franziska Weber
+Affiliation: Carnegie Mellon University
+Title: A Convergent Numerical Method for a Model of Liquid Crystal Director Coupled to An Electric Field
 <abstract>
+Starting from the Oseen-Frank theory, we derive a simple model for the dynamics of a nematic liquid crystal director field under the influence of an electric field. The resulting nonlinear system of partial differential equations consists of the electrostatics equations for the electric field coupled with the damped wave map equation for the evolution of the liquid crystal director field, which is a normal vector pointing in the direction of the main orientation of the liquid crystal molecules. The liquid crystal director field enters the electrostatics equations in the constitutive relations while the electric field enters the wave map equation in the form of a nonlinear source term. Since it is a normal vector, the variable for the liquid crystal director field has to satisfy the constraint that it takes values in the unit sphere. We derive an energy-stable and constraint preserving numerical method for this system and prove convergence of a subsequence of approximations to a weak solution of the system of partial differential equations. In particular, this implies the existence of weak solutions for this model.
 </abstract>
 
 
@@ -72,8 +95,9 @@ Date: 10/20
 Host: Lin
 Speaker: 	Emanuel Gull 
 Affiliation: University of Michigan
-Title: 
+Title: Nevanlinna Analytical Continuation
 <abstract>
+Simulations of finite temperature quantum systems provide imaginary frequency Green’s functions that correspond one-to-one to experimentally measurable real-frequency spectra. However, due to the bad conditioning of the continuation transform from imaginary to real frequencies, established methods tend to either wash out spectral features at high frequencies or produce spectral functions with unphysical negative parts. Here, we show that explicitly respecting the analytic ‘Nevanlinna' structure of the Green’s function leads to intrinsically positive and normalized spectral functions and we present a continued fraction expansion that yields all possible functions consistent with the analytic structure. Application to synthetic trial data shows that sharp, smooth, and multi-peak data is resolved accurately. Application to the band structure of silicon demonstrates that high energy features are resolved precisely. Continuations in a realistic correlated setup reveal additional features that were previously unresolved. By substantially increasing the resolution of the real frequency calculations, our work overcomes one of the main limitations of finite-temperature quantum simulations.
 </abstract>
 
 
@@ -98,9 +122,9 @@ Title:
 
 
 Date: 11/10
-Host: 
-Speaker: 
-Affiliation: 
+Host: Lin
+Speaker: Jason Kaye
+Affiliation: Flatiron Institute
 Title: 
 <abstract>
 </abstract>
