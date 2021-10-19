@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Song Mei &#8211; The efficiency of kernel methods on structured datasets</title>
+	<base href="https://berkeleyams.github.io/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+<!--
+			<h3>Organized by <a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/><a href="http://math.lbl.gov/~mjzahr/">Matthew J. Zahr</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a><br/> </h3>
+-->
+			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+		</div>
+<h4 class="top">The efficiency of kernel methods on structured datasets</h4>
+<h5><b>Song Mei, UC Berkeley</b></h5>
+<h5>10/27, 2021 at 11AM-12PM in <a href="https://berkeley.zoom.us/j/186935273">https://berkeley.zoom.us/j/186935273</a></h5>
+<p> Inspired by the proposal of tangent kernels of neural networks (NNs), a recent research line aims to design kernels with a better generalization performance on standard datasets. Indeed, a few recent works showed that certain kernel machines perform as well as NNs on certain datasets, despite their separations in specific cases implied by theoretical results. Furthermore, it was shown that the induced kernels of convolutional neural networks perform much better than any former handcrafted kernels. These empirical results pose a theoretical challenge to understanding the performance gaps in kernel machines and NNs in different scenarios.
+</p><p>
+In this talk, we show that data structures play an essential role in inducing these performance gaps. We consider a few natural data structures, and study their effects on the performance of these learning methods. Based on a fine-grained high dimensional asymptotics framework of analyzing random features models and kernel machines, we show the following: 1) If the feature vectors are nearly isotropic, kernel methods suffer from the curse of dimensionality, while NNs can overcome it by learning the best low-dimensional representation; 2) If the feature vectors display the same low-dimensional structure as the target function (the spiked covariates model), this curse of dimensionality becomes milder, and the performance gap between kernel methods and NNs become smaller; 3) On datasets that display some invariance structure (<i>e.g.</i>, image dataset), there is a quantitative performance gain of using invariant kernels (e.g., convolutional kernels) over inner product kernels. Beyond explaining the performance gaps, these theoretical results can further provide some intuitions towards designing kernel methods with better performance.
+</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
