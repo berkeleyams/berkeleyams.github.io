@@ -107,8 +107,11 @@ Time: 11AM-12PM
 Host: Lin
 Speaker: Song Mei
 Affiliation: UC Berkeley
-Title: 
+Title: The efficiency of kernel methods on structured datasets
 <abstract>
+ Inspired by the proposal of tangent kernels of neural networks (NNs), a recent research line aims to design kernels with a better generalization performance on standard datasets. Indeed, a few recent works showed that certain kernel machines perform as well as NNs on certain datasets, despite their separations in specific cases implied by theoretical results. Furthermore, it was shown that the induced kernels of convolutional neural networks perform much better than any former handcrafted kernels. These empirical results pose a theoretical challenge to understanding the performance gaps in kernel machines and NNs in different scenarios.
+
+In this talk, we show that data structures play an essential role in inducing these performance gaps. We consider a few natural data structures, and study their effects on the performance of these learning methods. Based on a fine-grained high dimensional asymptotics framework of analyzing random features models and kernel machines, we show the following: 1) If the feature vectors are nearly isotropic, kernel methods suffer from the curse of dimensionality, while NNs can overcome it by learning the best low-dimensional representation; 2) If the feature vectors display the same low-dimensional structure as the target function (the spiked covariates model), this curse of dimensionality becomes milder, and the performance gap between kernel methods and NNs become smaller; 3) On datasets that display some invariance structure (e.g., image dataset), there is a quantitative performance gain of using invariant kernels (e.g., convolutional kernels) over inner product kernels. Beyond explaining the performance gaps, these theoretical results can further provide some intuitions towards designing kernel methods with better performance.
 </abstract>
 
 
