@@ -129,8 +129,13 @@ Date: 11/10
 Host: Lin
 Speaker: Jason Kaye
 Affiliation: Flatiron Institute
-Title: 
+Title: Efficient numerical algorithms for simulating quantum dynamics
 <abstract>
+I will describe a few new algorithms which reduce computational bottlenecks in simulations of quantum many-body dynamics.
+
+In time-dependent density functional theory (TDDFT), the many-body wavefunction is approximated using a collection of single-particle wavefunctions, which independently satisfy the Schrodinger equation and are coupled through an effective potential. I will introduce a high-order, FFT-based solver for free space (nonperiodic) problems in TDDFT which sidesteps the usual requirement of imposing artificial boundary conditions.
+
+Many-body Green's functions, which describe correlations between quantum observables, enable practical simulations beyond the effective one-body picture of TDDFT. The Green's functions satisfy history dependent Volterra integro-differential equations with kernel nonlinearities. I will outline efficient history integration algorithms which significantly extend feasible propagation times in both equilibrium and nonequilibrium calculations.
 </abstract>
 
 
