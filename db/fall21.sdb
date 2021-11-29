@@ -161,8 +161,9 @@ Date: 12/1
 Host: Lin
 Speaker: Aditi Krishnapriyan
 Affiliation: Lawrence Berkeley National Lab
-Title: 
+Title: Integrating machine learning with physics-based spatial and temporal modeling
 <abstract>
+Deep learning has achieved great success in numerous areas, and is also seeing increasing interest in scientific applications. However, challenges still remain: scientific phenomena are difficult to model, and can also be limited by a lack of training data. As a result, scientific machine learning approaches are being developed by incorporating domain knowledge into the machine learning process to enable more accurate and general predictions. One such popular approach, colloquially known as physics-informed neural networks (PINNs), incorporates domain knowledge as soft constraints on an empirical loss function. I will discuss the challenges associated with such an approach, and show that by changing the learning paradigm to curriculum regularization or sequence-to-sequence learning, we can achieve significantly lower error. Another approach, colloquially known as ODE-Nets, aims to couple dynamical systems/numerical methods with neural networks. I will discuss how exploiting techniques from numerical analysis for these systems can enable learning continuous dynamics for scientific problems. This method will be illustrated by showing that it can: resolve fine-scale features in a temporal solution despite training on coarse data, successfully resolve fine-scale features in the temporal solution even when the training data is irregularly spaced with non-uniform time intervals, and learn dynamics from image snapshots by generating super-resolution videos at higher frame rates of the much finer solution.
 </abstract>
 
 Date: 12/8
