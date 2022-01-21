@@ -11,8 +11,11 @@ Date: 2/2
 Host: Di
 Speaker: Alina Chertock 
 Affiliation: North Carolina State University
-Title: 
+Title: Structure Preserving Numerical Methods for Hyperbolic Systems of Conservation and Balance Laws
 <abstract>
+Many physical models, while quite different in nature, can be described by nonlinear hyperbolic systems of conservation and balance laws. The main source of difficulties one comes across when numerically solving these systems is lack of smoothness as solutions of hyperbolic conservation/balance laws may develop very complicated nonlinear wave structures including shocks, rarefaction waves and contact discontinuities. The level of complexity may increase even further when solutions of the hyperbolic system reveal a multiscale character and/or the system includes additional terms such as friction terms, geometrical terms, nonconservative products, etc., which are needed to be taken into account in order to achieve a proper description of the studied physical phenomena. In such cases, it is extremely important to design a numerical method that is not only consistent with the given PDEs, but also preserves certain structural and asymptotic properties of the underlying problem at the discrete level. While a variety of numerical methods for such models have been successfully developed, there are still many open problems, for which the derivation of reliable high-resolution numerical methods still remains to be an extremely challenging task.
+
+In this talk, I will discuss recent advances in the development of two classes of structure preserving numerical methods for nonlinear hyperbolic systems of conservation and balance laws. In particular, I will present (i) well-balanced and positivity preserving numerical schemes, that is, the methods which are capable of exactly preserving some steady-state solutions as well as maintaining the positivity of the numerical quantities when it is required by the physical application, and (ii) asymptotic preserving schemes, which provide accurate and efficient numerical solutions in certain stiff and/or asymptotic regimes of physical interest.
 </abstract>
 
 
