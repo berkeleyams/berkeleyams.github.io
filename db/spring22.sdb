@@ -22,7 +22,7 @@ In this talk, I will discuss recent advances in the development of two classes o
 Date: 2/9
 Note: Note the special time 10AM-11AM. 
 Time: 10AM-11AM 
-Host: Di
+Host: Lin/Di
 Speaker: Yunan Yang
 Affiliation: ETH Zurich
 Title: 
@@ -32,11 +32,10 @@ Title:
 
 Date: 2/16
 Host: Lin
-Speaker: Andre Laestadius
-Affiliation: Hylleraas Centre for Quantum Molecular Sciences
-Title: Energy error estimate for coupled-cluster excited states
+Speaker: reserved for in-person visitor
+Affiliation: 
+Title: 
 <abstract>
- In our recent work, the nonlinear equations of the single-reference Coupled-Cluster method have been analyzed using topological degree theory. This generalizes previous work based on (local) strong monotonicity. We have established existence results and qualitative information about the solutions of these equations that also sheds light on some of the numerically observed behavior. In particular, to investigate truncation schemes within the Coupled-Cluster method, we have utilized the Kowalski-Piecuch homotopy. In this setting, we have derived an energy error bound for approximate eigenstates of the Schrödinger equation, i.e., for both ground and excited states.
 </abstract>
 
 
