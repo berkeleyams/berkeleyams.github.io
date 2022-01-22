@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Benjamin Stamm &#8211; Domain decomposition algorithms for implicit solvation model. Can you be 500 times faster than the fast multipole method?</title>
+	<base href="https://berkeleyams.github.io/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+<!--
+			<h3>Organized by <a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/><a href="http://math.lbl.gov/~mjzahr/">Matthew J. Zahr</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a><br/> </h3>
+-->
+			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+		</div>
+<h4 class="top">Domain decomposition algorithms for implicit solvation model. Can you be 500 times faster than the fast multipole method?</h4>
+<h5><b>Benjamin Stamm, University of Pierre et Marie Curie (UPMC - Paris VI)</b></h5>
+<h5>December 11th, 2013 at 3:30PM&ndash;4:30PM in 939 Evans Hall <a href="http://www.berkeley.edu/map/maps/BC45.html">[Map]</a></h5>
+<p>Computational chemistry has attracted much attention since this years choice of the Nobel prize winners in chemistry for their contributions to multi-scale models such as the QM/MM method.
+The large majority of chemically interesting phenomena take place in condensed phase, where the environment (<i>e.g.</i>, solvent) can play a crucial role in determining the structure, the properties and the dynamics of the system to be studied. In a practical context, accounting for all solvent molecules in a either Molecular Dynamics (MD) or even Quantum Mechanical (QM) computation is infeasible due to the complexity of the underlying equations. A particular choice of a multi-scale model is to model the solvent environment to be a conducting continuum medium (COSMO-model) and the resulting electrostatic energy contribution to the solvation energy can be computed by solving a Poisson equation in the Van der Waals cavity of the solute molecule.
+</p><p>
+The mathematical problem is therefore set (and well-posed) and we illustrate how to approximate its solution using Schwarz's domain decomposition method adapted to integral equations. 
+In this manner, the problem can be solved iteratively and the coupling of the local problems is determined by the connectivity of the molecule (in contrast to fast multipole-based boundary element solvers). 
+The resulting numerical scheme is extremely fast and a linear scaling of the computing resources with respect to the number of atoms of the solute molecule can be achieved.
+In numerical examples we show how this approach outperforms existing methods such as the fast multipole method by several orders of magnitude.
+</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

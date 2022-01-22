@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Ethan Atkins &#8211; Exact Coulomb Propagators for Green's Function Monte Carlo</title>
+	<base href="https://berkeleyams.github.io/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+<!--
+			<h3>Organized by <a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/><a href="http://math.lbl.gov/~mjzahr/">Matthew J. Zahr</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a><br/> </h3>
+-->
+			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+		</div>
+<h4 class="top">Exact Coulomb Propagators for Green's Function Monte Carlo</h4>
+<h5><b>Ethan Atkins, UC Berkeley / LBL</b></h5>
+<h5>September 28th, 2011 at 4PM&ndash;5PM in 939 Evans Hall <a href="http://www.berkeley.edu/map/maps/BC45.html">[Map]</a></h5>
+<p>Quantum Monte Carlo (QMC) refers to a set of stochastic algorithms that
+evaluate quantitative properties of a quantum mechanical system, most typically
+the ground-state energy.</p>
+
+<p>Random walk methods, most notably diffusion Monte Carlo (DMC) and Green's
+function Monte Carlo (GFMC), estimate the ground state by taking an ensemble of
+random walkers and propagating them in time so that the invariant distribution
+of walkers is the ground state. These algorithms generate correlated sequences
+of random walkers, often requiring many steps of the algorithm to obtain
+statistically independent samples. The average time step of GFMC can become
+small due to the singularities in the potential.</p> 
+
+<p>I will show that by explicitly accounting for the local Coulomb potential,
+one can achieve significantly larger mean time steps. The resulting algorithm
+will be applied to the Helium (He) and Hydrogen (H<sub>2</sub>) atoms,
+achieving high accuracy and good speedup.</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

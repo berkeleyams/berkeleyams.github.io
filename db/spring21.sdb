@@ -1,0 +1,194 @@
+Semester: Spring 2021
+Usual location: <a href="https://berkeley.zoom.us/j/186935273">https://berkeley.zoom.us/j/186935273</a>
+Usual time: 4:10PM-5PM
+Usual day: Wednesday
+
+
+
+Date: 1/20
+Host: Lin
+Speaker: Andrew Horning
+Affiliation: Cornell University
+Title: Computing spectral properties of infinite-dimensional operators
+<abstract>
+Computing the spectrum of a differential or integral operator is usually done in two steps: (1) discretize the operator to obtain a matrix eigenvalue problem and (2) compute eigenvalues of the matrix with numerical linear algebra. This “discretize-then-solve” paradigm is flexible and powerful, but tension between spectral properties of the operator and the matrix discretizations can lead to numerical artifacts that pollute computed spectra and degrade accuracy. Moreover, it is unclear how to robustly capture infinite-dimensional phenomena, like continuous spectra, with “discretize-then-solve.” In this talk, we introduce a new computational framework that extracts discrete and continuous spectral properties of a broad class of operators by strategically sampling the resolvent operator in the complex plane. The resulting algorithms respect key structure from the operator, regardless of the underlying matrix discretizations used for computation. We illustrate the approach through a range of examples, including a Dirac operator and a magnetic tight-binding model of graphene.
+</abstract>
+
+
+
+
+Date: 1/27
+Host: Di	
+Speaker: Ruiwen Shu
+Affiliation: University of Maryland, College Park
+Title: Linear interpolation convexity/concavity in the minimization of attractive-repulsive energy
+<abstract>
+Energy minimization problems of attractive-repulsive pairwise interactions are very important in the study of pattern formation in biological and social sciences. In this talk, I will discuss some recent progress (joint work with Jose Carrillo) on the study of Wasserstein-$\infty$ local energy minimizers by using the method of linear interpolation convexity/concavity. In the first part, we prove the radial symmetry and uniqueness of local minimizers for interaction potentials satisfying the 'linear interpolation convexity', which generalizes the result of O. Lopes 17' for global minimizers. In the second part, we show that the failure of linear interpolation convexity could lead to the formation of small scales in the support of local minimizers, and construct interaction potentials whose local minimizers are supported on fractal sets. To our best knowledge, this is the first time people observe fractal sets as the support of local minimizers.
+</abstract>
+
+
+
+Date: 2/3
+Host: Di	
+Speaker: Jianfeng Lu
+Affiliation: Duke University
+Title: Towards solving high dimensional PDEs using neural networks
+<abstract>
+Numerical solution to high dimensional PDEs has been one of the
+central challenges in scientific computing due to curse of
+dimension. In recent years, we have seen tremendous progress in
+applying neural networks to solve high dimensional PDEs, while the
+analysis for such methods is still lacking. In this talk, we will
+discuss some of these numerical methods for high dimensional PDEs and
+also some initial attempts in numerical analysis for high dimensional
+PDEs. 
+</abstract>
+
+
+
+Date: 2/10
+Host: Di	
+Speaker: Dongbin Xiu
+Affiliation: The Ohio State University
+Title: Data Driven Modeling of Unknown Systems with Deep Neural Networks
+<abstract>
+We present effective numerical approaches for modeling unknown system from
+measurement data. By utilizing deep neural network (DNN), we seek to approximate the
+flow map of the underlying system. Once an accurate DNN model for the flow map is
+constructed, it serves as a predictive model for the unknown system and enables us to
+conduct system analysis. We demonstrate that residual network (ResNet) is particularly
+suitable for modeling autonomous dynamical systems. Extensions to other types of
+systems will be discussed, including non-autonomous systems, systems with uncertain
+parameters, and more importantly, systems with missing variables. Finally, we discuss
+deep learning of unknown partial differential equations (PDEs).
+</abstract>
+
+
+
+Date: 2/17
+Host: Di
+Speaker: Zhewei Yao
+Affiliation: University of California, Berkeley
+Title: Second Order Methods for Neural Network Analysis, Training, and Inference
+<abstract>
+Second order based analysis/computation is widely used in scientific computing due to its fast convergence rate and extra useful curvature information as compared to first order methods. However, the application of second order methods is very limited for neural networks since naive Hessian-based computations are infeasible for large NN problems. In this talk, I will present fast and efficient ways to compute different metrics of second order information, including eigenvalues, trace, and estimated spectral density. As an application, I will show how we can use those to analyze the generalization ability of a neural network, and the effectiveness of neural network design choices. Furthermore, I will introduce a novel adaptive second order optimizer for machine learning, and show its superb performance on computer vision, natural language processing, and recommendation system as compared to first order methods. Finally, I will discuss how to leverage the second order information to systematically study neural network quantization, and present the new SOTA results on both computer vision and natural language processing.
+</abstract>
+
+
+
+Date: 2/24
+Host: Lin
+Speaker: Zhenning Cai
+Affiliation: National University of Singapore
+Title: On the method of complex Langevin
+<abstract>
+The complex Langevin (CL) method is a numerical approach to alleviate the numerical sign problem in the computation of path integrals in lattice field theories. Mathematically, it is a simple numerical tool to compute a wide class of high-dimensional and oscillatory integrals with the form of an ensemble average. The method was developed in 1980s. However, after it was proposed, it had very few applications due to its subtle nature. It is often observed that the CL method converges but the limiting result is incorrect. Less than one decade ago, the CL method was improved by gauge cooling method and dynamical stabilization, after which the CL method acquired much more attention and was later successfully applied to a number of fields including finite density quantum chromodynamics, superstring theory, and the spin-orbit coupling. In this talk, I will take the mathematical perspective to explain the basic idea of the CL method and the reason of its failure. The current limitation of the method and the possible remedies will also be discussed.
+</abstract>
+
+
+
+Date: 3/3
+Host: Di
+Speaker: Doron Levy
+Affiliation: University of Maryland, College Park
+Title: Fighting drug resistance with math
+<abstract>
+The emergence of drug-resistance is a major challenge in chemotherapy. In this talk we will overview some of our recent mathematical models for describing the dynamics of drug-resistance in solid tumors. These models follow the dynamics of the tumor, assuming that the cancer cell population depends on a phenotype variable that corresponds to the resistance level to a cytotoxic drug.  Under certain conditions, our models predict that multiple resistant traits emerge at different locations within the tumor, corresponding to heterogeneous tumors. We show that a higher drug dosage may delay a relapse, yet, when this happens, a more resistant trait emerges. We will show how mathematics can be used to propose an efficient drug schedule aiming at minimizing the growth rate of the most resistant trait, and how such resistant cells can be eliminated.
+</abstract>
+
+
+
+Date: 3/10
+Host: Di
+Speaker: ‪Fernando Casas
+Affiliation: Universitat Jaume I, Spain
+Title: Symmetric-conjugate composition methods in the numerical integration of differential equations
+<abstract>
+In this talk I will analyze composition methods with complex coefficients exhibiting
+ the so-called ``symmetry-conjugate'' pattern in their distribution. In particular, I will study
+their behavior with respect to preservation of qualitative properties when projected on the real axis and how they compare with the usual left-right palindromic compositions. New schemes within this family up to order 8 will be proposed and illustrated on several examples. Some of the special features of this class of methods will also be reviewed.
+</abstract>
+
+
+
+Date: 3/19
+Host: Di
+Speaker: Yuan Su
+Note: Special time <b>Friday 10:10-11AM</b>. 
+Affiliation: Caltech
+Title: Nearly tight Trotterization of interacting electrons
+<abstract>
+We consider simulating quantum systems on digital quantum computers. We show that the performance of quantum simulation can be improved by simultaneously exploiting the commutativity of Hamiltonian, the sparsity of interactions, and the prior knowledge of initial state. We achieve this using Trotterization for a class of interacting electrons that encompasses various physical systems, including the plane-wave-basis electronic structure and the Fermi-Hubbard model. We estimate the simulation error by taking the transition amplitude of nested commutators of Hamiltonian terms within the $\eta$-electron manifold. We develop multiple techniques for bounding the transition amplitude and expectation of general fermionic operators, which may be of independent interest. We show that it suffices to use $\left(\frac{n^{5/3}}{\eta^{2/3}}+n^{4/3}\eta^{2/3}\right)n^{o(1)}$ gates to simulate electronic structure in the plane-wave basis with $n$ spin orbitals and $\eta$ electrons, improving the best previous result in second quantization while outperforming the first-quantized simulation when $n=\eta^{2-o(1)}$. We also obtain an improvement for simulating the Fermi-Hubbard model. We construct concrete examples for which our bounds are almost saturated, giving a nearly tight Trotterization of interacting electrons.
+</abstract>
+
+Date: 3/24
+Host: 
+Speaker: Spring Break. No seminar.
+Affiliation: 
+Title: 
+<abstract>
+</abstract>
+
+
+Date: 3/31
+Host: Di
+Speaker: Mitchell Luskin
+Affiliation: University of Minnesota
+Title: Mathematics and Physics at the Moiré Scale
+<abstract>
+Placing a two-dimensional lattice on another with a small rotation gives rise to periodic “moire” patterns on a superlattice scale much larger than the original lattice. This effective large-scale fundamental domain allows phenomena such as the fractal Hofstadter butterfly in the spectrum of Harper’s equation to be observed in real crystals. Experimentalists have more recently observed new correlated phases at the “magic” twist angles predicted by theorists. 
+
+We will give mathematical and computational models to predict and gain insight into new physical phenomena at the moiré scale including our recent mathematical and experimental results for twisted trilayer graphene.
+</abstract>
+
+
+
+Date: 4/7
+Host: Per
+Speaker: Jimmy Xia 
+Affiliation: University of California, Berkeley
+Title: Mathematical modeling of human learning and decision making
+<abstract>
+Reinforcement learning (RL) has been widely used to study and model human, animal and artificial intelligence. In this talk, we focus on modeling human learning and decision making, and exemplify two ways that mathematical RL modeling adds to our existing knowledge of human cognition: (1) as a powerful quantitative tool for parametrizing and compressing individual differences in human behavior, and (2) as an important theoretical framework for complex human cognition. In the first study, we use RL modeling to capture trial-by-trial learning dynamics in a probabilistic task and to understand how learning changes during puberty. In the second study, we augment existing RL models to explain transfer and generalization effects in multi-step learning and decision making tasks.
+</abstract>
+
+
+
+Date: 4/14
+Host: Di
+Speaker: Zhennan Zhou
+Affiliation: BICMR, Peking University
+Title: Efficient Sampling of Thermal Averages of Interacting Quantum Particle Systems: preconditioning and simulation with random batches
+<abstract>
+We investigate the continuum limit that the number of beads goes to infinity in the ring polymer representation of thermal averages. Studying the continuum limit of the trajectory sampling equation sheds light on possible preconditioning techniques for sampling ring polymer configurations with large number of beads. In the case where the potential is quadratic, we show that the continuum limit of the preconditioned mass modified Langevin dynamics converges to its equilibrium exponentially fast, which suggests that the finite-dimensional counterpart has a dimension-independent convergence rate. In the second part of the talk, an efficient sampling method, the pmmLang+RBM, is proposed to compute the quantum thermal average in the interacting quantum particle system. Benefiting from the random batch method (RBM), the pmmLang+RBM reduces the complexity due to the interaction forces per timestep from O(NP^2) to O(NP), where N is the number of beads and P is the number of particles. We also propose an extension of the pmmLang+RBM, which is based on the splitting Monte Carlo method and is applicable when the interacting potential contains a singular part.
+</abstract>
+
+
+
+Date: 4/21
+Host: Alexandre/Di
+Speaker: Phillip Colella
+Affiliation: Lawrence Berkeley National Laboratory and UC Berkeley
+Title: Numerical Analysis of Particle-in-Cell Methods for Advection-Type Partial Differential Equations
+<abstract>
+Particle-in-cell (PIC) methods for advection equations use particles that move along integral curves of the advection velocity to represent the primary dependent variables, while using a structured grid to which the particle state has been interpolated to compute the dependence of the  velocities, and forcing terms on the solution. PIC is one of the oldest methods in numerical PDE, dating back to the 1950s for fluid dynamics, and the 1960s for plasma physics, and are still used extensively today. Nonetheless, there appears to be no mathematically-systematic numerical analysis framework for understanding the error in PIC methods. This is in contrast to traditional finite-difference, finite element, and grid-free particle methods, for which such framework exist and are used very successfully to design methods for complex problems. In this talk, we will present such a numerical analysis framework for both advection and for kinetics problems. One of the principal results is that PIC methods, as they are currently used in scientific applications, have an O(1) contribution to the error, relative to the number of particles, that grows exponentially in time. We will describe the source of this error, and strategies for controlling it.
+
+Joint work with Henry Boateng, Bhavna Singh, Erick Velez, and Colin Wahl.
+</abstract>
+
+
+
+Date: 4/28
+Host: Di
+Speaker: Seung-Yeal Ha
+Affiliation: Seoul National University
+Title: Emergent behaviors of Lohe tensor flocks 
+<abstract>
+In this talk, we present a new aggregation model on the space of rank-m tensors with the same size, and study emergent dynamics of the proposed model. Our proposed aggregation model is general enough to include Lohe type synchronization models such as the Kuramoto model, the Lohe sphere model and the Lohe matrix models for the ensemble of real rank-0, rank-1 and rank-2 tensors, respectively. In this regard, we call our proposed model as the Lohe tensor model for rank-m tensors with the same size. For the proposed model, we present several sufficient frameworks leading to the collective dynamics of the Lohe tensor model in terms of system parameters and initial data, and study existence of special solutions such as completely separable solutions and quadratically separable solutions.  This is a joint work with Hansol Park (Seoul National Univ.) and Dohyun Kim (Sungshin Women’s Univ.)
+</abstract>
+
+
+
+
+
+

@@ -1,0 +1,202 @@
+Semester: Spring 2020
+Usual location: <a href="https://berkeley.zoom.us/j/186935273">https://berkeley.zoom.us/j/186935273</a>
+Usual time: 4:10PM-5PM
+Usual day: Wednesday
+
+
+
+Date: 1/15
+Host: Di/Alexandre 
+Speaker: Amir Sagiv
+Affiliation: Columbia University
+Title: Prediction of random and chaotic dynamics in nonlinear optics
+<abstract>
+The prediction of interactions between nonlinear laser beams is a longstanding open problem. A traditional assumption is that these interactions are deterministic. We have shown, however, that in the nonlinear Schrodinger equation (NLS) model of laser propagation, beams lose their initial phase information in the presence of input noise. Thus, the interactions between beams become unpredictable as well. 
+ 
+Computationally, these predictions are enabled through a novel spline-based stochastic computational method. Our algorithm efficiently estimates probability density functions (PDF) that result from differential equations with random input. This is a new and general problem in numerical uncertainty-quantification (UQ), which leads to surprising results at the intersection of probability and transport theory.
+</abstract>
+
+
+
+Date: 1/22 Evans 740
+Note: Note the special time and location. This is joint with the Thematic Seminar
+Host: 
+Speaker: Yingzhou Li
+Affiliation: Duke University
+Title: Coordinate Descent Methods for Full Configuration Interactions
+<abstract>
+The edge eigenvalue problems arise in many applications. When the dimension of the matrix is extremely large, such as in quantum many-body problems, conventional algorithms become impractical. We reformulate the problem as a non-convex optimization problem and propose a family of coordinate descent methods to address it. Based on our convergence analysis of these proposed methods, we tailored one with a deterministic compression strategy, named CDFCI, for the ground state calculation in the configuration interaction framework. If time permits, this talk also discusses other fast algorithms, including butterfly factorization, block basis factorization, solve-training framework, etc.
+</abstract>
+
+
+Date: 1/29  Evans 740
+Note: Note the special time and location. This is joint with the Thematic Seminar
+Host: 
+Speaker: David Rolnick
+Affiliation: University of Pennsylvania
+Title: Deep neural networks: structure and function
+<abstract>
+Deep neural networks have revolutionized artificial intelligence in recent years but remain poorly understood. Even as algorithms based on neural networks are used to drive cars and diagnose diseases, their design continues to rely more on trial and error than mathematics. In this talk, we provide rigorous grounding for the relationship between structure and function in neural networks. A neural network represents a complicated function as the composition of many simple parts, with the structure of the network influencing what functions can be expressed and learned from data. We show that deep networks can express many functions with exponentially fewer parameters than shallow networks. We prove there exists a massive gap between the maximum complexity of the functions that a network can express and the expected complexity of the functions that it learns in practice. Building on this work, we find that the generalized hyperplane arrangements defined by neural networks allow us to reverse-engineer a network from the function it computes.
+</abstract>
+
+
+Date: 2/5
+Host: Lin
+Speaker: Yu-Hang Tang
+Affiliation: LBNL
+Title: A Graph-Based Kernel Method for Scientific Machine Learning
+<abstract>
+Machine learning and artificial intelligence are keys to transforming scientific research at the Department of Energy. However, success stories so far have concentrated on select forms of data. In this talk, I will present our recent work on revitalizing the marginalized graph kernel to enable direct machine learning on graph datasets while bypassing any explicit feature vector representation. The marginalized graph kernel provides a generic framework that is customizable for learning on diverse types of graphs. I will then introduce GraphDot, a Python package that implements the marginalized graph kernel on general-purpose GPUs. GraphDot significantly reduces the barrier for machine learning scientists to adopt the marginalized graph kernel and interoperates seamlessly with other graph and machine learning packages in Python, such as NetworkX and scikit-learn. The package also delivers thousands of times of speedups against existing CPU-only packages thanks to a set of state-of-the-art algorithms that take advantage of the sparsity and the generalized Kronecker product structure in the linear algebra form of the graph kernel. Finally, as a demonstration, I will showcase how GraphDot can enable an active learning protocol on a molecular database to quickly train models that can accurately predict the energy of molecules within a matter of minutes.
+</abstract>
+
+
+Date: 2/12
+Host: Lin 
+Speaker: Eric Neuscamann
+Affiliation: UC Berkeley
+Title: Variational Excited State Optimization
+<abstract>
+Predicting the properties of molecules and materials that have absorbed light requires knowledge about excited state wave functions.  We will discuss variational strategies and related nonlinear optimization challenges encountered in pursuit of this information, with examples drawn from both quantum chemistry and quantum Monte Carlo.
+</abstract>
+
+
+Date: 2/19
+Host: Lin
+Speaker: Roel Van Beeumen
+Affiliation: LBNL
+Title: A Scalable Matrix-Free Eigensolver for Studying Many-Body Localization
+<abstract>
+We present a scalable and matrix-free eigensolver for studying nearest-neighbor Heisenberg spin chain plus random on-site disorder models that undergo a many-body localization (MBL) transition. This type of problem is computationally challenging because its dimension grows exponentially with the physical system size, and the solve must be iterated many times to average over different configurations of the random disorder. For each eigenvalue problem, eigenvalues from different regions of the spectrum and their corresponding eigenvectors need to be computed. Traditionally, the interior eigenstates for a single eigenvalue problem are computed via the shift-and-invert Lanczos algorithm. Due to the extremely high memory footprint of the LU factorizations, this technique is not well suited for large number of spins $L$, e.g., one needs thousands of compute nodes on modern high performance computing infrastructures to go beyond $L = 24$. We propose a new matrix-free approach that does not suffer from this memory bottleneck and even allows for simulating spin chains up to $L = 24$ spins on a single compute node. We discuss the OpenMP and hybrid MPI--OpenMP implementations of matrix-free block matrix-vector operations that are the key components of the new approach. The efficiency and effectiveness of the proposed algorithm is demonstrated by computing eigenstates in a massively parallel fashion, and analyzing their entanglement entropy to gain insight into the MBL transition.
+</abstract>
+
+
+Date: 2/26
+Host: Lin
+Speaker: Guang-Hao Low
+Affiliation: Microsoft Research
+Title: Probing strongly correlated systems: Towards a quantum computational advantage
+<abstract>
+The properties of strongly correlated systems are of great interest but have often been challenging to elucidate. Some of these difficulties may be overcome by programmable digital quantum computers, which harness the quantum-mechanical nature of reality to simulate quantum systems and promise an advantage over computers rooted in classical physics. In this talk, I review developments in quantum algorithms advancing this goal, highlight the key role of physical insight such as the interaction picture and the finite speed of light driving recent progress, and point towards further challenges in quantum computation as a tool for fundamental physics.
+</abstract>
+
+
+Date: 3/4
+Note: This is joint with APDE Seminar.
+Host: Di	 
+Speaker: Jacob Bedrossian
+Affiliation: University of Maryland 
+Title: The power spectrum of passive scalar turbulence in the Batchelor regime 
+<abstract>
+In 1959, Batchelor predicted that passive scalars advected in fluids at finite Reynolds number with small diffusivity κ should display a |k|−1 power spectrum over a small-scale inertial range in a statistically stationary experiment. This prediction has been experimentally and numerically tested extensively in the physics and engineering literature and is a core prediction of passive scalar turbulence. Together with Alex Blumenthal and Sam Punshon-Smith, we have provided the first mathematically rigorous proof of this prediction for a scalar field evolving by advection-diffusion in a fluid governed by the 2D Navier-Stokes equations and 3D hyperviscous Navier-Stokes equations in a periodic box subjected to stochastic forcing at arbitrary Reynolds number. These results are proved by studying the Lagrangian flow map using infinite dimensional extensions of ideas from random dynamical systems. We prove that the Lagrangian flow has a positive Lyapunov exponent (Lagrangian chaos) and show how this can be upgraded to almost sure exponential (universal) mixing of passive scalars at zero diffusivity and further to uniform-in-diffusivity mixing. This in turn is a sufficiently precise understanding of the low-to-high frequency cascade to deduce Batchelor's prediction.
+</abstract>
+
+
+
+Date: 4/8 
+Note: On Zoom
+Host: Lin
+Speaker: Lexing Ying
+Affiliation: Stanford University
+Title: Solving inverse problems with deep learning
+<abstract>
+This talk is about some recent progress on solving inverse problems using deep learning. Compared to traditional machine learning problems, inverse problems are often limited by the size of the training data set. We show how to overcome this issue by incorporating mathematical analysis and physics into the design of neural network architectures. We first describe neural network representations of pseudodifferential operators and Fourier integral operators. We then continue to discuss applications including electric impedance tomography, optical tomography, inverse acoustic/EM scattering, and travel-time tomography.
+</abstract>
+
+
+Date: 4/15
+Note: Special time 10:10AM-11AM. On Zoom.
+Time: 10:10AM-11AM 
+Host: Lin
+Speaker: Matthew Colbrook 
+Affiliation: Cambridge University
+Title: The Foundations of Infinite-Dimensional Spectral Computations
+<abstract>
+Spectral computations in infinite dimensions are ubiquitous in the
+sciences and computing spectra is one of the most studied areas of
+computational mathematics over the last half-century. However, the
+infinite-dimensional problem is notoriously difficult, since standard
+approaches do not, in general, produce correct solutions. We introduce
+new classes of algorithms that solve longstanding computational spectral
+problems for the first time, such as: computing spectra with error
+control; spectral measures, decompositions and the functional calculus;
+fractal dimensions, capacity and transport properties of spectra;
+discrete and essential spectra; and the spectral gap problem.
+Furthermore, these algorithms are optimal, encompassing both Turing's
+classical work and Smale's program on the foundations of computational
+mathematics, with ramifications beyond spectral theory (e.g. Fefferman's
+work on the Dirac-Schwinger conjecture).
+
+We show how to rigorously compute spectra of infinite-dimensional
+operators with guaranteed error control (e.g. for general classes of
+partial differential operators on L^2(R^d) via point sampling
+coefficients). One surprising consequence is that the problem of
+computing spectra of compact operators, whose resolution has been known
+for decades, is strictly harder than the problem of computing spectra of
+Schrödinger operators on L^2(R^d), which was open for more than half a
+century.
+
+We show how to diagonalise general self-adjoint operators - such as
+differential, integral and lattice operators - via computing their
+spectral measures (previous methods are case specific, relying on
+analytical formulae). The algorithm can achieve arbitrarily high-orders
+of convergence and explicit pointwise and L^p -error bounds are derived
+in terms of the local regularity of the measure. Moreover, this allows
+the computation of the functional calculus and spectral type
+decompositions.
+
+Finally, these algorithms are embarrassingly parallelisable. We give
+numerical examples, demonstrating efficiency and tackling difficult
+problems in the sciences. The discussed computational problems are
+samples of what is likely to be a very rich classification theory, with
+applications beyond spectral theory.
+</abstract>
+
+
+Date: 4/22
+Note: On Zoom
+Host: Lin
+Speaker: Michael Mahoney
+Affiliation: UC Berkeley
+Title: Determinantal Point Processes and Randomized Numerical Linear Algebra
+<abstract>
+Randomized Numerical Linear Algebra (RandNLA) is an area which uses randomness, most notably random sampling and random projection methods, to develop improved algorithms for ubiquitous matrix problems, such as those that arise in scientific computing, data science, machine learning, etc.  A seemingly different topic, but one which has a long history in pure and applied mathematics, is that of Determinantal Point Processes (DPPs), which are stochastic point processes, the probability distribution of which is characterized by sub-determinants of some matrix.  Recent work has uncovered deep and fruitful connections between DPPs and RandNLA.  For example, random sampling with a DPP leads to new kinds of unbiased estimators for classical RandNLA tasks, enabling more refined statistical and inferential understanding of RandNLA algorithms; a DPP is, in some sense, an optimal randomized method for many RandNLA problems; and a standard RandNLA technique, called leverage score sampling, can be derived as the marginal distribution  of a DPP.  This work will be reviewed, as will recent algorithmic developments, illustrating that, while not quite as efficient as simply applying a random projection, these DPP-based algorithms are only moderately more expensive.  Joint work with Michal Derezinski.
+</abstract>
+
+
+Date: 4/29
+Note: On Zoom
+Host: Lin
+Speaker: Ken Kamrin
+Affiliation: MIT
+Title:  Toward reduced-order models for flowing grains: Surprising complexity meets surprising simplicity
+<abstract>
+Despite the commonality of granular materials in day-to-day life, modeling systems of millions or more flowing particles has proven historically difficult. This has direct real-world ramifications owing to the prominent role granular media play in multiple industries and in terrain dynamics. One can attempt to track every grain with discrete particle methods, but realistic systems are often too large for this approach and a continuum model is desired. However, granular media display unusual behaviors that complicate the continuum treatment: they can behave like solid, flow like liquid, or separate into a “gas”, and the rheology of the flowing state displays remarkable subtleties.
+
+To address these challenges, in this talk we develop a family of continuum models and solvers, permitting quantitative modeling capabilities.  We discuss a variety of applications, ranging from general problems to specific techniques for problems of intrusion, impact, driving, and locomotion in granular media. To calculate flows in general cases, a rather significant nonlocal effect is evident, which is well-described with our recent nonlocal model accounting for grain cooperativity within the flow rule. On the other hand, to model only intrusion forces on submerged objects, we will show, and explain why, many of the experimentally observed results can be captured from a much simpler tension-free frictional plasticity model. This approach gives way to some surprisingly simple general tools, including the granular Resistive Force Theory, and a broad set of scaling laws inherent to the problem of granular locomotion. These scalings are validated directly and suggest a new down-scaled paradigm for granular locomotive design, on earth and beyond, to be used much like scaling laws in fluid mechanics.
+
+We close with a brief discussion of ongoing modeling efforts for wet granular systems, including those with non-trivial grain-grain interactions and those with highly deformable particles.
+</abstract>
+
+
+Date: 5/6
+Note: On Zoom.
+Host: Lin
+Speaker: Tamara Kolda
+Affiliation: Sandia National Laboratory
+Title: Estimating Higher-Order Moments Using Symmetric Tensor Decomposition
+
+<abstract>
+We consider the problem of decomposing higher-order moment tensors, i.e., the sum of symmetric outer products of data vectors. Such a decomposition can be used to estimate the means in a Gaussian mixture model and for other applications in machine learning. The dth-order empirical moment tensor of a set of p observations of n variables is a symmetric d-way tensor. Our goal is to find a low-rank tensor approximation comprising r << p symmetric outer products. The challenge is that forming the empirical moment tensor costs O(pn^d) operations and O(n^d) storage, which may be prohibitively expensive; additionally, the algorithm to compute the low-rank approximation costs O(n^d) per iteration. Our contribution is avoiding formation of the moment tensor, computing the low-rank tensor approximation of the moment tensor implicitly using O(pnr) operations per iteration and no extra memory. This advance opens the door to more applications of higher-order moments since they can now be efficiently computed. We present numerical evidence of the computational savings and show an example of estimating the means for higher-order moments. We also show how this can be done stochastically for massive datasets. This work is joint with Samantha Sherman, University of Notre Dame.
+</abstract>
+
+Date: 5/13
+Note: On Zoom.
+Host: Lin
+Speaker: Linfeng Zhang
+Affiliation: Princeton University
+Title: Symmetry preserving neural network models for molecular modelling
+<abstract>
+We discuss how to leverage the fitting ability of neural networks to accurately and efficiently represent two types of maps in molecular modelling problems. The first type takes as input the coordinates of atoms and their associated chemical species, and outputs physical observables such as the interatomic potential energy (a scalar), the electric polarization (a vector) and polarizability (a tensor), and the charge density (a field). The second type, like post–Hartree–Fock methods, uses the ground-state electronic orbitals as the input, and predicts the energy difference between results of highly accurate models such as the coupled-cluster method and low accuracy models such as the Hartree-Fock (HF) method. Special attentions are paid to how the neural network models take care of physical properties like symmetry and locality, so that models trained with small-size systems can be transferred to different and large-size ones; and how they are made end-to-end, so that little human intervention is required for various complex tasks.
+This is joint work with Yixiao Chen, Han Wang, and Weinan E.
+</abstract>
+

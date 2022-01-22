@@ -1,0 +1,44 @@
+Date: November 8th
+Speaker: Raunak Borker
+Affiliation: Stanford University
+Title: A High-Order Discontinuous Galerkin Method for Variable-Coefficient Advection-Diffusion Problems
+<abstract>
+A high-order discontinuous Galerkin method with Lagrange multipliers (DGLM)
+is presented for the solution of the steady advection-diffusion equation
+with a variable advection field in the high Peclet number regime. In this
+regime, the standard finite element method (FEM) might produce non-physical
+oscillations in the solution at practical mesh resolutions. Like a
+Discontinuous Enrichment Method (DEM) [1], the DGLM method described in
+this presentation overcomes the issue of spurious oscillations near boundary
+layers by attempting to resolve them using appropriate shape functions.
+Specifically, these are chosen as polynomials that are additively enriched
+with free-space solutions of the governing differential equation. Also like a
+DEM, the DGLM method presented here in enforces a weak continuity of the
+solution across inter-element boundaries using Lagrange multipliers and is
+amenable to efficient numerical technique of static condensation. DGLM is
+based on the primal hybrid-variational formulation. Unlike a Hybrid
+Discontinuous Galerkin (HDG) method [2] however, it operates directly on the
+second-order form of the advection-diffusion equation and does not require
+any stabilization.
+
+Recently in [3], DGLM was developed for the constant coefficient
+advection-diffusion problem. The present work focuses on the extensions of
+this approach to the variable coefficient problem. The major challenge in this
+extension is in deriving free-space solutions for the variable advection-field
+case. This challenge is overcome by using asymptotic analysis which provides
+enrichment functions for exponential and parabolic boundary layers. The
+resulting DGLM method is theoretically proven to be well-posed.
+
+This talk will introduce the DGLM framework, the enrichment functions for the
+constant and variable coefficient cases, and discuss possible extensions to
+the incompressible Navier-Stokes equations. Numerical results for the
+advection-diffusion equation demonstrating the benefits of the enrichment
+functions in overcoming oscillations by reducing the error constant while
+maintaining a high-order convergence will be presented.
+
+[1] C. Farhat, I. Harari, L. P. Franca, The discontinuous enrichment method, Comput. Methods Appl. Mech. Eng., 190, 6455- 6479, 2001.
+
+[2] N. C. Nguyen, J. Peraire, B. Cockburn, An implicit high-order hybridizable discontinuous Galerkin method for linear convection-diffusion equations, J. Comput. Phys., 228, 3232-3254, 2009.
+
+[3] R. Borker, C. Farhat, R. Tezaur, A high-order discontinuous Galerkin method for unsteady advection-diffusion problems, J. Comput. Phys., 332, 2017.
+</abstract>

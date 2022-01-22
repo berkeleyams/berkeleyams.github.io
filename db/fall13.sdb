@@ -1,0 +1,194 @@
+Semester: Fall 2013
+Usual location: 939 Evans Hall
+Usual time: 3:30PM--4:30PM
+Usual day: Wednesday
+
+Date: September 11th
+Speaker: Dmitriy Morozov
+Affiliation: Lawrence Berkeley National Laboratory 
+Title: Wrinkles on Everest: Persistence and Stability in an Omniscalar World
+<abstract>
+In the last decade, persistent homology emerged as a particularly
+active topic within the young field of computational topology.
+Homology is a topological invariant that counts the number of cycles
+in the space: components, loops, voids, and their higher-dimensional
+analogs. Persistence keeps track of the evolution of such cycles and
+quantifies their longevity. By encoding physical phenomena as
+real-valued functions, one can use persistence to identify their
+significant features.
+
+This talk is an introduction to the subject, discussing the settings
+in which persistence is effective as well as the methods it employs.
+It will touch on the topics of homology inference, dimensionality
+reduction, and general models of noise. The last part of the talk will
+describe our recent efforts to parallelize computation of merge trees,
+a descriptor closely related to 0-dimensional persistence.
+</abstract>
+
+Date: September 18th
+Speaker: Peter Graf
+Affiliation: National Renewable Energy Laboratory
+Title: Search spaces and algorithms for inverse material design and other renewable energy applications
+<abstract>
+In this talk I will describe efforts at NREL to use simulation
+optimization in renewable energy research, with particular emphasis on the
+search for better materials for organic and inorganic photovoltaic cells.
+Depending on how we formulate the problems, the search spaces and solvers
+come in a wide variety of "shapes and sizes": continuous, discrete, mixed,
+large, small, hierarchical, linear, nonlinear, analytic, black box, cheap,
+expensive, etc.  A major theme is the idiosyncratic nature of the search
+spaces, which arises primarily because the natural representations include
+domain specific structure.  In fact, the more canonical the
+representation, the less effective the algorithm, because often
+constraints can be built into the representation that can dramatically
+decrease the size of the search space.  Unfortunately, this sometimes
+complicates the search (e.g., off-the-shelf methods are hard to apply).
+Another important characteristic is that due to the discrete nature of
+molecular space, there is often no natural distance metric to make use of.
+An additional challenge is that the simulations are often expensive, not
+particularly robust, and not well validated.  These points will be
+illustrated via discussion of successes and failures in several domains,
+especially organic and inorganic semiconductors, but also including
+techno-economic analysis of wind energy, multi-scale battery simulation,
+building energy optimization, systems biology parameter estimation, and
+renewable energy deployment and grid modeling.
+</abstract>
+
+
+Date: September 25th
+Speaker: Humberto C. Godinez
+Affiliation: Los Alamos National Laboratory
+Title: Improving the Prediction of Satellite Trajectories
+<abstract>
+In recent years, the accurate prediction of satellite orbits has attracted much attention due to efforts in avoiding collisions between orbital objects. There are a number of challenging problems in orbital propagation that hinder our ability to provide an accurate forecast. Among them is the correct specification of the ionosphere-thermosphere environment, accurate drag coefficients that influence the orbital object, and precise estimation of orbital position and velocity.
+
+The first part of the presentation will be a brief overview of the Integrated Modeling of Perturbations in Atmospheres for Conjunction Tracking (IMPACT) project. The project objective is to develop a ground- breaking new orbital dynamics framework that combines a comprehensive physics-based model of atmo- spheric drag with an accurate uncertainty quantification of orbital predictions. To achieve this goal the IMPACT team has developed and implemented a predictive physics-based ionosphere-thermosphere system, improved drag coefficients model, a novel density estimation technique based on tomography, and an orbital collision probability estimation technique based on importance sampling and Gaussian processes.
+
+The later half of the presentation will focus in improving the estimation and prediction of orbital tra- jectories of space objects. Orbit estimation presents a particularly challenging problem since the resulting models are non-linear and have non-Gaussian distributions. A useful class of methods for improving model predictions are data assimilation techniques, which fuse model and observational data information to provide an enhanced model solution with better predictive properties. Unfortunately, traditional data assimilation techniques fail for orbital propagation given that most assume a Gaussian distribution for the model and observations. We present a series of assimilation experiments with a two-dimensional orbital propagation model to study the efficiency and applicability of three types of data assimilation methods to this problem. In particular, we consider the ensemble Kalman filter (EnKF), Monte Carlo (MC) sampling, and variational data assimilation (4D-Var). A series of assimilation experiments will be presented where a number of con- ditions are tested, including the frequency of assimilation, and number of particles/ensemble members. The experiments show how EnKF suffers from filter divergence in most cases, while both 4D-Var and MC sam- pling performance is stable and reliable. This is due mainly to the non-linearity and non-Gaussian nature of the problem.
+</abstract>
+
+
+
+Date: October 2nd
+Speaker: Kevin T. Carlberg
+Affiliation: Sandia National Laboratory, Livermore 
+Title: The GNAT method for model reduction of nonlinear dynamical systems
+<abstract>
+Time-critical applications for systems governed by dynamical systems---such as control, fast-turnaround design, and uncertainty quantification---often demand the accuracy provided by large-scale computational models, but cannot afford their computational cost. To mitigate this bottleneck, researchers have developed model-reduction techniques that decrease the dimension of the dynamical system while preserving its key features. Such methods are effective when applied to specialized problems such as linear time-invariant systems (e.g., balanced truncation). However, model reduction for nonlinear dynamical systems has been primarily limited to methods based on the proper orthogonal decomposition (POD)–-Galerkin approach, which lacks `discrete optimality' and leads to unstable responses in many cases.
+
+In this talk, I will present the Gauss--Newton with approximated tensors (GNAT) nonlinear model-reduction method. This method is discrete optimal, is equipped with an error bound, and leads to highly accurate responses for practical problems across a wide range of physics. I will also describe the `sample mesh' concept, which enables a practical, distributed, computationally efficient implementation of GNAT in computational-mechanics codes. Finally, I will present results for the method applied to a validated CFD model (with over 17 million unknowns) of a compressible, turbulent flow problem. Results illustrate GNAT’s favorable performance compared with other model-reduction techniques; it achieves speedups exceeding 350 with errors below 1%.
+
+Joint work with Charbel Farhat, Julien Cortial, and David Amsallem.
+</abstract>
+
+
+
+Date: October 9th
+Speaker: Alexander Ostermann
+Affiliation: University of Innsbruck
+Title: Time integration by operator splitting
+<abstract>
+Splitting methods form an important class of competitive time integration schemes for evolution equations. Despite of their extensive use in real-life applications, splitting methods for partial differential equations are still far from being fully understood. In this talk, we will discuss some rigorous results that were obtained recently.
+
+First, a convergence analysis of the Strang splitting algorithm with a discontinuous Galerkin approximation in space for the Vlasov--Poisson equations is provided. The Vlasov equation models the behavior of a collisionless plasma in astro- and plasma physics. In a simplified model, the force term is given by the gradient of the self-consistent electric potential
+
+As a second example, splitting schemes for reaction-diffusion equations are discussed. Splitting the nonlinear reaction terms from the linear diffusion operator gives rise to attractive numerical schemes: the semiflow generated by the diffusion operator can be obtained by standard fast solvers (relying on fast Fourier transform techniques or fast Poisson solvers); the nonlinear part being local only requires the solution of an ordinary differential equation. Moreover, such splitting methods will preserve the positivity of the solution in certain situations.
+</abstract>
+
+
+
+Date: October 16th
+Speaker: Philip Marcus
+Affiliation: University of California, Berkeley
+Title:How the Method of Frobenius Led to Self-Replicating 3D Zombie Vortices in Turbulent Lab Flows and the Formation of Stars
+<abstract>
+We report a new mechanism for creating vortices in a class of flows that are linearly stable and believed, by most researchers, to be also finite-amplitude stable. We find that the vortices form in numerical simulations of stably-stratified Couette flows (both plane and circular), as well as in simulations of protoplanetary disks around forming protostars. Our study was motivated by the fact that protoplanetary disks must have flow instabilities to form stars. The mechanism that we discovered allows small-amplitude perturbations (i.e., with small volumes and Rossby numbers) to form vortices that are large in volume and amplitude (with a Rossby number of order unity). The energy of the vortices becomes large, and it is supplied the kinetic energy of the background shear flow. The underlying mathematics of the finite-amplitude instability lies in Math 53 and 54. Our vortices have an unusual property: a vortex that grows from a single, local perturbation triggers a new generation of vortices to grow at nearby locations. After the second generation of vortices grows large, it triggers a third generation. The triggering of subsequent generations continues ad infinitum so that a front dividing the vortex-dominated flow from the unperturbed flow advances until the entire domain fills with large vortices. The vortices do not advect across the region, the front of the vortex-populated fluid does. The region in protoplanetary disks where we have found this new mechanism is thought to be stable; thus, in the astrophysical literature this region is called the dead zone. Because the vortices we report here arise in the dead zone, grow large, and spawn new generations of vortices that march across the domain, we refer to them as zombie vortices. We consider the mechanism of the zombie vortices’ growth and advance in a proposed lab experiment: circular Couette flow with a vertically stably-stratified Boussinesq fluid (i.e., salt water) with a density that is linear with height. Because this flow is nearly homogenous, the first vortex formed by the initial instability self-replicates in an approximately spatially self-similar manner and fills the domain with a lattice of 3D vortices, which persists, despite the fact that the flow is turbulent.
+</abstract>
+
+
+Date: October 23rd
+Speaker: No Seminar
+
+Date: October 30th
+Speaker: David Nolan
+Affiliation: University of Miami
+Title: Dynamics of the Tornado Vortex
+<abstract>
+In the first part of this talk, I will review the basic mechanisms for
+all tornado-like vortices (tornadoes, waterspouts, and dust devils). Our
+current understanding of what controls their intensity, structure, and
+dynamics comes from both laboratory experiments and numerical simulations.
+In particular, the "thermodynamic speed limit" sets an upper limit on the
+maximum mean wind speeds that is fairly low compared to the levels of damage
+that are found in the most extreme events.
+
+The most extreme wind speeds are associated with asymmetric, coherent
+structures such as "multiple vortices" that are often visible in
+photographs and videos. A new analysis of the multiple vortex phenomenon
+will be presented using much more realistic representations of the
+tornado-vortex flow than had been used in some earlier studies. The
+linearized stability analysis successfully predicts the dominant
+structures in unsteady, three-dimensional simulations. In addition,
+symmetric modes are identified that may explain symmetric oscillations
+that have been directly observed in real tornadoes.
+</abstract>
+
+
+Date: November 6th
+Speaker: Panos Stinis
+Affiliation: School of Mathematics, University of Minnesota 
+Title: Scale dependence and renormalization in model reduction
+<abstract>
+The problem of model reduction for complex systems is an active area of research. In this talk I want to discuss how the physics inspired concepts of scale dependence and renormalization can be used to facilitate the construction of accurate reduced models for complex problems. In particular, I will be presenting the application of these concepts to the problem of detecting and tracking singularities of time-dependent partial differential equations. Results for the inviscid Burgers, the critical nonlinear Schrödinger and the incompressible Euler equations will be used to illustrate the constructions.
+</abstract>
+
+
+
+Date: November 13th
+Speaker: Pierre Lermusiaux
+Affiliation: Massachusetts Institute of Technology
+Title: Bayesian Learning of Stochastic Dynamical Model Formulation
+<abstract>
+In this presentation, we first highlight recent results by our MSEAS group, including high-order Finite-Element schemes for biogeochemical ocean dynamics and exact path planning for swarms of ocean vehicles using level-set equations. We then address a holistic challenge in ocean Bayesian estimation: i) predict the probability distribution functions (pdfs) of large nonlinear ocean systems using stochastic partial differential equations, ii) assimilate data using Bayes' law with these pdfs, iii) predict the future data that optimally reduce uncertainties and rank the known and learn the new model formulations themselves.  Overall, we allow the joint inference of the state, equations, geometry, boundary conditions and initial conditions of dynamical models. Examples are provided using time-dependent ocean and fluid flows, including cavity, double-gyre and sudden-expansion flows with jets and eddies. The Bayesian model inference is illustrated by the estimation of obstacle shapes and of biogeochemical reaction equations based on very limited observations. This is joint work with our MSEAS group.
+</abstract>
+
+
+Date: November 20th
+Speaker: Luming Wang
+Affiliation: University of California, Berkeley
+Title: A high-order discontinuous Galerkin method with unstructured space-time meshes for compressible flows on domains with large deformations
+<abstract>
+Many practical applications of compressible flows involve time-varying geometries with large deformations including mixers with rotating objects, pitching tandem airfoils and deploying spoilers on airfoils. 
+In this talk, we present a high-order accurate discontinuous Galerkin (DG) method solving two-dimensional compressible flow with fully unstructured space-time meshes. The discretization of our space-time framework is based on a nodal DG formulation, with appropriate numerical fluxes for the first and the second-order terms, respectively. The scheme is implicit, and we solve the resulting non-linear systems using a Newton-Krylov solver. The spatial meshes are produced by some mesh moving techniques with element connectivity updates, and the corresponding space-time elements are produced directly based on these local operations. Finally, we present an efficient algorithm to generate the globally conforming tetrahedral meshes based on those local space-time elements. The talk is based on joint work with Per-Olof Persson (UC Berkeley).
+</abstract>
+
+
+
+
+Date: November 27th
+No talk: Thanksgiving
+
+Date: December 4th
+Speaker: Hans Johansen
+Affiliation: Lawrence Berkeley National Laboratory
+Title: Automatic Generation of Higher-order Finite Volume Embedded Boundary Discretizations
+<abstract>
+We present an embedded boundary approach to finite-volume discretizations that is based on “cut cell” representations. Using geometric moments of arbitrarily high order, we assemble small linear systems that express local consistency of the finite volume flux stencils, and directly affect stability and other properties of the resulting operators. One difficulty with these types of methods is the presence of arbitrarily small cells; typical approaches give up on conservation, merge or rotate cells, or modify the domain to avoid stability issues (such as severe explicit time step restrictions). For our approach, we can show how to treat arbitrarily-small cells, so that the discrete flux-divergence operator retains its higher-order accuracy and desired spectrum. This also allows us to avoid finicky grid generation, maintain conservation properties, and handle variable coefficient problems. The flexibility and accuracy of the approach is demonstrated for model problems in 1D and in 2D domains, with straightforward extension to 3D and moving boundaries.
+</abstract>
+
+
+
+
+Date: December 11th
+Speaker: Benjamin Stamm
+Affiliation: University of Pierre et Marie Curie (UPMC - Paris VI)
+Title: Domain decomposition algorithms for implicit solvation model. Can you be 500 times faster than the fast multipole method?
+<abstract>
+Computational chemistry has attracted much attention since this years choice of the Nobel prize winners in chemistry for their contributions to multi-scale models such as the QM/MM method.
+The large majority of chemically interesting phenomena take place in condensed phase, where the environment (e.g., solvent) can play a crucial role in determining the structure, the properties and the dynamics of the system to be studied. In a practical context, accounting for all solvent molecules in a either Molecular Dynamics (MD) or even Quantum Mechanical (QM) computation is infeasible due to the complexity of the underlying equations. A particular choice of a multi-scale model is to model the solvent environment to be a conducting continuum medium (COSMO-model) and the resulting electrostatic energy contribution to the solvation energy can be computed by solving a Poisson equation in the Van der Waals cavity of the solute molecule.
+
+The mathematical problem is therefore set (and well-posed) and we illustrate how to approximate its solution using Schwarz's domain decomposition method adapted to integral equations. 
+In this manner, the problem can be solved iteratively and the coupling of the local problems is determined by the connectivity of the molecule (in contrast to fast multipole-based boundary element solvers). 
+The resulting numerical scheme is extremely fast and a linear scaling of the computing resources with respect to the number of atoms of the solute molecule can be achieved.
+In numerical examples we show how this approach outperforms existing methods such as the fast multipole method by several orders of magnitude.
+</abstract> 

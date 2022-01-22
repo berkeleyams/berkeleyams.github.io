@@ -1,0 +1,328 @@
+Semester: Spring 2010
+Usual location: 740 Evans Hall
+Usual time: 2PM--3PM
+Usual day: Thursday
+
+
+Date: January 27th
+Speaker: Lai-Sang Young
+Affiliation: Courant Institute
+Title: Nonequilibrium steady states for certain Hamiltonian models
+Time: 3PM--4PM
+Location: 939 Evans Hall
+<abstract>
+Nonequilibrium steady states for two classes of Hamiltonian models with
+different flavors are discussed. Models in the first class have chaotic local
+dynamics resulting from particle-disk interactions. An easy-to-compute
+algorithm for macrocospic profiles such as energy and particle density is
+proposed, and issues such as memory, finite-size effects and their relation to
+geometry are discussed. Models in the second class have integrable dynamics.
+When driven at the boundary, they become ergodic but continue to exhibit
+anomolous behavior such as non-Gibbsian local distributions. Methodology used
+includes a mixture of numerics/heuristics and proofs. The results are from
+joint works with J-P Eckmann, P Balint and K Lin.
+</abstract>
+
+
+Date: January 28th
+Speaker: Lai-Sang Young
+Affiliation: Courant Institute
+Title: Mathematics of shear-induced Chaos
+Time: 4PM--5PM
+Location: 60 Evans Hall
+<abstract>
+I will discuss (1) a dynamical phenomenon called shear-induced chaos and (2)
+how to capture the idea of chaos mathematically. The latter is a general
+review. I will begin with the work of Smale here at Berkeley some 40 years ago
+and discuss highlights of subsequent developments. Rigorous results on
+shear-induced chaos are quite recent. Compared to early models of chaos, this
+kind is milder and more commonplace, giving rise to low dimensional strange
+attractors in many naturally occurring dynamical settings. I will use examples
+to illustrate the underlying geometric mechanism, and present theorems to show
+that they meet standard mathematical criteria for chaos.
+</abstract>
+
+
+Date: February 4th
+Speaker: Aleksandar Donev
+Affiliation: Lawrence Berkeley Laboratory
+Title: Hybrid Particle--Continuum Method for Hydrodynamics of Complex Fluids
+<html_abstract>
+<p>We generalize a previously-developed hybrid particle&#8211;continuum
+method&nbsp;[1] to dense fluids and two and three dimensional flows. The scheme
+couples an explicit fluctuating compressible Navier&#8211;Stokes solver with
+the Isotropic Direct Simulation Monte Carlo (DSMC) particle method&nbsp;[2].
+To achieve bidirectional dynamic coupling between the particle (microscale) and
+continuum (macroscale) regions, the continuum solver provides state-based
+boundary conditions to the particle domain, while the particle domain provides
+flux-based boundary conditions for the continuum solver, thus ensuring both
+state and flux continuity across the particle&#8211;continuum interface. A
+small mismatch is observed between the mean density and temperature in the
+particle and continuum regions that comes from the finite size of the
+hydrodynamic cells used to estimate mean hydrodynamic values. By calculating
+the dynamic structure factor for both a 'bulk' (periodic) and a finite system,
+we verify that the hybrid algorithm is capable of accurately capturing the
+propagation of spontaneous thermal fluctuations across the
+particle&#8211;continuum interface.  We then study the equilibrium diffusive
+motion of a large spherical bead suspended in a particle solvent and find that
+the hybrid method correctly reproduces the velocity autocorrelation function of
+the bead only if thermal fluctuations are included in the continuum solver.
+Finally, we apply the hybrid to the well-known adiabatic piston problem and
+find that the hybrid correctly reproduces the slow non-equilibrium relaxation
+of the piston toward thermodynamic equilibrium when fluctuations are included
+in the continuum solver. These examples clearly demonstrate the need to include
+fluctuations in continuum solvers employed in hybrid multiscale methods.</p>
+
+<h4>References</h4>
+<ol>
+	<li>J. B. Bell, A. Garcia and S. A. Williams, SIAM Multiscale Modeling and Simulation, <b>6</b>:1256&#8211;1280, 2008.</li>
+	<li>A. Donev and A. L. Garcia and B. J. Alder, ArXiv preprint 0908.0510.</li>
+</ol>
+</html_abstract>
+
+
+Date: February 11th
+Speaker: Mark Dayel
+Affiliation: UC Berkeley
+Title: A Model for Actin-Based Symmetry Breaking and Motility
+<abstract>
+Eukaryotic cells assemble viscoelastic networks of crosslinked actin
+filaments to control their shape, mechanical properties, and motility. One
+important class of actin network is nucleated by the Arp2/3 complex and drives
+both membrane protrusion at the leading edge of motile cells and intracellular
+motility of pathogens such as Listeria monocytogenes. These networks can be
+reconstituted in vitro from purified components to drive the motility of
+spherical micron-sized beads. An Elastic Gel model has been successful in
+explaining how these networks break symmetry, but how they produce directed
+motile force has been less clear. We have combined numerical simulations with
+in vitro experiments to reconstitute the behavior of these motile actin
+networks in silico using an Accumulative Particle-Spring (APS) model that
+builds on the Elastic Gel model, and demonstrates simple intuitive mechanisms
+for both symmetry breaking and sustained motility. The APS model explains
+observed transitions between smooth and pulsatile motion as well as subtle
+variations in network architecture caused by differences in geometry and
+conditions. Our findings also explain sideways symmetry breaking and motility
+of elongated beads, and show that elastic recoil, though important for symmetry
+breaking and pulsatile motion, is not necessary for smooth directional
+motility. The APS model demonstrates how a small number of viscoelastic network
+parameters and construction rules suffice to recapture the complex behavior of
+motile actin networks. The fact that the model not only mirrors our in vitro
+observations, but also makes novel predictions that we confirm by experiment,
+suggests that the model captures much of the essence of actin-based motility in
+this system.
+</abstract>
+
+
+Date: February 18th
+Speaker: Michiel Bertsch
+Affiliation: University of Rome
+Title: The heat flow for director fields
+<abstract>
+Parabolic equations for vectors with constant norm arise naturally in
+applications (magnetism, liquid crystals, etc.). In this talk I focus on the
+mathematical properties of the basic heat equation, neglecting the reaction
+terms determined by specific applications. The nonlinear constraint of constant
+norm leads to solutions which may have singularities, and solutions are not
+always uniquely determined by their initial and boundary values. Through a
+review of results we shall discuss some challenging open problems.
+</abstract>
+
+
+Date: February 22nd
+Speaker: Carlo Nitsch
+Affiliation: University of Naples, Federico II
+Title: Stability results for some isoperimetric problems
+<html_abstract>
+<p>An isoperimetric problem usually consists in optimizing a given
+domain-dependent functional possibly subject to some additional geometrical
+constraints on the domain. In this talk I will focus on two well-known examples
+of isoperimetric problems:</p>
+<ul>
+        <li>Lord Rayleigh's conjecture (1877) &#8211; The principal tone of a
+        drum of fixed area is the least possible when the drum has a circular
+        shape.</li>
+        <li>St Venant's conjecture (1856) &#8211; Among all solid bars with the
+        same cross-sectional area, the circular shaft gives the maximal
+        torsional rigidity.</li>
+</ul>
+<p>In particular I will discuss some recent results concerning quantitative
+versions of both these conjectures.</p>
+</html_abstract>
+
+
+Date: February 25th
+Speaker: Eric Dunham
+Affiliation: Stanford University
+Title: Numerical Modeling of Earthquake Ruptures
+<abstract>
+Earthquake ruptures are shear fractures that propagate along pre-existing
+zones of weakness in the earth's crust (faults). Models couple seismic wave
+propagation (and stress transfer) through rocks surrounding the fault with
+highly nonlinear interface jump conditions relating fault strength to slip
+velocity (the discontinuity in the particle velocity field across the fault),
+temperature, and pressure of pore fluids within the core of the fault zone. The
+elastic wave equation is discretized using summation-by-parts (SBP) finite
+differences, and the nonlinear jump conditions are enforced weakly using the
+simultaneous approximation term (SAT) method. This approach is provably stable
+and accurate, but the semi-discretized equations can become prohibitively stiff
+unless the jump conditions are formulated in a particular way. Coordinate
+transformation techniques allow us to model ruptures on nonplanar fault
+surfaces. A combination of numerical models and asymptotic analyses using
+boundary perturbation techniques are used to investigate the role of fault
+roughness (observations show natural faults are self-similar fractal surfaces)
+in determining the resistance to slip and the production of incoherent high
+frequency seismic waves that are ubiquitous is seismograms.
+</abstract>
+
+
+Date: March 4th
+Speaker: Roger Ghanem
+Affiliation: USC
+Title: V&V or a psychology of models
+<abstract>
+Scientific discourse about Uncertainty Quantification, Verification and
+Validation has been on a high note for the past decade. This fervor has been
+driven to a large extent by the demand from various constituencies that
+computational resources finally deliver on their promise of reproducing if not
+predicting physical reality. Clearly, the value of such an achievement will be
+enormous, ranging from superior product design to disaster mitigation and the
+management of complex systems such as financial markets and SmartGrids. A
+number of challenges are easily spotted on the path to delivering this
+computational surrogate. First, reality itself is elusive and is not always
+described with commensurate topologies. This problem is somewhat mitigated by
+experimental techniques that can simultaneously measure physical phenomena at
+multiple scales. Second, the mathematical model, which could include
+algorithmic approximations for calibration and forward computations, introduces
+additional assumptions that are often manifested as modeling and parametric
+uncertainties. Third, and even when these models are accurate and well-resolved
+numerically, uncertainties are introduced at the manufacturing stage when a
+physical device is constructed to represent the physical device, allowing for
+various tolerances and imperfections.
+
+Physical reality, the mathematical model, its implementation into software
+components, and the as-built device, describe an equivalence class of objects
+that are expected to result in similar decisions. These can be viewed as
+multiple personalities of the same entity, and V&V can be viewed as the art and
+science of analyzing this divergence while enabling its successful resolution.
+
+In this talk, I will describe our efforts as the psycho-analysis (and even
+psycho-therapy) of models, that rely on the astute packaging of information in
+accordance with the axioms of probability theory, and a function-analytic
+approach for treating randomness.
+</abstract>
+
+
+Date: March 11th
+Speaker: Niles Pierce
+Affiliation: Caltech
+Title: Programming Molecular Function
+<abstract>
+This talk will describe efficient algorithms for the analysis and design of
+synthetic nucleic acid devices. These computational tools facilitate the
+pursuit of programmable molecular technologies relevant to longstanding
+challenges in biological imaging and cancer treatment.
+</abstract>
+
+
+Date: March 18th
+Speaker: Eitan Tadmor
+Affiliation: University of Maryland
+Title: Spectral Dynamics and Critical Thresholds in Nonlinear Convective Equations
+<html_abstract>
+<p>We discuss the global regularity vs. finite time breakdown in nonlinear
+convection driven by different models of forcing. Finite time breakdown depends
+on whether the initial configuration crosses intrinsic, <i>O</i>(1) critical
+thresholds (CT). Our approach is based on spectral dynamics, tracing the
+eigenvalues of the velocity gradient which determine the boundaries of CT
+surfaces in configuration space.  We demonstrate this critical threshold
+phenomena with several n-dimensional prototype models. For
+<i>n</i>&nbsp;=&nbsp;2 we show that when rotational forcing dominates the
+pressure it prolongs the life-span of sub-critical 2D shallow-water solutions.
+We present a stability theory for vanishing viscosity solutions of the 2D
+nonlinear &#8220;pressureless&#8221; convection. We revisit the 3D restricted
+Euler and Euler-Poisson equations, and we obtain a surprising global existence
+result for a large set of sub-critical initial data in the 4D case.</p>
+</html_abstract>
+
+
+Date: March 25th
+No talk: Spring Break
+
+
+Date: April 1st
+Speaker: Michael Chertkov
+Affiliation: LANL
+Title: Optimization and Control Theory for Smart (Power) Grids
+<abstract>
+A research project in this area started at LANL in Oct of 2009. In this
+talk I will report on the first results derived under the auspices of the
+project.  In particular, I will discuss algorithms and phase transition
+analysis for switching over a distribution power grid, optimization of reactive
+flow in a feeder line, analysis of distance to failure in the space of
+fluctuating loads, and if time permits, queuing scheme for scheduling of
+plug-in-electric vehicle charging.
+</abstract>
+
+
+Date: April 8th
+No talk: no seminar
+
+Date: April 15th
+Speaker: Pascale Garaud
+Affiliation: UC Santa Cruz
+Title: Fingering convection and the formation of thermohaline staircases
+<abstract>
+Double-diffusive instabilities are often invoked to explain enhanced transport
+in a stably-stratified fluid region. The most-studied natural manifestation of
+this process, fingering convection, commonly occurs in the ocean's thermocline.
+There, transport can be further enhanced by the formation of ``thermohaline
+staircases,'' stacks of deep well-mixed convective layers separated by thin
+stably-stratified interfaces, whose origin and dynamics have remained
+controversial. We investigate the evolution of this type of double-diffusive
+system using mean-field hydrodynamics and 3D numerical simulations. Our
+findings finally provide a clear picture of the sequence of events resulting in
+the formation of layers, unifying previously contentious hypotheses.
+Furthermore, they supply quantitative predictions for the necessary conditions
+and timescales for layer formation, and guidance for the applicability of these
+ideas to other systems.
+</abstract>
+
+
+Date: April 22nd
+Speaker: Tom Hou
+Affiliation: Caltech
+Title: Adaptive Data Analysis via Nonlinear Compressed Sensing
+<abstract>
+We introduce an Instantaneous Fourier Analysis method to analyze multiscale
+nonlinear and non-stationary data. The purpose of this work is to find the
+sparsest representation of a multiscale signal using basis that is adapted to
+the data instead of being prescribed a priori. Using a variation approach base
+on nonlinear L1 optimization, our method defines trends and Instantaneous
+Frequency of a multiscale signal. One advantage of performing such
+decomposition is to preserve some intrinsic physical property of the signal
+without introducing artificial scales or harminics. For multiscale data that
+have a nonlinear sparse representation, we prove that our nonlinear
+optimization method converges to the exact signal with the sparse
+representation. Moreover, we will show that our method is insensitive to noise
+and robust enough to apply to realistic physical data. For general data that do
+not have a sparse representation, our method will give an approximate
+decomposition and the accuracy is controlled by the scale separation property
+of the original signal.
+</abstract>
+
+
+Date: April 29th
+Speaker: Eleni Katifori
+Affiliation: Rockefeller University
+Title: Leaf venation, loops, and optimal transport networks
+<abstract>
+Leaf venation is a pervasive example of a complex biological transport network
+that is necessary for the survival of land plants. Transport networks optimized
+for efficiency have been shown to be trees, i.e. loopless. However, dicotyledon
+leaf venation has a large number of functional closed loops. Inspired by leaf
+venation, we study two possible reasons for the existence of a high density of
+loops in biological transport networks: resilience to damage and fluctuations
+in load (transpiration rate across the leaf blade). We consider optimizing
+functionals that account for these two criteria, and examine the topology and
+transport properties of the resulting networks.
+</abstract>

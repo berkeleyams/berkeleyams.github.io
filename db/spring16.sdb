@@ -1,0 +1,164 @@
+Semester: Spring 2016
+Usual location: 939 Evans Hall
+Usual time: 3:30PM--4:30PM
+Usual day: Wednesday
+
+
+Date: January 20th
+Speaker: No seminar this week
+
+Date: January 27th 
+Speaker: No seminar this week
+
+
+Date: February 3rd
+Speaker: Kranthi Mandadapu
+Affiliation: UC Berkeley
+Title: Homogenization of thermo-mechanical continua using extensive physical quantities: Theory and Simulation
+<abstract> 
+ The macroscopic thermomechanical behaviour of heterogeneous media may depend strongly on their microstructure. For example, the macroscopic behavior of polycrystals depends on the size and orientation of underlying single crystals. Another situation is the complex rheological behavior of vesicle suspensions. In such cases, the constitutive behavior of the microstructure needs to be considered when modelling the bulk material response.   
+
+In this talk, I will describe a homogenization method to connect the microscopic and macroscopic scales based on extensive physical quantities assuming that both scales can be modeled using continuum mechanics. The method extends to the continuum-on-continuum setting the celebrated approach of Irving & Kirkwood, which forms the basis for upscaling atomistic variables of classical statistical mechanics, such as position, momentum and interatomic forces to continuum variables, such as stress and heat flux. An application of this extended method will be explored within the context of finite element-based homogenization of solids in quasi-static conditions. Finally, I will discuss the microscale inertial or dynamical effects on the macroscale behavior for a 1-dimensional elastic-layered medium.
+</abstract>
+
+Date: February 10th
+Speaker: John Harlim 
+Affiliation: Penn State University
+Title: Diffusion Forecast: A nonparametric modeling approach
+<abstract>
+I will discuss a nonparametric modeling approach for forecasting stochastic dynamical systems on smooth manifolds embedded in Euclidean space. In the limit of large data, this approach converges to a Galerkin projection of the semigroup solution of the backward Kolmogorov equation of the underlying dynamics on a basis adapted to the invariant measure. This approach allows one to evolve the probability distribution of non-trivial dynamical systems with an equation-free modeling. If time permitted, I will also discuss a semi-parametric modeling framework to compensate for model error by learning an auxiliary dynamical model for the unknown parameters.
+</abstract>
+
+Date: February 17th
+Speaker: Laura Stricker
+Affiliation: Max-Planck-Gesellschaft
+Title: Numercial study of artificial microswimmers propelled by Marangoni flow
+<abstract>
+In order to understand the collective behaviour of biological microswimmers, such as bacteria and spermatozoa, it is important to know which aspects are governed merely by the physics of the system and which aspects are biology-related. In the present study we address the mechanisms of locomotion of non-biological swimmers. We focus on artificial swimmers consisting in active droplets moving by Marangoni flow, in particular nematic liquid crystal droplets immersed in an aqueous solution containing an ionic surfactant, and self-propelled droplets driven by Belousov-Zhabotinsky (BZ) reactions. We numerically study the flow field outside and inside a single droplet, by means of a level set method, in order to account for both the deformation of the droplet and the interaction with a small number of neighbouring droplets. Further mechanisms that influence the locomotion, such as mass transport, chemical reactions and the coupling between the bulk and the surface concentration of the surfactants, are also specifically addressed. 
+</abstract>
+
+Date: February 24th
+Speaker: Wotao Yin
+Affiliation: University of California, Los Angeles
+Title: Asynchronous Parallel Computing in Signal Processing and Machine Learning
+<abstract>
+The performance of each CPU core stopped improving around 2005. The Moore's law, however, continues to apply -- not to single-thread performance -- but the number of cores in each computer. Today, workstations are with 64 cores, graphic cards with thousands of GPU cores, and some cellphones with eight cores are sold at affordable prices. To benefit from this multi-core Moore's law, we must parallelize our algorithms. We study asynchronous parallel computing at a high-level of abstraction: finding a fixed point to a nonexpansive operator. It underlies many models in numerical linear algebra, optimization, and other areas of scientific computing. To solve this problem, we propose ARock, an asynchronous parallel algorithmic framework, in which a set of agents (machines, processors, or cores) update randomly selected coordinates of the unknown variable in an asynchronous parallel fashion. As special cases of ARock, novel algorithms for linear equation systems, machine learning, distributed and decentralized optimization are introduced. We show that if the nonexpansive operator has a fixed point, then with probability one the sequence of points generated by ARock converges to a fixed point. Convergence rates are also given. Very encouraging numerical performance of ARock is observed on sparse logistic regression and other large-scale problems. This is joint work with Zhimin Peng (UCLA), Yangyang Xu (IMA), and Ming Yan (Michigan State).
+</abstract>
+
+
+Date: March 2nd
+Speaker: Jarrod McClean
+Affiliation: Lawrence Berkeley National Laboratory
+Title: Hybrid Quantum-Classical Algorithms for Large Eigenvalue Problems
+<abstract>
+Quantum computation has the potential to dramatically speed up the solution to a number of important problems in physics, chemistry, and mathematics. Unfortunately, many quantum algorithms are infeasible on current and near-term quantum devices. In this talk, I will show how combining classical and quantum resources allows one to maximally utilize available quantum resources in the solution of eigenvalue problems, with a particular emphases on quantum chemical applications. Moreover, this approach will help to highlight the origin of a potential quantum speedup over classical calculations. The talk will be designed to appeal to a broad mathematical audience and will not assume an extensive background in quantum mechanics.
+</abstract>
+
+Date: March 9th
+Speaker: Edriss S. Titi
+Affiliation: Texas A&M University and Weizmann Institute of Science
+Title:Continuous Data Assimilation for Geophysical Models Employing Coarse Mesh Observables
+<abstract>
+One of the main characteristics of infinite-dimensional dissipative evolution equations, such as the Navier-Stokes equations, is that their long-time dynamics is determined by finitely many parameters -- a finite number of determining modes, nodes, volume elements and other determining interpolants. In this talk I will show how to explore this finite-dimensional feature of the long-time behavior of infinite-dimensional dissipative systems to design finite-dimensional feedback control for stabilizing their solutions. Notably, it is observed that this very same approach can be implemented for designing data assimilation algorithms for  weather prediction based on discrete measurements. In addition, I will also show that the long-time dynamics of the Navier-Stokes equations can be imbedded in an infinite-dimensional dynamical system that is induced by an ordinary differential equation, named determining form, which is governed by a globally Lipschitz vector field. The Navier-Stokes equations are used as an illustrative example, and all the above mentioned results equally hold for other dissipative evolution PDEs, in particular for various dissipative geophysical models.
+</abstract> 
+
+Date: March 16th
+Speaker: David Kelly
+Affiliation: Courant Institute
+Title: Ergodicity in data assimilation methods
+<abstract>
+The prototypical data assimilation problem has an enormous number of variables that evolve according to a complex and unpredictable dynamical system. The challenge for scientists has been to find computationally efficient methods for sequentially assimilating observed data and models, with the aim of guiding the state predictions towards the observations. 
+
+Despite their widespread use, most data assimilation methods remain mechanistically mysterious - there are few guarantees that the dynamical properties of the method will resemble those of the underlying physical model. One might for instance anticipate that a successful data assimilation method will inherit ergodicity from the underlying model, so that if the model is statistically stable to initial perturbations then the method will be similarly stable. 
+
+In this talk we will introduce some data assimilation methods that are commonly implemented in geoscience and discuss the above mentioned question of stability. Using the framework of ergodicity for Markov processes, we find sufficient conditions for the inheritance of ergodicity. As a counterpoint, we will construct a simple model that highlights the propensity of data assimilation algorithms to fail spectacularly when it comes to inheritance of ergodicity.  
+</abstract>
+
+Date: March 23th
+No talk: Spring Break
+
+Date: March 30th
+Speaker: Xiu Yang
+Affiliation: Pacific Northwest National Laboratory
+Title: Enhancing Sparsity in Uncertainty Quantification Problems by Iterative Rotations 
+<abstract>
+Compressive sensing has become a powerful addition to uncertainty quantification
+in recent years. We propose a new method to identify new bases for random variables through
+linear mappings such that the representation of the quantity of interest is more sparse with new
+basis functions associated with the new random variables. This sparsity increases both the 
+efficiency and accuracy of the compressive sensing-based uncertainty quantification method. 
+Specifically, we consider rotation-based linear mappings which are determined iteratively for
+Hermite polynomial expansions. We demonstrate the efficiency of this method with uncertainty 
+quantification problems in PDEs and biomolecular systems.
+</abstract>
+
+
+Date: April 6th
+Speaker: Laslo Diosady
+Affiliation: NASA Ames
+Title: A space-time discontinuous-Galerkin spectral element method for compressible flows
+<abstract>
+High-Reynolds number separated flows involve large-scale unsteady motion which require scale-resolving computational fluid dynamics (CFD) simulations in order to provide accurate predictions. Higher-order methods have been shown to be more efficient for simulations requiring high spatial and temporal resolution, allowing for solutions with fewer degrees of freedom and lower computational cost than traditional second-order CFD methods. A higher-order space-time discontinuous-Galerkin(DG) method is presented for the scale-resolving simulation of high-Reynolds number compressible flows. The space-time DG method is implemented efficiently using a tensor-product formulation and solved with a Jacobian-free Newton-Krylov scheme and tensor-product based preconditioners. The effect of the discrete formulation on the nonlinear stability of the scheme is assessed through numerical simulations. With increasing Reynolds number, it is shown that an entropy-stable formulation is required in order to maintain stability at high-order. Using an entropy variable formulation consistent with established entropy stability theory ensures nonlinear stability at high and infinite Reynolds number.  Numerical results are presented demonstrating the success of the method on a variety of subsonic compressible flows.
+</abstract>
+
+Date: April 13th
+Speaker: Reinhold Schneider
+Affiliation: TU Berlin
+Title: Tensor networks and hierachcial tensors for  quantum phyiscs and more 
+<abstract>
+Approximation by sum of products (of uni-variate functions) is a widely used,
+e.g. in statistics and physics,  concept to approximate high dimensional
+functions, and high-dimensional problems, e.g. PDE's  are cast into optimzation
+problems.  However,   the non-linear parametrization leads to problems, where
+the most  simplest are  shown to be NP hard (Hillard-Lim 2012).  For a
+particular class of multi-linear parametrizations, namely hierarchical
+tensor representations (Hackbusch et al.  2009) or  tree tensor networks,
+these difficulties can be resolved to a fairely wide extent, and provide a
+mathematically sound concept for tensor product approximation.  Hierarchcial
+tensors will be   introduced by  a hierarchy of optimal subspace
+approximations, and demostrated by tensor trains (TT), resp. 
+matrix products states (MPS).    
+
+We treat  different applications ranging  from  quantum chemistry, Langevin
+dynamics of biomolecules,  uncertainty quantification to tensor completion  by
+variant of  DMRG (density  matrix renormalization group) and improved
+algorithm.   
+
+S. Szalay, M. Pfeffer, V. Murg, G. Barcza, F. Verstraete, R.  Schneider, \"O. Legeza,
+Tensor product methods and entanglement optimization for ab initio quantum chemistry, 
+International Journal of Quantum Chemistry 115 (19), 1342-1391 (2015) 
+
+M.  Bachmayr, R.  Schneider, A.  Uschmajew,
+Tensor Networks and Hierarchical Tensors for the Solution of High-dimensional Partial Differential Equations, 
+http://www3.math.tu-berlin.de/preprints/files/Preprint-28-2015.pdf, revised version to appear in FOCM 
+</abstract>
+
+Date: April 20th
+Speaker: Anna Lieb
+Affiliation: UC Berkeley
+Title: What can numerical fluid mechanics tell us about intermittent urban water supply?
+<abstract>
+Urban water distribution networks do not always supply water continuously or reliably. Hundreds of millions of people in cities worldwide regularly experience intermittent water supply, a condition that degrades distribution system components, compromises water quality, and limits water availability. I will introduce this phenomenon and our implementation of an efficient computational model of transient, transition flow through a network of pipes. I will show several optimization examples using this model, including mitigating pipe damage and estimating unknown parameters. I also discuss how simple fluid mechanics principles may help identify flow regimes where this model is most useful.
+</abstract> 
+
+Date: April 27th
+Speaker: Xiangxiong Zhang
+Affiliation: Purdue University
+Title: Positivity-preserving high order discontinuous Galerkin schemes for compressible Navier-Stokes equations
+<abstract>
+For gas dynamics equations such as compressible Euler and Navier-Stokes equations, preserving the positivity of density and pressure without losing conservation is crucial to stabilize the numerical computation. The L1-stability of mass and energy can be achieved by enforcing the positivity of density and pressure during the time evolution. However, high order schemes such as DG methods do not preserve the positivity. It is difficult to enforce the positivity without destroying the high order accuracy and the local conservation in an efficient manner for time-dependent gas dynamics equations. For compressible Euler equations, a weak positivity property holds for any high order finite volume type schemes including DG methods, which was used to design a simple positivity-preserving limiter for high order DG schemes in Zhang and Shu, JCP 2010. Generalizations to compressible Navier-Stokes equations are however nontrivial. We show that weak positivity property still holds for DG method solving compressible Navier-Stokes equations if a proper penalty term is added in the scheme. This allows us to obtain the first high order positivity-preserving schemes for compressible Navier-Stokes equations.
+</abstract>
+
+Date: May  4th
+Speaker: Meire Fortunato
+Affiliation: UC Berkeley
+Title: High-order mesh generation and mesh adaptation
+<abstract>
+High-order methods are receiving considerable interest from the computational community because they can achieve higher accuracy with reduced computational cost compared to traditional low-order approaches. These methods generally require unstructured meshes of non-inverted curved elements, and the generation of high-order curved meshes in a robust and automatic way is an important and challenging open problem.
+
+We present a method to generate high-order unstructured curved meshes by solving the classical Winslow equations using a new continuous Galerkin finite element discretization. This formulation appears to produce high quality curved elements, which are highly resistant to inversion. In addition, the corresponding nonlinear equations can be solved efficiently using Picard iterations, even for highly stretched boundary layer meshes. 
+
+Another challenge that mesh-based methods face is that the discretization of the domain is usually generated before the solution is known, which can lead to large numerical errors or non-convergent schemes. A tool that can be used to overcome this problem is mesh adaptivity. We use the Winslow variable diffusion equations -- which are a variation of the classical form -- to perform high-order mesh adaptivity. We show how this scheme can be used to adapt a mesh with stretched and curved elements in the presence of shocks that are formed when solving the Euler equations of gas dynamics for supersonic flow. 
+</abstract>
+
+
