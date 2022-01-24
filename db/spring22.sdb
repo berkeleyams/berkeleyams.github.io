@@ -25,8 +25,9 @@ Time: 10AM-11AM
 Host: Lin/Di
 Speaker: Yunan Yang
 Affiliation: ETH Zurich
-Title: 
+Title: Adjoint DSMC Method for Boltzmann-Constrained Optimization Problems
 <abstract>
+Applications for kinetic equations such as optimal design and inverse problems often involve finding unknown parameters through gradient-based optimization algorithms. Based on the adjoint-state method, we derive two different frameworks for approximating the gradient of an objective functional constrained by the nonlinear Boltzmann equation. While the forward problem can be solved by the Direct Simulation Monte Carlo (DSMC) method, it is difficult to efficiently solve the high-dimensional continuous adjoint equation obtained by the "optimize-then-discretize" approach. This challenge motivates us to propose an adjoint DSMC method following the "discretize-then-optimize" approach for Boltzmann-constrained optimization. We also analyze the properties of the two frameworks and their connections. Several numerical examples are presented to demonstrate their accuracy and efficiency.
 </abstract>
 
 
