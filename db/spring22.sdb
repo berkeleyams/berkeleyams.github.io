@@ -35,8 +35,9 @@ Date: 2/16
 Host: Di	
 Speaker: Jingwei Hu
 Affiliation: University of Washington
-Title: 
+Title: An efficient dynamical low-rank algorithm for the Boltzmann-BGK equation close to the compressible viscous flow regime
 <abstract>
+It has recently been demonstrated that dynamical low-rank algorithms can provide robust and efficient approximations to a range of kinetic equations. This is true especially if the solution is close to some asymptotic limit where it is known that the solution is low-rank. A particularly interesting case is the fluid dynamic limit that is commonly obtained in the limit of small Knudsen number. However, in this case the Maxwellian which describes the corresponding equilibrium distribution is not necessarily low-rank; because of this, the methods known in the literature are only applicable to the weakly compressible case. In this paper, we propose an efficient dynamical low-rank integrator that can capture the fluid limit—the Navier–Stokes equations—of the Boltzmann-BGK model even in the compressible regime. This is accomplished by writing the solution as f = Mg, where M is the Maxwellian and the low-rank approximation is only applied to g. To efficiently implement this decomposition within a low-rank framework requires, in the isothermal case, that certain coefficients are evaluated using convolutions, for which fast algorithms are known. Using the proposed decomposition also has the advantage that the rank required to obtain accurate results is significantly reduced compared to the previous state of the art. We demonstrate this by performing a number of numerical experiments and also show that our method is able to capture sharp gradients/shock waves. This is joint work with Lukas Einkemmer (Innsbruck) and Lexing Ying (Stanford).
 </abstract>
 
 
