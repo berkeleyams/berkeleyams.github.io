@@ -55,8 +55,9 @@ Date: 3/2
 Host: Per
 Speaker: Samuel Olivier
 Affiliation: University of California, Berkeley
-Title: 
+Title: High Order Finite Element Discretizations of the Variable Eddington Factor Equations for Accelerating Radiation Transport Calculations on Curved Meshes
 <abstract>
+The Variable Eddington Factor (VEF) method is one of the oldest techniques for solving the radiation transport equation. In VEF, the kinetic equation is iteratively coupled to the moment equations through discrete closures. This moment-based approach enables significant algorithmic flexibility and more efficient multiphysics coupling. However, despite considerable attention in the literature, VEF is rarely used in practice due to the lack of scalable iterative preconditioners for the discretized moment equations. In this talk, I present three classes of VEF methods with high-order accuracy on curved meshes that can be efficiently and scalably solved. Discretization and preconditioning techniques known to be effective on simpler model elliptic problems are extended to the VEF moment equations to derive Discontinuous Galerkin, continuous finite element, and mixed finite element VEF methods. These methods are demonstrated to be effective on a proxy problem from thermal radiative transfer in both outer transport iterations and inner preconditioned linear solver iterations and to scale out to 1152 processors and over 10 million scalar flux unknowns.
 </abstract>
 
 
