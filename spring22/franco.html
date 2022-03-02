@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Michael Franco &#8211; Relating high-order fluid flow problems to simpler subproblems to create efficient preconditioners</title>
+	<base href="https://berkeleyams.github.io/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+<!--
+			<h3>Organized by <a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/><a href="http://math.lbl.gov/~mjzahr/">Matthew J. Zahr</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a><br/> </h3>
+-->
+			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+		</div>
+<h4 class="top">Relating high-order fluid flow problems to simpler subproblems to create efficient preconditioners</h4>
+<h5><b>Michael Franco, University of California, Berkeley</b></h5>
+<h5>3/9, 2022 at 4:10PM-5PM in <a href="https://berkeley.zoom.us/j/186935273">https://berkeley.zoom.us/j/186935273</a></h5>
+<p>This talk will focus on two solvers for high-order methods, with the common thread being that their efficiency derives from relating the original problem to a simpler subproblem. First, a matrix-free flow solver for high-order finite element discretizations of the incompressible Navier-Stokes and Stokes equations with GPU acceleration will be presented. For high polynomial degrees, assembling the matrix for the linear systems resulting from the finite element discretization can be prohibitively expensive, both in terms of computational complexity and memory. For this reason, it is necessary to develop matrix-free operators and preconditioners, which can be used to efficiently solve these linear systems without access to the matrix entries themselves. Particular attention will be given to the matrix-free operator evaluations that utilize GPU-accelerated sum-factorization techniques to minimize memory movement and maximize throughput. I will also briefly introduce novel preconditioners based on a low-order refined methodology with parallel subspace corrections. Second, I will introduce a novel class of iterative subregion correction preconditioners for solving flow problems with geometrically localized stiffness. Just as multigrid methods spend more effort on cheaper grids to apply a correction that improves convergence on lower frequency components, our subregion correction preconditioners spend more effort on a subregion of the domain demonstrating slow convergence to improve overall convergence rates. Convergence theory and numerical results validating this theory will be presented.
+</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

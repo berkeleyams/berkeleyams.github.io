@@ -65,8 +65,9 @@ Date: 3/9
 Host: Per
 Speaker: Michael Franco
 Affiliation: University of California, Berkeley
-Title: 
+Title: Relating high-order fluid flow problems to simpler subproblems to create efficient preconditioners
 <abstract>
+This talk will focus on two solvers for high-order methods, with the common thread being that their efficiency derives from relating the original problem to a simpler subproblem. First, a matrix-free flow solver for high-order finite element discretizations of the incompressible Navier-Stokes and Stokes equations with GPU acceleration will be presented. For high polynomial degrees, assembling the matrix for the linear systems resulting from the finite element discretization can be prohibitively expensive, both in terms of computational complexity and memory. For this reason, it is necessary to develop matrix-free operators and preconditioners, which can be used to efficiently solve these linear systems without access to the matrix entries themselves. Particular attention will be given to the matrix-free operator evaluations that utilize GPU-accelerated sum-factorization techniques to minimize memory movement and maximize throughput. I will also briefly introduce novel preconditioners based on a low-order refined methodology with parallel subspace corrections. Second, I will introduce a novel class of iterative subregion correction preconditioners for solving flow problems with geometrically localized stiffness. Just as multigrid methods spend more effort on cheaper grids to apply a correction that improves convergence on lower frequency components, our subregion correction preconditioners spend more effort on a subregion of the domain demonstrating slow convergence to improve overall convergence rates. Convergence theory and numerical results validating this theory will be presented.
 </abstract>
 
 
