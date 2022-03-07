@@ -75,8 +75,10 @@ Date: 3/16
 Host: Di
 Speaker: Eitan Tadmor 
 Affiliation: University of Maryland
-Title: 
+Title: Hierarchical decomposition of images and the problem of Bourgain-Brezis
 <abstract>
+Edges are noticeable features in images which can be extracted from noisy data using different variational models. The analysis of such models leads to the question of expressing general L^2-data, f, as the divergence of uniformly bounded vector fields, div(U).
+We present a multi-scale approach to construct uniformly bounded solutions of div(U)=f for general f’s in the critical regularity space L^d(T^d). The study of this equation and related problems was motivated by results of Bourgain & Brezis. The intriguing critical aspect here is that although the problems are linear, construction of their solution is not. Our constructive solution for such problems is a special case of a rather general framework for solving linear equations, formulated as inverse problems in critical regularity spaces. The solutions are realized in terms of nonlinear hierarchical decomposition, U=image001.png, which we introduced earlier in the context of image processing, and yield a multi-scale decomposition of “objects” U.
 </abstract>
 
 
