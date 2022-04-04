@@ -112,8 +112,10 @@ Date: 4/6
 Host: Di
 Speaker: Michael Weinstein
 Affiliation: Columbia University
-Title: 
+Title: Discrete honeycombs, rational edges and edge states
 <abstract>
+We first discuss the derivation of tight binding (discrete) Hamiltonians from an underlying continuum Schroedinger Hamiltonians in both non-magnetic and strongly magnetic systems (joint works with with CL Fefferman and J Shapiro).
+We then present very recent work (with CL Fefferman and S Fliss) on the tight binding model of graphene, sharply terminated along a rational edge, a line I parallel to a direction of translational symmetry of the underlying period lattice. We classify such edges into those of "zigzag type" and those of "armchair type", generalizing the classical zigzag and armchair edges. Edge states are eigenstates which are plane wave like in  directions parallel to the edge and are localized in directions transverse to the edge. We prove that zero energy/flat band edge states arise for edges of zigzag type, but never for those of armchair type. We exhibit explicit formulas for flat band edge states when they exist. Finally, we produce strong evidence for the existence of dispersive (non flat) edge state curves of nonzero energy for most rational edges. 
 </abstract>
 
 
