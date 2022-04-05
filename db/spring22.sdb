@@ -123,8 +123,9 @@ Date: 4/13
 Host: Di
 Speaker: Dejan Slepcev
 Affiliation: Carnegie Mellon University
-Title: 
+Title: Proper regularizers for semi-supervised learning
 <abstract>
+We will discuss a standard problem of semi-supersised learning: given a data set (considered as a point cloud in a euclidean space) with a small number of labeled points the task is to extrapolate the label values to the whole data set. In order to utilize the geometry of the dataset one creates a graph by connecting the nodes which are sufficiently close. Many standard approaches rely on minimizing graph-based functionals, which reward the agreement with the labels and the regularity of the estimator. Choosing a good regularization leads to questions about the relations between discrete functionals in random setting and continuum nonlocal and differential functionals. We will discuss how insights about this relation  provide ways to properly choose the functionals for semi-supervised learning and appropriately set the weights of the graph so that the information is propagated in a desirable way from the labeled points. Theoretical results, numerical illustrations and performance on standard test data sets will be provided.
 </abstract>
 
 
