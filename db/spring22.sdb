@@ -143,6 +143,7 @@ Date: 4/27
 Host: Di
 Speaker: Houman Owhadi 
 Affiliation: California Institute of Technology
-Title: 
+Title: Computational Graph Completion
 <abstract>
+We present a framework for generating, organizing, and reasoning with computational knowledge. It is motivated by the observation that most problems in Computational Sciences and Engineering (CSE) can be formulated as that of completing (from data) a computational graph (or hypergraph) representing dependencies between functions and variables. Nodes represent variables, and edges represent functions. Functions and variables may be known, unknown, or random. Data comes in the form of observations of distinct values of a finite number of subsets of the variables of the graph (satisfying its functional dependencies). The underlying problem combines a regression problem  (approximating unknown functions) with a matrix completion problem (recovering unobserved variables in the data). Replacing unknown functions by  Gaussian Processes (GPs) and conditioning on observed data provides a simple but efficient approach to completing such graphs. Since this completion process can be reduced to an algorithm, as one solves $\sqrt{2}$ on a pocket calculator without thinking about it, one could, with the automation of the proposed framework, solve a complex CSE problem by drawing a diagram.
 </abstract>
