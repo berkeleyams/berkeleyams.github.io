@@ -21,6 +21,7 @@ all: $(PAGES)
 # ../fall21/index.html: fall21.sdb template.html sched.html compile.pl
 ../spring22/index.html: spring22.sdb template.html sched.html compile.pl
 	perl compile.pl -c $<
+cp ../spring22/index.html ../index.html
 #cp ../fall21/index.html ../index.html
 
 
