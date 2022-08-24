@@ -11,8 +11,9 @@ Date: 9/7
 Host: Lin/Di
 Speaker: Mo Zhou
 Affiliation: Duke University
-Title: 
+Title: Neural network approaches for high dimensional problems
 <abstract>
+Neural networks are effective tools for solving high dimensional problems. In this talk, I will summarize the popular methods to solve high dimensional problems with neural networks. Then I will briefly introduce two of my works based on the DeepBSDE method. In the first work, we solve the eigenvalue problem by transforming it into a fixed-point formulation, which is a diffusion Monte Carlo like approach. In the second work, we leverage the actor-critic framework from reinforcement learning to solve the static Hamilton—Jacobi—Bellman equations. We propose a variance reduced temporal difference method for the critic and apply an adaptive step size algorithm for the actor to improve accuracy.
 </abstract>
 
 
