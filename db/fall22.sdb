@@ -24,8 +24,9 @@ Host: Michael
 Speaker: Krutika Tawri
 Note: in-person
 Affiliation: University of California, Berkeley
-Title: 
+Title: On stochastic partial differential equations with a Ladyzenskaya-Smagorinsky type nonlinearity
 <abstract>
+The theory of monotone operators plays a central role in many areas of nonlinear analysis. Monotone operators often appear in fluid dynamics, for example the p-Laplacian appears in a non-Newtonian variant of the Navier-Stokes equations modeled by Ladyzenskaya or in the Smagorinsky model of turbulence. In this talk, we will discuss global existence results of both martingale and pathwise solutions of stochastic equations with a monotone operator, of the Ladyzenskaya-Smagorinsky type, driven by a general Levy noise. The classical approach based on using directly the Galerkin approximation is not valid. In this talk we will discuss how one can approximate a monotone operator by a family of monotone operators acting in a Hilbert space, so as to recover certain useful properties of the orthogonal projectors and overcome the challenges faced while applying the Galerkin scheme.
 </abstract>
 
 
