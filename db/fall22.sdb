@@ -36,8 +36,9 @@ Host: Di
 Note: Virtual
 Speaker: Li Wang 
 Affiliation: University of Minnesota
-Title: 
+Title: Variational methods for gradient flow
 <abstract>
+In this talk, I will introduce a general variational framework for nonlinear evolution equations with a gradient flow structure, which arise in material science, animal swarms, chemotaxis, and deep learning, among many others. Building upon this framework, we develop numerical methods that have built-in properties such as positivity preserving and entropy decreasing, and resolve stability issues due to the strong nonlinearity. Two specific applications will be discussed. One is the Wasserstein gradient flow, where the major challenge is to compute the Wasserstein distance and resulting optimization problem. I will show techniques to overcome these difficulties. The other is to simulate crystal surface evolution, which suffers from significant stiffness and therefore  prevents simulation with traditional methods on fine spatial grids. On the contrary, our method resolves this issue and is proved to converge at a rate independent of the grid size. 
 </abstract>
 
 
