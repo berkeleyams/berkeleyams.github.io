@@ -48,8 +48,12 @@ Host: Di
 Note: Virtual
 Speaker: Felix Leditzky
 Affiliation: UIUC
-Title: 
+Title: The platypus of the quantum channel zoo
 <abstract>
+Understanding quantum channels and the strange behavior of their capacities is a key driver of quantum information theory. Despite having rigorous coding theorems, quantum capacities are poorly understood due to super-additivity effects. We will talk about a remarkably simple, low-dimensional, single-parameter family of quantum channels with exotic quantum information-theoretic features. As the simplest example from this family, we focus on a qutrit-to-qutrit channel that is intuitively obtained by hybridizing together a simple degradable channel and a completely useless qubit channel. Such hybridizing makes this channel's capacities behave in a variety of interesting ways. For instance, the private and classical capacity of this channel coincide and can be explicitly calculated, even though the channel does not belong to any class for which the underlying information quantities are known to be additive. Moreover, the quantum capacity of the channel can be computed explicitly, given a clear and compelling conjecture is true. This "spin alignment conjecture," which may be of independent interest, is proved in certain special cases and additional numerical evidence for its validity is provided. We further show that this qutrit channel demonstrates superadditivity when transmitting quantum information jointly with a variety of assisting channels, in a manner unknown before. A higher-dimensional variant of this qutrit channel displays super-additivity of quantum capacity together with an erasure channel. Subject to the spin-alignment conjecture, our results on super-additivity of quantum capacity extend to lower-dimensional channels as well as larger parameter ranges. In particular, super-additivity occurs between two weakly additive channels each with large capacity on their own, in stark contrast to previous results. Remarkably, a single, novel transmission strategy achieves super-additivity in all examples. Our results show that super-additivity is much more prevalent than previously thought. It can occur across a wide variety of channels, even when both participating channels have large quantum capacity.
+
+This is joint work with Debbie Leung, Vikesh Siddhu, Graeme Smith, and John Smolin, and based on the papers https://arxiv.org/abs/2202.08380 and https://arxiv.org/abs/2202.08377.
+
 </abstract>
 
 
