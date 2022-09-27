@@ -62,8 +62,9 @@ Date: 10/5
 Host: Lin
 Speaker: Chao Ma
 Affiliation: Stanford University
-Title: 
+Title: Implicit bias of optimization algorithms for neural networks and their effects on generalization
 <abstract>
+Modern neural networks are usually over-parameterized—the number of parameters exceeds the number of training data. In this case the loss functions tend to have many (or even infinite) global minima, which imposes an additional challenge of minima selection on optimization algorithms besides the convergence. Specifically, when training a neural network, the algorithm not only has to find a global minimum, but also needs to select minima with good generalization among many other bad ones. In this talk, I will share a series of works studying the mechanisms that facilitate global minima selection of optimization algorithms. First, with a linear stability theory, we show that stochastic gradient descent (SGD) favors flat and uniform global minima. Then, we build a theoretical connection of flatness and generalization performance based on a special structure of neural networks. Next, we study the global minima selection dynamics—the process that an optimizer leaves bad minima for good ones—in two settings. For a manifold of minima around which the loss function grows quadratically, we derive effective exploration dynamics on the manifold for SGD and Adam, using a quasistatic approach. For a manifold of minima around which the loss function grows subquadratically, we study the behavior and effective dynamics for GD, which also explains the edge of stability phenomenon. 
 </abstract>
 
 
