@@ -86,8 +86,9 @@ Location: 939 Evans
 Host: Di
 Speaker: Li Gao
 Affiliation: University of Houston
-Title: 
+Title: Logarithmic Sobolev inequalities for matrices and matrix-valued functions
 <abstract>
+Logarithmic Sobolev inequalities, first introduced by Gross in 70s, have rich connections to probability, geometry, as well as information theory. In recent years, logarithmic Sobolev inequalities for quantum Markov semigroups attracted a lot of attentions for its applications in quantum information theory and quantum many-body systems. In this talk, I'll present a simple, information-theoretic approach to modified logarithmic Sobolev inequalities for both quantum Markov semigroup on matrices, and classical Markov semigroup on matrix-valued functions. In the classical setting, our results implies every sub-Laplacian of a Hörmander system admits a uniform  modified logarithmic Sobolev constant for all its matrix valued functions. For quantum Markov semigroups, we improve a previous result of Gao and Rouzé by replacing the dimension constant by its logarithm. This talk is based on a joint work with Marius Junge, Nicholas, LaRacunte, and Haojian Li.
 </abstract>
 
 
