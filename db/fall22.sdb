@@ -75,8 +75,11 @@ Note: in-person
 Host: Michael
 Speaker: Mark Fornace
 Affiliation: Caltech
-Title: 
+Title: Theoretical methods for nucleic acid secondary structure thermodynamics and kinetics
 <abstract>
+Nucleic acid secondary structure models offer a simplified but powerful lens through which to view, analyze, and design nucleic acid chemistry. Computational approaches based on such models are central to current research directions across molecular programming and the life sciences more broadly. Considering only structures involving noncrossing partitions of nucleotides, dynamic programming algorithms can exactly compute equilibrium quantities (with respect to an approximate free energy model) in cubic complexity. I first show how such algorithms may be improved in speed, augmented in accuracy, and unified across a variety of physical quantities.
+
+While analysis and design paradigms for nucleic acid thermodynamics are long-established in essence, nucleic acid kinetics have proved vexing for accurate and principled estimation algorithms. Past approaches have thus generally relied on stochastic simulation of the respective continuous time Markov chains (an asymptotically correct but computationally costly approach). In contrast, I show how a principled Galerkin-type approach to the kinetics proves remarkably amenable to deterministic estimation by dynamic programming algorithms. While inexact, the approach proves empirically accurate and is theoretically extensible to treatments of mass-action kinetics, macrostate models, and sequence design.
 </abstract>
 
 
