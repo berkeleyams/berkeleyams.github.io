@@ -101,8 +101,29 @@ Location: 939 Evans
 Host: Lin
 Speaker: Matthew Colbrook
 Affiliation: Cambridge
-Title: 
+Title: Residual Dynamic Mode Decomposition: Rigorous Data-Driven Computation of Spectral Properties of Koopman Operators for Dynamical Systems
 <abstract>
+Koopman operators are infinite-dimensional operators that globally linearize
+nonlinear dynamical systems, making their spectral information valuable for
+understanding dynamics. However, Koopman operators can have continuous
+spectra, can lack finite-dimensional invariant subspaces, and approximations can
+suffer from spectral pollution (spurious modes). These issues make computing
+the spectral properties of Koopman operators a considerable challenge. This two-
+part talk will detail the first scheme (ResDMD) with convergence guarantees for
+computing the spectra and pseudospectra of general Koopman operators from
+snapshot data. Furthermore, we use the resolvent operator and ResDMD to
+compute smoothed approximations of spectral measures (including continuous
+spectra), with explicit high-order convergence. ResDMD is similar to extended
+DMD, except it rigorously concurrently computes a residual from the same
+snapshot data, allowing practitioners to gain confidence in the computed results.
+Kernelized variants of our algorithms allow for dynamical systems with a high-
+dimensional state-space, and the error control provided by ResDMD allows a
+posteriori verification of learnt dictionaries. We apply ResDMD to compute the
+spectral measure associated with the dynamics of a protein molecule (20,046-dimensional state-space) and demonstrate several problems in fluid dynamics
+(with state-space dimensions > 100,000). For example, we compare ResDMD
+and DMD for particle image velocimetry data from turbulent wall-jet flow, the
+acoustic signature of laser-induced plasma, and turbulent flow past a cascade of
+aerofoils.
 </abstract>
 
 
