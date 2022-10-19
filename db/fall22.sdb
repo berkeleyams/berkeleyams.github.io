@@ -132,8 +132,11 @@ Host: Di
 Speaker: Yonah Borns-Weil 
 Note: in-person
 Affiliation: University of California, Berkeley
-Title: 
+Title: Observable Trotter error bounds in the semiclassical regime
 <abstract>
+The Trotter product formula is perhaps the oldest and most well-known method for computing Schrödinger propagators. We consider its application to the semiclassical Schrodinger equation where the parameter $h$ is taken to be very small. If one wishes to do practical computations in such a regime, they must take at least $O(h^{-1})$ spatial grid points, which gives the Hamiltonian terms and their nested commutators to be of norm O(h^{-1}). This would appear to cause serious trouble for both Trotter and post-Trotter methods, as their time complexity depends on such norms.
+
+The issue resolves itself when we consider approximating the propagator in observable norm, which measures how much an observable propagated via the actual Hamiltonian differs from one propagated by our Trotter approximation. By a simple argument using Egorov's theorem from semiclasscial analysis, we show the error in this norm to be uniform in the semiclassical parameter $h$. In addition, we consider the discretized space case of interest in quantum computing, and use discrete microlocal analysis on the quantized torus to extend our results to this case without added error.
 </abstract>
 
 
