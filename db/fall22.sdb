@@ -147,8 +147,9 @@ Note: in-person
 Location: 939 Evans
 Speaker: Samuel Lanthaler
 Affiliation: Caltech
-Title: 
+Title: Supervised learning in function space
 <abstract>
+Neural networks have proven to be effective approximators of high dimensional functions in a wide variety of applications. In scientific applications the goal is often to approximate an underlying operator, which defines a mapping between infinite-dimensional spaces of input and output functions. Extensions of neural networks to this infinite-dimensional setting have been proposed in recent years, giving rise to the rapidly emerging field of operator learning. Despite their practical success, our theoretical understanding of these approaches is still in its infancy. In this talk, I will review some of the proposed operator learning architectures (deep operator networks/neural operators), and present recent results on their approximation theory and sample complexity. This work identifies basic mechanisms by which neural operators can avoid a curse of dimensionality in the underlying (very high- or even infinite-dimensional) approximation task, thus providing a first rationale for their practical success for concrete operators of interest. The analysis also reveals fundamental limitations of some of these approaches.
 </abstract>
 
 
@@ -157,8 +158,9 @@ Host: Franziska
 Note: in-person
 Speaker: Lucas Bouck
 Affiliation: Univ of Maryland
-Title: 
+Title: Finite Element Approximation of a Membrane Model for Liquid Crystal Polymeric Networks
 <abstract>
+Liquid crystal polymeric networks are materials where a nematic liquid crystal is coupled with a rubbery material. When actuated with heat or light, the interaction of the liquid crystal with the rubber creates complex shapes. Starting from the classical 3D trace formula energy of Bladon, Warner and Terentjev (1994), we derive a 2D membrane energy as the formal asymptotic limit of the 3D energy. The derivation is similar to derivations in Ozenda, Sonnet, and Virga (2020) and Cirak et. al. (2014). We characterize the zero energy deformations and prove that the energy lacks certain convexity properties. We propose a finite element method to discretize the problem. To address the lack of convexity of the membrane energy, we regularize with a term that mimics a higher order bending energy. We prove that minimizers of the discrete energy converge to minimizers of the continuous energy. For minimizing the discrete problem, we employ a nonlinear gradient flow scheme, which is energy stable. Additionally, we present computations showing the geometric effects that arise from liquid crystal defects. Computations of configurations from nonisometric origami are also presented.
 </abstract>
 
 
