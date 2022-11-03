@@ -157,7 +157,7 @@ Date: 11/16
 Host: Franziska
 Note: in-person
 Speaker: Lucas Bouck
-Affiliation: Univ of Maryland
+Affiliation: University of Maryland
 Title: Finite Element Approximation of a Membrane Model for Liquid Crystal Polymeric Networks
 <abstract>
 Liquid crystal polymeric networks are materials where a nematic liquid crystal is coupled with a rubbery material. When actuated with heat or light, the interaction of the liquid crystal with the rubber creates complex shapes. Starting from the classical 3D trace formula energy of Bladon, Warner and Terentjev (1994), we derive a 2D membrane energy as the formal asymptotic limit of the 3D energy. The derivation is similar to derivations in Ozenda, Sonnet, and Virga (2020) and Cirak et. al. (2014). We characterize the zero energy deformations and prove that the energy lacks certain convexity properties. We propose a finite element method to discretize the problem. To address the lack of convexity of the membrane energy, we regularize with a term that mimics a higher order bending energy. We prove that minimizers of the discrete energy converge to minimizers of the continuous energy. For minimizing the discrete problem, we employ a nonlinear gradient flow scheme, which is energy stable. Additionally, we present computations showing the geometric effects that arise from liquid crystal defects. Computations of configurations from nonisometric origami are also presented.
