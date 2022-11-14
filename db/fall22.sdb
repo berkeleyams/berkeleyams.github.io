@@ -179,8 +179,11 @@ Host: Di
 Note: in-person
 Speaker: Sui Tang
 Affiliation: UCSB
-Title: 
+Title: Bridging the interacting particle models and data science via Gaussian process
 <abstract>
+System of interacting particles that display a wide variety of collective behaviors are ubiquitous in science and engineering, such as self-propelled particles, flocking of birds, milling of fish. Modeling interacting particle systems by a system of differential equations plays an essential role in exploring how individual behavior engenders collective behaviors, which is one of the most fundamental and important problems in various disciplines.  Although the recent theoretical and numerical study bring a flood of models that can reproduce many macroscopical qualitative collective patterns of the observed dynamics, the quantitative study towards matching the well-developed models  to observational data is scarce. 
+
+We consider the data-driven discovery of macroscopic particle models with latent interactions. We propose a learning approach that models the latent interactions as Gaussian processes, which provides an uncertainty-aware modeling of interacting particle systems. We introduce an operator-theoretic framework to provide a detailed analysis of recoverability conditions, and establish statistical optimality of the proposed approach.  Numerical results on prototype systems and real data demonstrate the effectiveness of the proposed approach.
 </abstract>
 
 
