@@ -20,10 +20,10 @@ all: $(PAGES)
 # Special Makefile rule for current semester (which adds page index)
 
 # ../fall22/index.html: fall22.sdb template.html sched.html compile.pl
- ../spring22/index.html: spring22.sdb template.html sched.html compile.pl
+ ../spring23/index.html: spring23.sdb template.html sched.html compile.pl
 	perl compile.pl -c $<
-#	cp ../spring22/index.html ../index.html
-	cp ../fall22/index.html ../index.html
+#	cp ../spring23/index.html ../index.html
+#	cp ../fall22/index.html ../index.html
 
 
 # General Makefile rule for semester page
