@@ -1,0 +1,205 @@
+Semester: Spring 2023
+Usual location: 939 Evans (for in-person talks) and <a href="https://berkeley.zoom.us/j/98667278310">https://berkeley.zoom.us/j/98667278310</a>
+Usual time: 4:10PM-5PM
+Usual day: Wednesday
+
+
+
+
+
+Date: 1/20
+Host: Michael
+Location: 740 Evans
+Note: Note the special date and Room!
+Speaker: Govind Menon
+Affiliation: Brown University
+Title: Stochastic Nash evolution
+<abstract>
+About ten years ago, De Lellis and Szekelyhidi made the surprising discovery that Nash’s results on the isometric embedding problem for Riemannian manifoldscould be adapted to construct counterintuitive solutions to the Euler equations for incompressible flow. Their work shed new light on turbulence and nonlinear PDE. We use this link in the other direction, transferring ideas from turbulence to geometry.
+
+A thermodynamic framework is introduced that connects two problems previously thought to be distinct: the isometric embedding problem for Riemannian manifolds and the construction of Brownian motion on Riemannian manifolds. This link is used to introduce a geometric stochastic flow that we term stochastic Nash evolution.
+
+These ideas will be explained in a (hopefully) elementary manner. My main goal is to present the stochastic flows in a manner that is suited to implementations by modifications of level set methods. The absence of numerical computations of isometric embeddings is an important gap in our understanding.
+
+This is joint work with Dominik Inauen (University of Leipzig).
+</abstract>
+
+
+
+Date: 1/25
+Host: Franziska/Jon
+Speaker: Anuj Kumar
+Affiliation: UC Santa Cruz
+Title: Application of branching flows to optimal scalar transport and a result concerning the nonuniqueness of trajectories
+<abstract>
+We are interested in the design of forcing in the Navier--Stokes equation such that the resultant flow maximizes the transport of a passive temperature between two differentially heated walls for a given power supply budget. Previous work established that the transport cannot scale faster than 1/3-power of the power supply. Recently, Doering & Tobasco (CPAM'19) constructed self-similar two-dimensional steady branching flows, saturating this upper bound up to a logarithmic correction to scaling. We present a construction of three-dimensional "branching pipe flows" that eliminates the possibility of this logarithmic correction and for which the corresponding passive scalar transport scales as a clean 1/3-power law in power supply. However, using an unsteady branching flow construction, it appears that the 1/3 scaling is also optimal in two dimensions. After carefully examining these designs, we extract the underlying physical mechanism that makes the branching flows "efficient," based on which we present a design of mechanical apparatus that, in principle, can achieve the best possible case scenario of heat transfer.
+
+Finally, we present an application of branching flows to a study concerning the nonuniqueness of trajectories. After the theory of DiPerna--Lions'89, a question remained, whether there are continuous Sobolev vector fields such that the trajectories are not unique on a set of positive measures. Recently, an answer to this question was partially given, see, for example, Bruè, Colombo and De Lellis'21 and Fefferman et al.'21. Borrowing a few ideas from our study on optimal scalar transport, we present an explicit construction of a vector field that fully resolves this question.
+</abstract>
+
+
+Date: 2/1
+Host: Lin
+Speaker: Jin-peng Liu
+Affiliation: UC Berkeley
+Title: Towards Provably Efficient Quantum Algorithms for Nonlinear Dynamics and Large-scale Machine Learning Models
+<abstract>
+Nonlinear dynamics play a prominent role in many domains and are notoriously difficult to solve. Whereas previous quantum algorithms for general nonlinear equations have been severely limited due to the linearity of quantum mechanics, we gave the first efficient quantum algorithm for nonlinear differential equations with sufficiently strong dissipation. This is an exponential improvement over the best previous quantum algorithms, whose complexity is exponential in the evolution time. We also established a lower bound showing that nonlinear differential equations with sufficiently weak dissipation have worst-case complexity exponential in time, giving an almost tight classification of the quantum complexity of simulating nonlinear dynamics. Furthermore, we design end-to-end quantum machine learning algorithms, combining efficient quantum (stochastic) gradient descent with sparse state preparation and sparse state tomography. We benchmark instances of training sparse ResNet up to 103 million parameters, and identify the dissipative and sparse regime at the early phase of fine-tuning could receive quantum enhancement. Our work shows that fault-tolerant quantum algorithms could potentially contribute to the scalability and sustainability of most state-of-the-art, large-scale machine learning models.
+</abstract>
+
+
+Date: 2/8
+Host: Michael
+Speaker: Zhiyan Ding
+Affiliation: UC Berkeley
+Title: Mean-field analysis of interacting particle system and overparameterization of neural networks
+<abstract>
+The interacting particle system is a dynamic system that contains a lot of interacting particles. Because of the interaction between different particles, the direct analysis and simulation of the system are very difficult. The mean-field analysis is a framework for analyzing these large interacting particle systems. In this framework, instead of directly studying the coupled system, one approximates the system by a partial differential equation whose solution characterizes the distribution of the particles. This strategy largely simplifies the problem and provides a more efficient way to study the evolution of the particle system. In this talk, I will mainly focus on the derivation of the mean-field analysis and its application in analyzing overparameterization of neural network.
+</abstract>
+
+
+
+Date: 2/15
+Host: 
+Speaker: No seminar this week.
+Affiliation: 
+Title: 
+<abstract>
+</abstract>
+
+
+Date: 2/22
+Host: Michael
+Speaker: Michael Albergo
+Affiliation: New York University
+Title: Stochastic Interpolants for Generative Modeling, with Applications in MCMC
+<abstract>
+Sampling and density estimation via transport maps is a growing topic of inquiry both in the machine learning and scientific computing communities, with applications in areas such as generative modeling, lattice field theory, and molecular dynamics. The challenge in this domain is to choose what structure to impose on the transport to best reach a complex target distribution from a simple one used as base, while maintaining computational efficiency.  I will discuss a recently introduced continuous time flow which connects any pair of distributions in finite integration time, whose velocity is the minimizer of a simple quadratic objective. Moreover, the flow can be optimized to achieve optimal transport in the sense of Benamou-Brenier.  The method is contextualized with score-based diffusion probabilistic models. Time permitting, I will discuss motivation for these maps in MCMC sampling QCD field configurations.
+</abstract>
+
+
+
+Date: 3/1
+Host: Lin
+Speaker: Xiantao Li
+Affiliation: Penn State University
+Title:  Efficient algorithms for quantum optimal control problems
+<abstract>
+Many recent developments in chemistry and material science utilize systems that exhibit unique quantum properties. A quantum optimal control strategy can maximize the performance of electronic devices that rely on quantum properties, e.g., minimizing the currents in molecular junctions. Computationally, solving the control problem requires visiting the time-dependent Schrödinger equation frequently, and the corresponding solutions will be combined with an optimization method. In this talk, we examine the overall approximation error and estimate the complexity given the error tolerance. We focus on various methods for integrating optimization algorithms and Hamiltonian simulations to achieve provable accuracy.
+</abstract>
+
+
+
+Date: 3/8
+Host: Michael
+Speaker: Julian Urban
+Affiliation: MIT
+Title: Fredholm inversion with Gaussian processes
+<abstract>
+Non-perturbative approaches to strongly interacting quantum field theories commonly provide access to Euclidean correlation functions in terms of numerical observations. From these imaginary-time data, real-time properties can in principle be computed by numerically solving a Fredholm integral equation, the Källén-Lehmann spectral representation. By extending standard Gaussian process regression to inference from indirect observations, one obtains a powerful non-parametric algorithm for the probabilistic treatment of such ill-conditioned linear inverse problems. Asymptotic constraints can then be incorporated analytically in the spectral reconstruction by applying Mercer's theorem. In this talk, I will introduce the general approach and present two applications: 1. Estimation of bound state masses from resonant interaction channels of gauge-fixed correlation functions. 2. Determination of non-perturbative S-matrix building blocks for scattering processes.
+</abstract>
+
+
+
+Date: 3/15
+Host: Franziska
+Speaker: Fanhui Xu
+Affiliation: Harvard University
+Title: Solvability of the stochastic Navier-Stokes equations with an Ito noise
+<abstract>
+The Navier-Stokes equations arise in fluid mechanics. The deterministic Navier-Stokes equations 
+express the conservation of the momentum and mass for a Newtonian flow. The stochastic term accounts for 
+the perturbation during the flow evolution. We considered the stochastic Navier-Stokes equations on the 
+three-dimensional torus and the whole space $R^3$, aiming to see if there exists a unique global or local solution.
+
+In this presentation, I will talk about the solvability of the stochastic Navier-Stokes equations with a multiplicative 
+It\^o noise in $L^p$ spaces, where $p$ is greater than the spatial dimension 3. I will show the analytic tools we used
+ in various domains to linearize the convective term and explain the arguments we exploited to show the nondegeneracy
+of stopping times. We obtained global existence with a large probability for $p>5$ and local existence almost surely for 
+$p>3$. This presentation is based on joint works with I. Kukavica, F. Wang, and M. Ziane.
+</abstract>
+
+Date: 3/17
+Note: Please note the special date and room (Evans 740)!
+Host: Sunny
+Location: Evans 740 and <a href="https://berkeley.zoom.us/j/98667278310">https://berkeley.zoom.us/j/98667278310</a>
+Speaker: Aleksandar Donev
+Affiliation: Courant Institute
+Title: Hydrodynamics and rheology of fluctuating, semiflexible, inextensible, and slender filaments in Stokes flow
+<abstract>
+(or please see <a href="/spring23/abstractDonev.pdf">here</a> for the abstract in pdf with figures and references. )
+
+
+Every animal cell is filled with a cytoskeleton, a dynamic gel made of inextensible filaments / bio-polymers, such as microtubules, actin filaments, and intermediate filaments, all suspended in a viscous fluid. Similar suspensions of elastic filaments or polymers are widely used in materials processing. Numerical simulation of such gels is challenging because the filament aspect ratios are very large.
+
+We have recently developed new methods for rapidly computing the dynamics of non-Brownian and Brownian inextensible slender filaments in periodically-sheared Stokes flow. We apply our formulation to a permanently and dynamically cross-linked actin mesh in a background oscillatory shear flow. We find that nonlocal hydrodynamics can change the visco-elastic moduli by as much as 40% at certain frequencies, especially in partially bundled networks.
+
+I will focus on accounting for bending thermal fluctuations of the filaments by first establishing a mathematical formulation and numerical methods for simulating the dynamics of stiff but not rigid Brownian fibers in Stokes flow. I will emphasize open questions for the community such as whether there is a continuum limit of the Brownian contribution to the stress tensor from the filaments.
+
+
+This work is supported in part by the U.S. National Science Foundation under grant DMS-2052515.
+
+References:
+
+[1] O. Maxian et al, Integral-based spectral method for inextensible slender fibers in Stokes flow,. Phys. Rev. Fluids, 6:014102, 2021 <br>
+[2] O. Maxian et al,. Hydrodynamics of a twisting, bending, inextensible fiber in Stokes flow, Phys. Rev. Fluids, 7:074101, 2022 <br>
+[3] O. Maxian et al, Interplay between Brownian motion and cross-linking controls bundling dynamics in actin networks, Biophysical J., 121:1230–1245, 2022. <br>
+[4] O. Maxian et al., Bending fluctuations in semiflexible, inextensible, slender filaments in Stokes flow: towards a spectral discretization, ArXiv:2301.11123, submitted to J. Chem. Phys., 2023.
+
+</abstract>
+
+
+
+Date: 3/22
+Host: Lin/Di
+Speaker: Chi-Fang Chen
+Affiliation: Caltech
+Title: Sparse random Hamiltonians are quantumly easy
+<abstract>
+A candidate application for quantum computers is to simulate the low-temperature properties of quantum systems. For this task, there is a well-studied quantum algorithm that performs quantum phase estimation on an initial trial state that has a nonnegligible overlap with a low-energy state. However, it is notoriously hard to give theoretical guarantees that such a trial state can be prepared efficiently. Moreover, the heuristic proposals that are currently available, such as with adiabatic state preparation, appear insufficient in practical cases. This paper shows that, for most random sparse Hamiltonians, the maximally mixed state is a sufficiently good trial state, and phase estimation efficiently prepares states with energy arbitrarily close to the ground energy. Furthermore, any low-energy state must have nonnegligible quantum circuit complexity, suggesting that low-energy states are classically nontrivial and phase estimation is the optimal method for preparing such states (up to polynomial factors). These statements hold for two models of random Hamiltonians: (i) a sum of random signed Pauli strings and (ii) a random signed d-sparse Hamiltonian. The main technical argument is based on some new results in nonasymptotic random matrix theory. In particular, a refined concentration bound for the spectral density is required to obtain complexity guarantees for these random Hamiltonians.
+</abstract>
+
+
+
+Date: 3/29
+Host: 
+Speaker: No seminar. Happy Spring Recess.
+Affiliation: 
+Title: 
+<abstract>
+</abstract>
+
+
+
+Date: 4/5
+Host: Franziska
+Speaker: Yangwen Zhang
+Affiliation: Carnegie Mellon University
+Title: Analysis and numerical approximation of optimal mixing via fluid flows
+<abstract>
+The question of what fluid flow maximizes mixing rate, slows it down, or even steers a quantity of interest toward a desired target distribution draws great attention from a broad range of scientists and engineers in the area of complex dynamical systems. Our methodology is to place these problems within a flexible computational framework, and to develop a solution strategy based on optimal control tools.  Theoretically, we investigate the well-posedness, regularity of the solution for various  control designs. Computationally, we propose a novel model order reduction method to reduce  computational costs.  Numerical analysis and experiments demonstrate the effectiveness of our reduced order models.
+</abstract>
+
+
+
+Date: 4/12
+Host: Michael
+Speaker: Sandeep Sharma
+Affiliation: University of Colorado Boulder
+Title: 
+<abstract>
+</abstract>
+
+
+
+Date: 4/19
+Host: Michael
+Speaker: Uros Seljak 
+Affiliation: UC Berkeley
+Title: 
+<abstract>
+</abstract>
+
+
+
+
