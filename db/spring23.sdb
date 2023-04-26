@@ -197,8 +197,9 @@ Date: 4/26
 Host: Michael
 Speaker: Uros Seljak 
 Affiliation: UC Berkeley
-Title: 
+Title: Normalizing Flows and MicroCanonical Langevin and Hamiltonian Monte Carlo
 <abstract>
+ In the first half of the talk I will discuss Normalizing Flows, flexible high dimensional probability distributions that can be used for conditional density estimation (likelihood), sampling and other applications. I will present several different NFs we developed in our group, such as optimal transport based Sliced Iterative NF, Translation and Rotation Equivariant NF, and Multi-Scale NF, and show some of their applications, including Bayesian Inference with Deterministic Langevin MC, Likelihood analysis, and Statistical Physics. In the second half of the talk I will describe MicroCanonical Hamiltonian and Langevin Monte Carlo (MCHMC, MCLMC) samplers we recently developed. These gradient based samplers are energy conserving, and the stationary solutions of their Liouville and Fokker-Planck equations are given by the target distribution. I will show experiments in Bayesian Inference and Statistical Physics showing that these samplers are often 1-2 orders of magnitude more efficient than alternatives such as Hamiltonian Monte Carlo, especially for high dimensional applications.
 </abstract>
 
 
