@@ -13,14 +13,15 @@ PAGES=../fall08/index.html \
 ../spring20/index.html ../fall20/index.html \
 ../spring21/index.html ../fall21/index.html \
 ../spring22/index.html ../fall22/index.html \
-../spring23/index.html \
+../spring23/index.html ../fall23/index.html \
 
 all: $(PAGES)
 
 # Special Makefile rule for current semester (which adds page index)
 
 # ../fall22/index.html: fall22.sdb template.html sched.html compile.pl
- ../spring23/index.html: spring23.sdb template.html sched.html compile.pl
+# ../spring23/index.html: spring23.sdb template.html sched.html compile.pl
+ ../fall23/index.html: fall23.sdb template.html sched.html compile.pl
 	perl compile.pl -c $<
 #	cp ../spring23/index.html ../index.html
 #	cp ../fall22/index.html ../index.html
