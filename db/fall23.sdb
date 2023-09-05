@@ -21,8 +21,9 @@ Date: 9/6
 Host: Michael
 Speaker: Ethan Epperly
 Affiliation: Caltech
-Title:
+Title: Randomly pivoted Cholesky: Simple, effective positive semidefinite low-rank approximation
 <abstract>
+Low-rank approximation of positive semidefinite matrices is a basic problem in computational mathematics, with many applications to machine learning and scientific computing. Existing approaches for this problem largely fall into two categories: simple, fast, but sometimes inaccurate methods and sophisticated, slower methods with accuracy guarantees. To achieve the best of both worlds, this talk introduces randomly pivoted Cholesky, an algorithm for positive semidefinite low-rank approximation that is simple, fast, and accurate. We demonstrate the effectiveness of randomly pivoted Cholesky for spectral clustering of molecular dynamics data, achieving an order of magnitude lower clustering error than previous methods. We then go on to discuss theoretical guarantees for randomly pivoted Cholesky. Using a matrix concavity argument, we show that randomly pivoted Cholesky has nearly optimal low-rank approximation properties. We conclude by discussing extensions and future prospects for this simple, yet effective, algorithm.
 </abstract>
 
 
@@ -47,11 +48,12 @@ Title:
 
 
 Date: 9/27
-Host: 
-Speaker: 
-Affiliation: 
-Title: 
+Host: Sunny
+Speaker: Blaise Bourdin
+Affiliation: McMaster University
+Title: Recent developments in variational and phase-field models of brittle fracture
 <abstract>
+Variational phase-field models of fracture have been at the center of a multidisciplinary effort involving a large community of mathematicians, mechanicians, engineers, and computational scientists over the last 25 years or so. I will start with a modern interpretation of Griffith's classical criterion as a variational principle for a free discontinuity energy and will recall some of the milestones in its analysis. Then, I will introduce the phase-field approximation per se and describe its numerical implementation. I illustrate how phase-field models have led to major breakthroughs in the predictive simulation of fracture in complex situations. I then will turn my attention to current issues, including crack nucleation in nominally brittle materials, fracture of heterogeneous materials, and inverse problems.
 </abstract>
 
 
