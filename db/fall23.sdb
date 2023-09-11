@@ -32,8 +32,9 @@ Date: 9/13
 Host: Michael
 Speaker: Alec Dektor
 Affiliation: LBNL
-Title:
+Title: Coordinate-adaptive tensor methods for PDEs
 <abstract>
+Recently there has been a growing interest in efficient numerical algorithms based on tensor networks and low-rank techniques to approximate high-dimensional functions and solutions to PDEs. We present two new tensor approximation algorithms that compute coordinate systems in which the tensor of interest is low-rank. The first algorithm relies on a non-convex relaxation of the rank minimization problem and identifies a quasi-optimal low-rank coordinate system. The second algorithm is based on a sequence of time-dependent convex optimization problems and identifies an optimal time-dependent coordinate system for controlling tensor rank during time integration of PDEs.
 </abstract>
 
 
@@ -61,8 +62,9 @@ Date: 10/4
 Host: Anuj
 Speaker: Pascale Garaud
 Affiliation: UC Santa Cruz
-Title:
+Title: Multiscale asymptotic analysis of stratified turbulence at medium and low Prandtl number
 <abstract>
+In this talk I will present recent theoretical and numerical progress in modeling the dynamics of stratified turbulence in regimes appropriate of the Earth's atmosphere and oceans, of the interiors of giant planets, and of stellar interiors. Multiscale asymptotic analysis reveals the existence of several different dynamical regimes, each with its own specific set of scaling laws relating the turbulence properties to the stratification. Direct Numerical Simulations are then used to test and validate these model predictions.
 </abstract>
 
 
