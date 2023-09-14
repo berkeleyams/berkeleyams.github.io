@@ -43,8 +43,13 @@ Host: Michael
 Note: Note the special Monday date.
 Speaker: Sandeep Sharma
 Affiliation: University of Colorado Boulder
-Title:
+Title: Improved algorithms for quantum Monte Carlo and density functional theory
 <abstract>
+In this talk, I will discuss two of the most widely used and versatile algorithms for solving the Schrödinger equation, namely density functional theory (DFT) and quantum Monte Carlo (QMC). Although the cost of solving the Schrödinger equation increases exponentially with the size of the system, DFT and QMC tackle this curse of dimensionality in very different ways.
+
+In DFT, one maps the many-body problem to one involving just the electron density, and the resulting problem is solved approximately. The cost of solving this problem boils down to the details of how the Schrödinger equation is discretized, i.e., what kind of basis functions are used and the resulting two-electron integrals that appear in the equations. I will present two approaches to reduce the cost of solving DFT. The first is to perform a low-rank decomposition of two-electron integrals, and the second is to introduce entirely new basis functions. I will show that both of these approaches have close connections with the pseudospectral method, which allows one to evaluate DFT energy and associated integrals inexpensively.
+
+The second part of the talk will be about QMC. I will focus mostly on the flavor of QMC called auxiliary field quantum Monte Carlo (AFQMC). Here, I will present ways of improving AFQMC along three different metrics: improving the accuracy of the method, lowering the computational scaling, and improving the expressiveness by allowing one to evaluate properties other than just energies. To accomplish these goals, we have made use of some recent algorithms such as linear scaling approaches from quantum chemistry and the ability to perform algorithmic differentiation that has emerged from the machine learning community.
 </abstract>
 
 
@@ -86,10 +91,11 @@ Title:
 </abstract>
 
 
-Date: 10/25
-Host: 
-Speaker: 
-Affiliation: 
+Date: 10/27
+Host: Michael
+Note: Note the special Monday date.
+Speaker: Paulo Bedaque
+Affiliation: University of Maryland
 Title: 
 <abstract>
 </abstract>
