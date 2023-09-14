@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Sandeep Sharma &#8211; Improved algorithms for quantum Monte Carlo and density functional theory</title>
+	<base href="https://berkeleyams.lbl.gov/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+
+<!--			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+-->
+			<h3>Organized by <a href="https://quantumtative.github.io/">Michael Lindsey</a>,<br/><a href="https://math.berkeley.edu/~ktawri/">Krutika Tawri</a>,<br/> and <a href="https://sites.google.com/berkeley.edu/fweber">Franziska Weber</a> <br/>  </h3>
+		</div>
+<h4 class="top">Improved algorithms for quantum Monte Carlo and density functional theory</h4>
+<h5><b>Sandeep Sharma, University of Colorado Boulder</b></h5>
+<h5>9/18, 2023 at 4:10PM-5PM in 939 Evans (for in-person talks) and <a href="https://berkeley.zoom.us/j/98667278310">https://berkeley.zoom.us/j/98667278310</a></h5>
+<p>In this talk, I will discuss two of the most widely used and versatile algorithms for solving the Schrödinger equation, namely density functional theory (DFT) and quantum Monte Carlo (QMC). Although the cost of solving the Schrödinger equation increases exponentially with the size of the system, DFT and QMC tackle this curse of dimensionality in very different ways.
+</p><p>
+In DFT, one maps the many-body problem to one involving just the electron density, and the resulting problem is solved approximately. The cost of solving this problem boils down to the details of how the Schrödinger equation is discretized, <i>i.e.</i>, what kind of basis functions are used and the resulting two-electron integrals that appear in the equations. I will present two approaches to reduce the cost of solving DFT. The first is to perform a low-rank decomposition of two-electron integrals, and the second is to introduce entirely new basis functions. I will show that both of these approaches have close connections with the pseudospectral method, which allows one to evaluate DFT energy and associated integrals inexpensively.
+</p><p>
+The second part of the talk will be about QMC. I will focus mostly on the flavor of QMC called auxiliary field quantum Monte Carlo (AFQMC). Here, I will present ways of improving AFQMC along three different metrics: improving the accuracy of the method, lowering the computational scaling, and improving the expressiveness by allowing one to evaluate properties other than just energies. To accomplish these goals, we have made use of some recent algorithms such as linear scaling approaches from quantum chemistry and the ability to perform algorithmic differentiation that has emerged from the machine learning community.
+</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
