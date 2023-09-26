@@ -54,17 +54,17 @@ The second part of the talk will be about QMC. I will focus mostly on the flavor
 
 
 Date: 9/27
-Host: Sunny
-Speaker: Blaise Bourdin
-Affiliation: McMaster University
-Title: Recent developments in variational and phase-field models of brittle fracture
+Host: 
+Speaker: No seminar this week.
+Affiliation: 
+Title: 
 <abstract>
-Variational phase-field models of fracture have been at the center of a multidisciplinary effort involving a large community of mathematicians, mechanicians, engineers, and computational scientists over the last 25 years or so. I will start with a modern interpretation of Griffith's classical criterion as a variational principle for a free discontinuity energy and will recall some of the milestones in its analysis. Then, I will introduce the phase-field approximation per se and describe its numerical implementation. I illustrate how phase-field models have led to major breakthroughs in the predictive simulation of fracture in complex situations. I then will turn my attention to current issues, including crack nucleation in nominally brittle materials, fracture of heterogeneous materials, and inverse problems.
 </abstract>
 
 
 Date: 10/4
 Host: Anuj
+Note: Special time 11:10AM-12PM and place 891 Evans.
 Speaker: Pascale Garaud
 Affiliation: UC Santa Cruz
 Title: Multiscale asymptotic analysis of stratified turbulence at medium and low Prandtl number
@@ -93,7 +93,7 @@ Title:
 
 Date: 10/27
 Host: Michael
-Note: Note the special Monday date.
+Note: Note the special Friday date.
 Speaker: Paulo Bedaque
 Affiliation: University of Maryland
 Title: 
