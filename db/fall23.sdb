@@ -100,8 +100,9 @@ Host: Michael
 Note: Note the special Friday date.
 Speaker: Paulo Bedaque
 Affiliation: University of Maryland
-Title: 
+Title: A complex path around the sign problem in quantum field theory
 <abstract>
+We review recent attempts at dealing with the sign problem in Monte Carlo calculations by deforming the region of integration in the path integral from real to complex fields. We discuss the theoretical foundations, the algorithmic issues and present some results for low dimensional field theories in both imaginary and real time. A number of conceptual open questions will be discussed.
 </abstract>
 
 
