@@ -110,8 +110,11 @@ Date: 11/1
 Host: Michael
 Speaker: Simon Mak
 Affiliation: Duke University
-Title:
+Title: Cost-efficient surrogate modeling of expensive simulators for scientific discovery
 <abstract>
+Scientific modeling is at a defining crossroad. With breakthroughs in computational technology, complex phenomena (e.g., universe expansions, space flight) can now be reliably simulated at high fidelity. However, the generation of such data often entails large computing costs, resulting in limited data for scientific investigation. Surrogate models have emerged as a powerful tool for facilitating timely scientific progress. Such models are trained on a carefully designed set of simulation runs, and provide an efficient predictor (or “emulator”) for the costly scientific simulator. As simulators become more complex, however, training data becomes highly expensive to generate and is thus limited; in such a setting, existing surrogate models can yield poor predictions with poorly calibrated uncertainties.
+
+We propose two novel surrogate models for tackling this critical challenge. The first model, called the Additive Multi-Index Gaussian process (AdMIn-GP), leverages a flexible additive structure on low-dimensional embeddings of the parameter space. This is guided by prior knowledge that the simulator is dominated by multiple distinct physical phenomena (i.e., multi-physics), each involving a small number of latent parameters. The AdMIn-GP models such embedded structures within a flexible Bayesian nonparametric framework, which facilitates efficient model fitting via a carefully constructed variational inference approach with inducing points. The second, called the CONglomerate multi-FIdelity Gaussian process (CONFIG) model, makes use of data simulated at multiple fidelities (or accuracies) for cost-efficient emulator training. The CONFIG embeds the multi-fidelity form of this training data within a novel non-stationary covariance function, which captures prior numerical convergence rates of the simulator. We then demonstrate the effectiveness of our models over the state-of-the-art in a suite of numerical experiments and in our motivating application on emulating the evolution of the quark-gluon plasma, which was theorized to have filled the Universe shortly after the Big Bang.
 </abstract>
 
 
@@ -119,8 +122,9 @@ Date: 11/8
 Host: Sunny
 Speaker: Max Gunzburger
 Affiliation: Florida State University
-Title:
+Title: Multifidelity methods + nonlocal models: a marriage made in computational heaven
 <abstract>
+We are given a discretized partial differential equation (PDE) system for which for a desired accuracy, a single simulation run is costly to obtain so that uncertainty quantification and other many query applications become very expensive endeavors. We also have available surrogate models (such as coarser grids, reduced-order models, interpolants, etc.) which are less costly and less accurate. Multifidelity approaches leverage the use of surrogate models to obtain the desired accuracy at significantly lower cost. Instead of PDEs, we also consider nonlocal models which are a type of integral equations which have been shown to produce better fidelity (when compared to PDEs) in several application settings such as anomalous diffusion, fracture in solid mechanics, etc. By "nonlocal" we mean that points interact with each other even when separated by a finite distance, in contrast to PDEs for which derivatives are defined within infinitesimal neighborhoods. However, nonlocality induces discretizations that have reduced sparsity (and therefore increased computational costs) compared to that for related PDEs. Thus, multifidelity methods are especially of interest for nonlocal modeling. In this talk, we briefly review the two components (multifidelity methods and nonlocal models) and consider their use in tandem. We illustrate the efficacy of the two components and of their combination using toy problems and also phase-field applications.
 </abstract>
 
 
