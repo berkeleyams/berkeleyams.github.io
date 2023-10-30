@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>UCB/LBL Applied Math Seminar &#8211; Simon Mak &#8211; Cost-efficient surrogate modeling of expensive simulators for scientific discovery</title>
+	<base href="https://berkeleyams.lbl.gov/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+
+<!--			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+-->
+			<h3>Organized by <a href="https://quantumtative.github.io/">Michael Lindsey</a>,<br/><a href="https://math.berkeley.edu/~ktawri/">Krutika Tawri</a>,<br/> and <a href="https://sites.google.com/berkeley.edu/fweber">Franziska Weber</a> <br/>  </h3>
+		</div>
+<h4 class="top">Cost-efficient surrogate modeling of expensive simulators for scientific discovery</h4>
+<h5><b>Simon Mak, Duke University</b></h5>
+<h5>11/1, 2023 at 4:10PM-5PM in 939 Evans (for in-person talks) and <a href="https://berkeley.zoom.us/j/98667278310">https://berkeley.zoom.us/j/98667278310</a></h5>
+<p>Scientific modeling is at a defining crossroad. With breakthroughs in computational technology, complex phenomena (<i>e.g.</i>, universe expansions, space flight) can now be reliably simulated at high fidelity. However, the generation of such data often entails large computing costs, resulting in limited data for scientific investigation. Surrogate models have emerged as a powerful tool for facilitating timely scientific progress. Such models are trained on a carefully designed set of simulation runs, and provide an efficient predictor (or “emulator”) for the costly scientific simulator. As simulators become more complex, however, training data becomes highly expensive to generate and is thus limited; in such a setting, existing surrogate models can yield poor predictions with poorly calibrated uncertainties.
+</p><p>
+We propose two novel surrogate models for tackling this critical challenge. The first model, called the Additive Multi-Index Gaussian process (AdMIn-GP), leverages a flexible additive structure on low-dimensional embeddings of the parameter space. This is guided by prior knowledge that the simulator is dominated by multiple distinct physical phenomena (<i>i.e.</i>, multi-physics), each involving a small number of latent parameters. The AdMIn-GP models such embedded structures within a flexible Bayesian nonparametric framework, which facilitates efficient model fitting via a carefully constructed variational inference approach with inducing points. The second, called the CONglomerate multi-FIdelity Gaussian process (CONFIG) model, makes use of data simulated at multiple fidelities (or accuracies) for cost-efficient emulator training. The CONFIG embeds the multi-fidelity form of this training data within a novel non-stationary covariance function, which captures prior numerical convergence rates of the simulator. We then demonstrate the effectiveness of our models over the state-of-the-art in a suite of numerical experiments and in our motivating application on emulating the evolution of the quark-gluon plasma, which was theorized to have filled the Universe shortly after the Big Bang.
+</p>
+
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
