@@ -137,12 +137,14 @@ Title:
 </abstract>
 
 
-Date: 11/22
-Host: 
-Speaker: No seminar. Happy Thanksgiving!
-Affiliation: 
-Title: 
+Date: 11/20
+Host: Jon
+Note: Note the special Monday date and special time 9:10AM-10AM, online only.
+Speaker: Ahmad Abassi
+Affiliation: UC Berkeley
+Title: Computation of semi-analytic expansions of finite-depth standing water waves
 <abstract>
+We generalize the semi-analytic standing wave framework of Schwartz and Whitney (1981) and Amick and Toland (1987) to the case of standing water waves in domains of finite depth. We propose an ansatz generalizing the infinite-depth case to the finite-depth setting and derive the corresponding system of governing differential equations. We propose a recursive algorithm to solve the system and implement it on a supercomputer using arbitrary-precision arithmetic in order to gain analytical insights into the series solutions. Sudden changes in growth rate in the expansion coefficients are found to correspond to (imperfect) bifurcations in the bifurcation curves observed when standing waves are computed using a shooting method and numerical continuation. A key difference from the infinite-depth problem is that in finite-depth, the resonances are perturbed into small divisors. This lack of resonance is rigorously shown. The Stokes expansion in finite depth introduces hyperbolic trigonometric terms that require exponentiation of power series. We handle this efficiently using Bell polynomials from combinatorics.
 </abstract>
 
 
@@ -151,5 +153,15 @@ Host: Krutika
 Speaker: Igor Kukavica
 Affiliation: USC
 Title: 
+<abstract>
+</abstract>
+
+
+Date: 12/4
+Host: Jon
+Note: Note the special Monday date.
+Speaker: Luke Corcos
+Affiliation: UC Berkeley
+Title:
 <abstract>
 </abstract>
