@@ -132,8 +132,9 @@ Date: 11/15
 Host: Lin
 Speaker: Haoya Li
 Affiliation: Stanford University
-Title:
+Title: Towards practical and efficient quantum phase estimation
 <abstract>
+Quantum phase estimation (QPE) is of essential importance in the field of quantum computing, serving as a foundational component of many quantum algorithms. This presentation will delve into the latest advancements that have been made to enhance the efficiency and practicality of QPE. We will begin with a succinct historical overview of the development of QPE algorithms. Following this, I will present a selection of near-optimal algorithms specifically designed for early fault-tolerant quantum computers, which are often constrained by limited quantum resources. We will examine both single-mode and multi-mode QPE algorithms under various model assumptions. To conclude, I will touch on a recent refinement that significantly increases the practicality of the QPE algorithm.
 </abstract>
 
 
@@ -158,7 +159,7 @@ Title:
 
 
 Date: 12/4
-Host: Jon
+Host: Jamie
 Note: Note the special Monday date.
 Speaker: Luke Corcos
 Affiliation: UC Berkeley
