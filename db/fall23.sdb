@@ -153,8 +153,9 @@ Date: 11/29
 Host: Krutika
 Speaker: Igor Kukavica
 Affiliation: USC
-Title: 
+Title: The Euler equations with a free interface
 <abstract>
+We address the local existence of solutions for the water wave problem, which is modeled by the incompressible Euler equations in a domain with an evolving boundary. We are particularly interested in the local existence for the initial velocity, which is rotational and belongs to a low regularity Sobolev space. We will review the available existence and uniqueness results for the problem with surface tension. We will also briefly mention the compressible case and discuss some other free-boundary problems. The results are joint with M. Disconzi and A. Tuffaha.
 </abstract>
 
 
@@ -163,6 +164,7 @@ Host: Jamie
 Note: Note the special Monday date.
 Speaker: Luke Corcos
 Affiliation: UC Berkeley
-Title:
+Title: Numerical methods for multi-layer coating flows
 <abstract>
+A mathematical model and numerical framework are presented for computing multi-physics multi-layer coating flow dynamics, with applications to the leveling of multi-layer paint films. The algorithm combines finite difference level set methods and high-order accurate sharp-interface implicit mesh discontinuous Galerkin methods to capture a complex set of multi-physics, incorporating Marangoni-driven multi-phase interfacial flow and the transport, mixing, and evaporation of multiple dissolved species. In particular, we develop several numerical methods for this multi-physics problem, including: high-order local discontinuous Galerkin methods for Poisson problems with Robin boundary conditions on implicitly-defined domains, to capture solvent evaporation; finite difference surface gradient methods, to robustly and accurately incorporate Marangoni stresses; and a coupled multi-physics time stepping approach, to incorporate all the different solvers at play including quasi-Newtonian fluid flow. The framework is applicable to an arbitrary number of layers and dissolved species; here, we apply it in a variety of settings, including multi-solvent evaporative paint dynamics, the flow and leveling of multi-layer automobile paint coatings in both 2D and 3D, and an examination of interfacial turbulence within a multi-layer matter cascade. Our results reproduce several phenomena observed in experiment, such as the formation of Marangoni plumes and B\'{e}nard cells. We also use the model to study the impact of long-wave deformational surface modes on immersed interfaces as well as the emergence of the final multi-layer film profile.
 </abstract>
