@@ -29,8 +29,10 @@ Date: 2/07
 Host: Lin
 Speaker: Ted Yoder
 Affiliation: IBM
-Title: TBD
+Title: High-threshold and low-overhead fault-tolerant quantum memory
 <abstract>
+The accumulation of physical errors prevents the execution of large-scale algorithms in current quantum computers. Quantum error correction (QEC) promises a solution by encoding k logical qubits into a larger number n of physical qubits, such that the physical errors are suppressed enough to allow running a desired computation with tolerable fidelity.  QEC becomes practically realizable once the physical error rate is below a threshold value that depends on the choice of quantum code, syndrome measurement circuit, and decoding algorithm.  We present an end-to-end QEC protocol that implements fault-tolerant memory based on a family of low-density parity-check codes.  Our approach achieves an error threshold of 0.8% for the standard circuit-based noise model, on par with the surface code ---since 20 years the leading code in terms of error threshold.  The syndrome measurement cycle for a length-n code in our family requires n ancillary qubits and a depth-8 circuit with CNOT gates, qubit initializations, and measurements.  The required qubit connectivity is a degree-6 graph comprised of two edge-disjoint planar subgraphs.  In particular, we show that 12 logical qubits can be preserved for ten million syndrome cycles using 288 physical qubits in total, assuming the physical error rate of 0.1%, while the surface code would require more than 4000 physical qubits to achieve said performance.  Our findings bring demonstrations of a low-overhead fault-tolerant quantum memory within the reach of near-term quantum processors.
+(Joint work with Sergey Bravyi, Andrew Cross, Jay Gambetta, Dmitri Maslov, Patrick Rall)
 </abstract>
 
 Date: 2/21
