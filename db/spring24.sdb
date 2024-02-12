@@ -41,7 +41,11 @@ Speaker: Hossein Nick Zinat Matin
 Affiliation: UC Berkeley
 Title: On the Existence of Solution of a Strongly Coupled PDE-ODE with Moving Bottleneck and Discontinuity in the Flux
 <abstract>
+<<<<<<< Updated upstream
 From an application point of view, coupled PDE-ODE problems have various applications in science and engineering including blood flow, and modern mobility. From a theoretical point of view, these problems show complex behavior which stem from the interactions of waves and creation of non-classical shocks. In this talk, we analyze such a PDE-ODE model with discontinuity in the flux as well as a flux constraint. We discuss the analytical complexities of the model and by proposing a modified Riemann solution we prove the existence of weak solutions to the Cauchy problem using the wavefront tracking scheme.
+=======
+From application point of view, coupled PDE-ODE problems have various applications in science and engineering including blood flow, and modern mobility. From a theoretical point of view, these problems show complex behavior which stem from the interactions of waves and creation of non-classical shocks. In this talk, we analyze such a PDE-ODE model with discontinuity in the flux as well as a flux constraint. We discuss the analytical complexities of the model and by proposing a modified Riemann solution we prove the existence of weak solutions to the Cauchy problem using the wavefront tracking scheme.
+>>>>>>> Stashed changes
 </abstract>
 
 Date: 2/21
