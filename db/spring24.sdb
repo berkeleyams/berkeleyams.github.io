@@ -35,6 +35,15 @@ The accumulation of physical errors prevents the execution of large-scale algori
 (Joint work with Sergey Bravyi, Andrew Cross, Jay Gambetta, Dmitri Maslov, Patrick Rall)
 </abstract>
 
+Date: 2/14
+Host: Franziska
+Speaker: Hossein Nick Zinat Matin
+Affiliation: UC Berkeley
+Title: On the Existence of Solution of a Strongly Coupled PDE-ODE with Moving Bottleneck and Discontinuity in the Flux
+<abstract>
+From an application point of view, coupled PDE-ODE problems have various applications in science and engineering including blood flow, and modern mobility. From a theoretical point of view, these problems show complex behavior which stem from the interactions of waves and creation of non-classical shocks. In this talk, we analyze such a PDE-ODE model with discontinuity in the flux as well as a flux constraint. We discuss the analytical complexities of the model and by proposing a modified Riemann solution we prove the existence of weak solutions to the Cauchy problem using the wavefront tracking scheme.
+</abstract>
+
 Date: 2/21
 Host: Lin
 Speaker: Mitch Luskin
@@ -81,9 +90,9 @@ Title: TBD
 </abstract>
 
 Date: 4/03
-Host: Franziska
-Speaker: Andrea Zanoni
-Affiliation: Stanford University
+Host: 
+Speaker: TBD
+Affiliation: 
 Title: TBD
 <abstract>
 </abstract>
