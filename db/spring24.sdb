@@ -66,15 +66,15 @@ Affiliation: University of Maryland
 Title: Finite Expression Method: A Symbolic Approach for Scientific Machine Learning
 <abstract>
 Machine learning has revolutionized computational science and engineering with impressive breakthroughs, e.g., making the efficient solution of high-dimensional computational tasks feasible and advancing domain knowledge via scientific data mining. This leads to an emerging field called scientific machine learning. In this talk, we introduce a new method for a symbolic approach to solving scientific machine learning problems. This method seeks interpretable learning outcomes via combinatorial optimization in the space of functions with finitely many analytic expressions and, hence, this methodology is named the finite expression method (FEX). It is proved in approximation theory that FEX can avoid the curse of dimensionality in discovering high-dimensional complex systems. As a proof of concept, a deep reinforcement learning method is proposed to implement FEX for learning the solution of high-dimensional PDEs and learning the governing equations of raw data.
-
 </abstract>
 
 Date: 3/06
 Host: Krutika
 Speaker: Sandra Cerrai
 Affiliation: University of Maryland
-Title: TBD
+Title: Smoluchowski-Kramers diffusion-approximation for constrained stochastic wave equations
 <abstract>
+We consider a stochastic damped wave equation in a bounded domain of a $d$-dimensional Euclidean space, endowed with the Dirichlet boundary condition, with the added constraint that the $L^2$-norm of the solution is equal to one. We introduce a small mass $\mu>0$ in front of the second-order derivative in time and examine the validity of a Smoluchowski-Kramers diffusion approximation. We demonstrate that, in the small mass limit, the solution converges to the solution of a stochastic parabolic equation subject to the same constraint. We further show that an extra noise-induced drift emerges, which does not account for the Stratonovich-to-It\^{o} correction term.
 </abstract>
 
 Date: 3/13
@@ -89,14 +89,6 @@ Date: 3/20
 Host: Michael
 Speaker: Anil Damle
 Affiliation: Cornell University
-Title: TBD
-<abstract>
-</abstract>
-
-Date: 4/03
-Host: 
-Speaker: TBD
-Affiliation: 
 Title: TBD
 <abstract>
 </abstract>
