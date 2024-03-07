@@ -81,8 +81,9 @@ Date: 3/13
 Host: Zhiyan
 Speaker: Yuehaw Khoo
 Affiliation: University of Chicago
-Title: TBD
+Title: High-dimensional PDEs, tensor-network, and convex optimization
 <abstract>
+This talk presents new computational approaches for high-dimensional partial differential equations (PDEs), employing tensor networks and convex relaxations. Specifically, based on these approaches, we demonstrate the construction of inner and outer approximations to PDE solutions using low-order statistics. These in turn effectively address the curse of dimensionality. 
 </abstract>
 
 Date: 3/20
