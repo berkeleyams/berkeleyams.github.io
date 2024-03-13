@@ -90,8 +90,9 @@ Date: 3/20
 Host: Michael
 Speaker: Anil Damle
 Affiliation: Cornell University
-Title: TBD
+Title: Fine-grained Theory and Hybrid Algorithms for Randomized Numerical Linear Algebra
 <abstract>
+Randomized algorithms have gained increased prominence within numerical linear algebra and they play a key role in an ever-expanding range of problems driven by a breadth of scientific applications. In this talk we will explore two aspects of randomized algorithms by (1) providing experiments and accompanying theoretical analysis that demonstrate how their performance depends on matrix structures beyond singular values (such as coherence of singular subspaces), and (2) showing how to leverage those insights to build hybrid algorithms that blend favorable aspects of deterministic and randomized methods. A broad range of randomized algorithms will be considered, relevant motivating applications will be discussed, and numerical experiments will illuminate directions for further research.
 </abstract>
 
 Date: 4/10
