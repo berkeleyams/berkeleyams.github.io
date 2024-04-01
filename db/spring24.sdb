@@ -95,6 +95,15 @@ Title: Fine-grained Theory and Hybrid Algorithms for Randomized Numerical Linear
 Randomized algorithms have gained increased prominence within numerical linear algebra and they play a key role in an ever-expanding range of problems driven by a breadth of scientific applications. In this talk we will explore two aspects of randomized algorithms by (1) providing experiments and accompanying theoretical analysis that demonstrate how their performance depends on matrix structures beyond singular values (such as coherence of singular subspaces), and (2) showing how to leverage those insights to build hybrid algorithms that blend favorable aspects of deterministic and randomized methods. A broad range of randomized algorithms will be considered, relevant motivating applications will be discussed, and numerical experiments will illuminate directions for further research.
 </abstract>
 
+Date: 4/03
+Host: Franziska
+Speaker: Ben Ong
+Affiliation: Michigan Technological University
+Title: High-Order Multigrid-Reduction-In-Time for Linear Hyperbolic PDEs
+<abstract>
+Multigrid Reduction in Time (MGRIT) uses multigrid reduction techniques to enable temporal parallelism for solving time dependent PDEs. Although MGRIT converges rapidly for diffusion-dominated PDEs, the convergence for advection-dominated PDEs is slow, or even non-convergent. For a two-level scheme with a fine-grid and a coarse grid, it is known that the convergence of MGRIT depends in part on the choice of time-stepping operators on the fine and coarse grid. In this talk, I will give a brief overview to MGRIT, some existing attempts to accelerate convergence for advection-dominated PDEs, and a proposed family of coarse-grid operators to accelerate convergence. This work is a joint effort with Dr. Robert Falgout (Lawrence Livermore National Laboratory).
+</abstract>
+
 Date: 4/10
 Host: Zhiyan
 Speaker: Molei Tao
