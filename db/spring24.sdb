@@ -96,31 +96,23 @@ Randomized algorithms have gained increased prominence within numerical linear a
 </abstract>
 
 Date: 4/03
-<<<<<<< HEAD
-Host: Franziska
-=======
 Host: Hans Johansen
->>>>>>> 50c2bd79cb1493a9d21f35b1192ac72a854778dd
 Speaker: Ben Ong
 Affiliation: Michigan Technological University
 Title: High-Order Multigrid-Reduction-In-Time for Linear Hyperbolic PDEs
 <abstract>
-<<<<<<< HEAD
-Multigrid Reduction in Time (MGRIT) uses multigrid reduction techniques to enable temporal parallelism for solving time dependent PDEs. Although MGRIT converges rapidly for diffusion-dominated PDEs, the convergence for advection-dominated PDEs is slow, or even non-convergent. For a two-level scheme with a fine-grid and a coarse grid, it is known that the convergence of MGRIT depends in part on the choice of time-stepping operators on the fine and coarse grid. In this talk, I will give a brief overview to MGRIT, some existing attempts to accelerate convergence for advection-dominated PDEs, and a proposed family of coarse-grid operators to accelerate convergence. This work is a joint effort with Dr. Robert Falgout (Lawrence Livermore National Laboratory).
-</abstract>
-
-=======
  Multigrid Reduction in Time (MGRIT) uses multigrid reduction techniques to enable temporal parallelism for solving time dependent PDEs. Although MGRIT converges rapidly for diffusion-dominated PDEs, the convergence for advection-dominated PDEs is slow, or even non-convergent. For a two-level scheme with a fine-grid and a coarse grid, it is known that the convergence of MGRIT depends in part on the choice of time-stepping operators on the fine and coarse grid. In this talk, I will give a brief overview to MGRIT, some existing attempts to accelerate convergence for advection-dominated PDEs, and a proposed family of coarse-grid operators to accelerate convergence. This work is a joint effort with Dr. Robert Falgout (Lawrence Livermore National Laboratory).
 </abstract>
 
-
->>>>>>> 50c2bd79cb1493a9d21f35b1192ac72a854778dd
 Date: 4/10
 Host: Zhiyan
 Speaker: Molei Tao
 Affiliation: Georgia Institute of Technology
-Title: TBD
+Title: Optimization, Sampling, and Generative Modeling in Non-Euclidean Spaces
 <abstract>
+Machine learning in non-Euclidean spaces have been rapidly attracting attention in recent years, and this talk will give some examples of progress on its mathematical and algorithmic foundations. A sequence of developments that eventually leads to non-Euclidean generative modeling will be reported.
+
+More precisely, I will begin with variational optimization, which, together with delicate interplays between continuous- and discrete-time dynamics, enables the construction of momentum-accelerated algorithms that optimize functions defined on manifolds. Selected applications, namely a generic improvement of Transformer, and a low-dim. approximation of high-dim. optimal transport distance, will be described. Then I will turn the optimization dynamics into an algorithm that samples from probability distributions on Lie groups. If time permits, the performance of this sampler will also be quantified, without log-concavity condition or its common relaxations. Finally, I will describe how this sampler can lead to a structurally-pleasant diffusion generative model that allows users to, given training data that follow any latent statistical distribution on a Lie group, generate more data exactly on the same manifold that follow the same distribution. Applications such as to quantum data will be briefly mentioned.
 </abstract>
 
 Date: 4/17
