@@ -19,6 +19,7 @@ Date: 1/31
 Host: Zhiyan
 Speaker: Bowen Li
 Affiliation: Duke University
+Title: Interpolation between modified logarithmic Sobolev and Poincare inequalities for quantum Markovian dynamics
 
 <abstract>
 In this talk, we define the quantum p-divergences and introduce the Beckner's inequalities for the quantum Markov semigroups with detailed balance condition. Such inequalities quantify the convergence rate of the quantum dynamics in the noncommutative p-norm. We obtain a number of implications between Beckner's inequalities and other quantum functional inequalities, as well as the hypercontractivity. In particular, we show that the quantum Beckner's inequalities interpolate between the Sobolev-type inequalities and the Poincare inequality in a sharp way. We also provide a uniform lower bound for the Beckner constants in terms of the spectral gap, and establish its stability with respect to the invariant state.  We further introduce a new class of quantum transport distances W_{2,p} such that QMS with detailed balance is the gradient flow of the quantum p-divergence. We prove that the set of quantum states equipped with such a metric is a complete geodesic space, which allows us to connect the geodesic convexity of p-divergence with quantum Beckner's inequality. This talk is based on a joint work with Jianfeng Lu.
