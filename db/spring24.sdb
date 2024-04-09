@@ -119,8 +119,10 @@ Date: 4/17
 Host: Krutika
 Speaker: Alison Marsden
 Affiliation: Stanford University
-Title: TBD
+Title: Multi-physics modeling in pediatric cardiology
 <abstract>
+Congenital heart disease affects 1 in 100 infants and is the leading cause of infant mortality in the US. Computational modeling is particularly valuable in this heterogeneous and high-risk population because of the need for personalized treatment planning. We will present recent work extending traditional hemodynamics simulations to include multiple physical processes and cardiac function in pediatric cardiology. In particular, we will discuss 1) melding constrained mixture models of vascular growth and remodeling with patient specific finite element simulations, and 2) multi-physics cardiac simulations incorporating electrophysiology, active contraction and fluid structure interaction. Novel algorithms for generating synthetic vascular networks for 3D bioprinting applications and simulating tissue perfusion will also be described. We will finally describe open-source software and data resources available via the SimVascular project and the Vascular Model Repository.
+ 
 </abstract>
 
 Date: 4/24
