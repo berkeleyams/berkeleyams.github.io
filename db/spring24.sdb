@@ -129,6 +129,7 @@ Date: 5/01
 Host: Michael
 Speaker: Gurtej Kanwar
 Affiliation: University of Bern
-Title: TBD
+Title: Sampling for Lattice Quantum Field Theory
 <abstract>
+Lattice simulations play a key role in understanding quantum field theories, particularly for strongly interacting theories which cannot be studied by other methods. A prime example is given by Quantum Chromodynamics (QCD), the quantum field theory describing the strong nuclear force. A deeper understanding of QCD is necessary to understand present hints of new physics and to understand the details of nuclear matter. One of the most challenging steps of lattice field theory calculations is integrating over fluctuations of the underlying quantum fields via Monte Carlo sampling. In this talk, I will discuss standard approaches to the Monte Carlo problem, ongoing challenges, and promising future directions.
 </abstract>
