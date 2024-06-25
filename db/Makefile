@@ -31,5 +31,5 @@ all: $(PAGES)
 
 
 # General Makefile rule for semester page
-../%/index.html: %.sdb template.html sched.html compile.pl
-	perl compile.pl $<
+#../%/index.html: %.sdb template.html sched.html compile.pl
+#	perl compile.pl $<
