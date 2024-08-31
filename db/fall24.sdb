@@ -7,9 +7,15 @@ Date: 09/04
 Host: Lin
 Speaker: Leonardo Zepeda Nunez
 Affiliation: Google
-Title: TBA
+Title: Recent Advances in Probabilistic Scientific Machine learning.
 <abstract>
-TBA
+The advent of generative AI has turbocharged the development of a myriad of commercial applications, and it has slowly started to permeate into scientific computing. In this talk we discussed how recasting the formulation of old and new problems within a probabilistic approach opens the door to leverage and tailor state-of-the-art generative AI tools. As such, we review recent advancements in Probabilistic SciML – including computational fluid dynamics, inverse problems, and particularly climate sciences, with an emphasis on statistical downscaling.
+
+Statistical downscaling is a crucial tool for analyzing the regional effects of climate change under different climate models: it seeks to transform low-resolution data from a (potentially biased) coarse-grained numerical scheme (which is computationally inexpensive) into high-resolution data consistent with high-fidelity models.
+
+We recast this problem in a two-stage probabilistic framework using unpaired data by combining two transformations: a debiasing step performed by an optimal transport map, followed by an upsampling step achieved through a probabilistic conditional diffusion model. Our approach characterizes conditional distribution without requiring paired data and faithfully recovers relevant physical statistics, even from biased samples.
+
+We will show that our method generates statistically correct high-resolution outputs from low-resolution ones, for different chaotic systems, including well known climate models and weather data. We show that the framework is able to upsample up to 300x while accurately matching the statistics of physical quantities – even when the low-frequency content of the inputs and outputs differs. This is a crucial yet challenging requirement that existing state-of-the-art methods usually struggle with.
 </abstract>
 
 Date: 09/18
