@@ -6,7 +6,7 @@ Usual day: Wednesday
 Date: 09/04
 Host: Lin
 Speaker: Leonardo Zepeda Nunez
-Affiliation: Google
+Affiliation: UW Madison and Google
 Title: Recent Advances in Probabilistic Scientific Machine learning.
 <abstract>
 The advent of generative AI has turbocharged the development of a myriad of commercial applications, and it has slowly started to permeate into scientific computing. In this talk we discussed how recasting the formulation of old and new problems within a probabilistic approach opens the door to leverage and tailor state-of-the-art generative AI tools. As such, we review recent advancements in Probabilistic SciML – including computational fluid dynamics, inverse problems, and particularly climate sciences, with an emphasis on statistical downscaling.
