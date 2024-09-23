@@ -49,13 +49,30 @@ Title: TBA
 TBA
 </abstract>
 
+Date: 10/18, TIME:
+Host: Sunny
+Speaker: Krutika Tawri
+Affiliation: University of California, Berkeley
+Title: TBA
+<abstract>
+TBA
+</abstract>
+
 Date: 10/23
 Host: Franziska
 Speaker: Yukun Yue
 Affiliation: University of Wisconsin-Madison
+Title: Control of Instabilities in a Vlasov System Using an External Field
+<abstract>
+Plasma instabilities are a significant challenge in plasma science, with implications for applications such as particle accelerators and nuclear fusion reactors. In this talk, we explore the possibility of mitigating these instabilities by incorporating an external field into the Vlasov equations. Our approach involves performing a linear analysis of the modified equations to determine the optimal external field. We demonstrate that specific external electric fields can completely eliminate plasma instabilities when the equilibrium distribution and perturbations are known. Moreover, our method restores the plasma to equilibrium at a rate faster than exponential, provided the Fourier transform of the initial conditions decays super-exponentially in the velocity-related Fourier variable. This approach can also be extended to the Vlasov-Maxwell system. Additionally, we conduct numerical simulations of the nonlinear two-stream and bump-on-tail instabilities to validate our theory and evaluate the effectiveness of the proposed strategies.
+</abstract>
+
+Date: 10/24
+Host: Jamie
+Speaker: Nathan Kutz
+Affiliation: University of Washington
 Title: TBA
 <abstract>
-TBA
 </abstract>
 
 Date: 10/30
