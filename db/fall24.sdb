@@ -34,19 +34,21 @@ This talk will first briefly review the role thermodynamics plays in classical c
 Date: 10/02
 Host: Franziska
 Speaker: Andrea Zanoni
-Affiliation: Stanford University
-Title: TBA
+Affiliation: Scuola Normale Superiore
+Title: Reduced shared manifolds for multifidelity estimators
 <abstract>
-TBA
+We consider the problem of estimating expectations of quantities of interest of computationally expensive models. In this context, multifidelity Monte Carlo estimators, which rely on low-fidelity approximations of the high-fidelity model, allow to achieve variance reduction without increasing the computational cost. However, the performance of multi-fidelity estimators is strongly dependent on the correlation between the high-fidelity and low-fidelity models. In this talk, we propose a methodology to increase the correlation
+between the models and derive unbiased multifidelity estimators with smaller variance. In particular, we build a reduced shared parameterization based on transformations between probability distributions and low-dimensional manifolds that capture most of the variation of the models. To discover the low-dimensional manifolds, we employ both linear and nonlinear dimensionality reduction techniques, focusing on active subspaces and neural active manifolds, respectively. We present the limitations of the linear approach, and
+we show that they can be overcome in the nonlinear setting. Moreover, in the nonlinear framework, under idealized conditions, we provide a theoretical result that guarantees that the new correlation obtained through the reduced shared manifold is never smaller than the original correlation between the models. We highlight the advantages of the method through several numerical examples, and we show that it outperforms standard multifidelity estimators in terms of variance.
 </abstract>
 
 Date: 10/16
 Host: Hans Johansen
 Speaker: Frederic Gibou
 Affiliation: University of California, Santa Barbara
-Title: TBA
+Title: Nonlinear solvers for partial differential equations on octree grids and some Machine Learning
 <abstract>
-TBA
+Several phenomena in the physical and the life sciences can be  modeled as a time dependent interface problem and nonlinear partial differential equations. Examples include the study of  electro-osmotic flows, molecular beam Epitaxy, free surface flows  and multiphase flows in porous media. One of the main difficulties  in solving numerically these equations stems from the fact that the  geometry of the problems is often arbitrary and special care is  needed to correctly apply boundary conditions. Another difficulty is associated with the fact that such problems involve dissimilar length scales, with smaller  scales influencing larger ones so that nontrivial pattern formation dynamics can be expected  to occur at all intermediate scales. Uniform grids are limited in their ability to resolve small  scales and are in such situations extremely inefficient in terms of memory storage and CPU  requirements. In this talk, I will present recent advances in the numerical treatment of  interface problems and describe new numerical solvers for nonlinear partial differential  equations in the context of adaptive mesh refinement based on Octree grids. I will also present recent work on using machine learning in the context of interfaces problems.
 </abstract>
 
 Date: 10/18
