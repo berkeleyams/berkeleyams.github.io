@@ -58,9 +58,14 @@ Host: Sunny
 Speaker: Krutika Tawri
 Note: Special time: 1-2pm
 Affiliation: University of California, Berkeley
-Title: Special time: TBA
+Title: Stochastic and deterministic moving boundary problems
 <abstract>
-TBA
+In this talk we will discuss recent results concerning stochastic (and deterministic) moving boundary problems, particularly arising in fluid-structure interaction (FSI), where the motion of the boundary is not known a priori. Fluid-structure interaction refers to physical systems whose behavior is dictated by the interaction of an elastic body and a fluid mass and it appears in various applications, ranging from aerodynamics to structural engineering. Our work is motivated by FSI models arising in biofluidic applications that describe the interactions between a viscous fluid, such as human blood, and an elastic structure, such as a human artery. To account for the unavoidable numerical and physical uncertainties in applications we analyze these PDEs under the influence of external stochastic (random)
+forces.
+
+We will consider nonlinearly coupled fluid-structure interaction (FSI) problems involving a viscous fluid in a 2D/3D domain, where part of the fluid domain boundary consists of an elastic deformable structure, and where the system is perturbed by stochastic effects. The fluid flow is described by the Navier-Stokes equations while the elastodynamics of the thin structure are modeled by shell equations. The fluid and the structure are coupled via two sets of coupling conditions imposed at the fluid-structure interface. We will consider the case where the structure is allowed to have unrestricted deformations and explore different kinematic coupling conditions (no-slip and Navier slip) imposed at the randomly moving fluid-structure interface, the displacement of which is not known a priori. We will present our results on the existence of (martingale) weak solutions to the (stochastic) FSI models.
+
+This is the first body of work that analyzes solutions of stochastic PDEs posed on random and time-dependent domains and a first step in the field toward further research on control problems, singular perturbation problems etc. We will further discuss our findings, which reveal a novel hidden regularity in the structure’s displacement. This result has allowed us to address previously open problems in the 3D (deterministic) case involving large vectorial deformations of the structure. We will discuss both the cases of compressible and incompressible fluid.
 </abstract>
 
 Date: 10/23
