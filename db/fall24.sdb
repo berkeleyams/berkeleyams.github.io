@@ -56,6 +56,7 @@ Several phenomena in the physical and the life sciences can be  modeled as a tim
 Date: 10/18
 Host: Sunny
 Speaker: Krutika Tawri
+Time: 1.10pm-2pm
 Note: Special time: 1-2pm
 Affiliation: University of California, Berkeley
 Title: Stochastic and deterministic moving boundary problems
@@ -80,10 +81,13 @@ Plasma instabilities are a significant challenge in plasma science, with implica
 Date: 10/24
 Host: Jamie
 Speaker: Nathan Kutz
+Note: Special time: 2-3pm
+Time: 2.10pm-3pm 
+Location: 748 Evans
 Affiliation: University of Washington
-Title: TBA
+Title: Deep Learning Architectures for Dynamical Systems and PDEs
 <abstract>
-TBA
+A major challenge in the study of science and engineering systems is that of model discovery: turning data into reduced order models that are not just predictive, but provide insight into the nature of the underlying dynamical system that generated the data. We introduce a number of data-driven strategies for discovering nonlinear multiscale dynamical systems and their embeddings from data. We consider two canonical cases: (i) systems for which we have full measurements of the governing variables, and (ii) systems for which we have incomplete measurements. For systems with full state measurements, we show that the recent sparse identification of nonlinear dynamical systems (SINDy) method can discover governing equations with relatively little data and introduce a sampling method that allows SIN Dy to scale efficiently to problems with multiple time scales, noise and parametric dependencies. For systems with incomplete observations, we show that time-delay embedding coordinates can be used to obtain a linear models and Koopman invariant measurement systems that nearly perfectly captures the dynamics of nonlinear quasiperiodic systems. Neural networks are used in targeted ways to aid in the model reduction process. Together, these approaches provide a suite of mathematical strategies for reducing the data required to discover and model nonlinear multiscale systems.
 </abstract>
 
 Date: 10/30
