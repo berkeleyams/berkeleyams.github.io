@@ -81,7 +81,7 @@ Plasma instabilities are a significant challenge in plasma science, with implica
 Date: 10/24
 Host: Jamie
 Speaker: Nathan Kutz
-Note: Special time: 2-3pm
+Note: Special time: 1-2pm
 Time: 2.10pm-3pm 
 Location: 748 Evans
 Affiliation: University of Washington
@@ -110,11 +110,11 @@ TBA
 
 Date: 11/13
 Host: Anuj
-Speaker: Daniele Venturi
+Speaker: Ashesh Chattopadhyay
 Affiliation: University of California, Santa Cruz
-Title: Tensor approximation of functional differential equations
+Title: TBA
 <abstract>
-Functional Differential Equations (FDEs) play a fundamental role in many areas of mathematical physics, including fluid dynamics (Hopf characteristic functional equation), quantum field theory (Schwinger-Dyson equations), and statistical physics. Despite their significance, computing solutions to FDEs remains a longstanding challenge in mathematical physics. In this talk I'll discuss approximation theory and high-performance computational algorithms designed for solving FDEs on tensor manifolds. The approach involves approximating FDEs using high-dimensional partial differential equations (PDEs), and then solving such high-dimensional PDEs on a low-rank tensor manifold leveraging high-performance (parallel) tensor algorithms. The effectiveness of the proposed approach is demonstrated through its application to the Burgers-Hopf FDE, which governs the characteristic functional of the stochastic solution to the Burgers equation evolving from a random initial state.
+TBA
 </abstract>
 
 Date: 11/20
