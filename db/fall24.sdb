@@ -94,9 +94,10 @@ Date: 10/30
 Host: Krutika
 Speaker: Doron Levy
 Affiliation: University of Maryland
-Title: TBA
+Title: Modeling Group Dynamics in Phototaxis
 <abstract>
-TBA
+ Microbes live in environments that are often limiting for growth. They have evolved sophisticated mechanisms to sense changes in environmental parameters such as light and nutrients, after which they swim or crawl into optimal conditions. This phenomenon is known as "chemotaxis" or "phototaxis." Using time-lapse video microscopy we have monitored the movement of phototactic bacteria, i.e., bacteria that move towards light. These movies suggest that single cells are able to move directionally but at the same time, the group dynamics is equally important.
+In this talk we will survey our recent results on mathematical models for phototaxis. We will start with a stochastic model, an interacting particle system, and a system of PDEs. Our main theorem establishes the system of PDEs as the limit dynamics of the particle system. We will then present another approach in which we develop particle, kinetic, and fluid models for phototaxis. We will conclude with describing our recent work on modeling selective local interactions with memory
 </abstract>
 
 Date: 11/06
@@ -108,7 +109,7 @@ Title: TBA
 TBA
 </abstract>
 
-Date: 11/13
+Date: 11/14
 Host: Anuj
 Speaker: Ashesh Chattopadhyay
 Affiliation: University of California, Santa Cruz
