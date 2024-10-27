@@ -122,7 +122,7 @@ Date: 11/20
 Host: Zhiyan
 Speaker: Peixue Wu
 Affiliation: University of Waterloo
-Title: TBA
+Title: Lower bound for gate complexity via quantum optimal transport
 <abstract>
-TBA
+We introduce a resource-dependent version of quantum Wasserstein distance motivated by the dual formulation of quantum optimal transport. We show that this distance can be a lower bound for convexified gate complexity. As applications, we discuss how our framework can provide a lower bound for gate complexity of random circuits, Hamiltonian simulations and open quantum systems. 
 </abstract>
