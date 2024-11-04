@@ -104,9 +104,13 @@ Date: 11/06
 Host: Lin
 Speaker: Jing An
 Affiliation: Duke University
-Title: TBA
+Title: On the convergence of two-timescale learning algorithms
 <abstract>
-TBA
+ Two-timescale learning algorithms are often applied in game theory and bi-level optimization, using distinct update rates for two interdependent processes. In this talk, I will discuss the convergence of two types of two-timescale algorithms. 
+
+The first type is the unified two-timescale Q-learning algorithm introduced by Angiuli et al. This algorithm demonstrates efficacy in solving mean field game (MFG) and mean field control (MFC) problems, simply by tuning the ratio of two learning rates for mean field distribution and the Q-functions respectively. We provide a comprehensive theoretical explanation of the algorithm’s bifurcated numerical outcomes under fixed learning rates.  Our key contribution lies in the construction of a Lyapunov function integrating both mean field distribution and Q-function iterates. Under mild assumptions, the Lyapunov function gives a unified convergence of the algorithm across the entire spectrum of learning rates.
+
+The second type focuses on the two-timescale gradient descent-ascent (GDA) algorithm designed to find Nash equilibria in min-max games with improved convergence properties. Through a PDE-inspired approach, we analyze the convergence of this algorithm for both finite- and infinite-dimensional cases. In finite-dimensional quadratic min-max games, we revisit long-time convergence in near quasi-static regimes through a hypocoercivity perspective. For mean-field GDA dynamics, we investigate convergence under a finite-scale ratio using a mixed synchronous-reflection coupling technique.
 </abstract>
 
 Date: 11/14
