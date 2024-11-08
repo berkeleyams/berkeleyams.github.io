@@ -27,7 +27,7 @@ Title: Modeling Multiphase Porous Flows
 In order to model many geological flows of contemporary interest it is necessary to include the thermodynamics of the underlying processes. Examples include CO_2 sequestration and the release of
 greenhouse gasses dissolved in melting permafrost.  Tractable models of such problems can only involve gross (macroscopic) properties, since a precise description of the physical system is neither available nor
 computationally tractable.
- 
+
 This talk will first briefly review the role thermodynamics plays in classical continuum mechanics; in particular, how dissipation principles give rise to bounds above and beyond the natural conservation properties.  The development of macroscopic models of geological flows involving multiple components undergoing changes of phase will then be considered. These models involve an amalgamation of classical and continuum thermodynamics, which gives rise to systems of conservation laws which inherit natural dissipation principles. The convexity (concavity) of the free energy (entropy) functions is essential for the development of stability estimates of solutions to these equations, and the development of stable numerical schemes.
 </abstract>
 
@@ -82,7 +82,7 @@ Date: 10/24
 Host: Jamie
 Speaker: Nathan Kutz
 Note: Special time: 1-2pm
-Time: 2.10pm-3pm 
+Time: 2.10pm-3pm
 Location: 748 Evans
 Affiliation: University of Washington
 Title: Deep Learning Architectures for Dynamical Systems and PDEs
@@ -106,7 +106,7 @@ Speaker: Jing An
 Affiliation: Duke University
 Title: On the convergence of two-timescale learning algorithms
 <abstract>
- Two-timescale learning algorithms are often applied in game theory and bi-level optimization, using distinct update rates for two interdependent processes. In this talk, I will discuss the convergence of two types of two-timescale algorithms. 
+ Two-timescale learning algorithms are often applied in game theory and bi-level optimization, using distinct update rates for two interdependent processes. In this talk, I will discuss the convergence of two types of two-timescale algorithms.
 
 The first type is the unified two-timescale Q-learning algorithm introduced by Angiuli et al. This algorithm demonstrates efficacy in solving mean field game (MFG) and mean field control (MFC) problems, simply by tuning the ratio of two learning rates for mean field distribution and the Q-functions respectively. We provide a comprehensive theoretical explanation of the algorithm’s bifurcated numerical outcomes under fixed learning rates.  Our key contribution lies in the construction of a Lyapunov function integrating both mean field distribution and Q-function iterates. Under mild assumptions, the Lyapunov function gives a unified convergence of the algorithm across the entire spectrum of learning rates.
 
@@ -117,9 +117,9 @@ Date: 11/14
 Host: Anuj
 Speaker: Ashesh Chattopadhyay
 Affiliation: University of California, Santa Cruz
-Title: TBA
+Title: Principled structures in deep learning-based autoregressive models of dynamical systems
 <abstract>
-TBA
+Deep learning-based autoregressive models have garnered a lot of popularity in recent times, primarily owing to their success in several fields of the physical sciences, e.g., fluid dynamics, weather and climate dynamics, ocean dynamics, etc. Despite their success, there are several fundamental challenges in developing such models, especially for high-dimensional multi-scale nonlinear dynamical systems. One of them being the lack of stability of these models especially when integrated for long time scales. In this talk, we would derive a fundamental bias in deep neural networks that leads to instability of autoregressive models, discuss principled structures that can be enforced to mitigate such bias, analyze them in through the lenses of linear stability analysis and random matrix theory, and finally implement them for realistic high-resolution climate modeling at scale.
 </abstract>
 
 Date: 11/20
@@ -128,5 +128,5 @@ Speaker: Peixue Wu
 Affiliation: University of Waterloo
 Title: Lower bound for gate complexity via quantum optimal transport
 <abstract>
-We introduce a resource-dependent version of quantum Wasserstein distance motivated by the dual formulation of quantum optimal transport. We show that this distance can be a lower bound for convexified gate complexity. As applications, we discuss how our framework can provide a lower bound for gate complexity of random circuits, Hamiltonian simulations and open quantum systems. 
+We introduce a resource-dependent version of quantum Wasserstein distance motivated by the dual formulation of quantum optimal transport. We show that this distance can be a lower bound for convexified gate complexity. As applications, we discuss how our framework can provide a lower bound for gate complexity of random circuits, Hamiltonian simulations and open quantum systems.
 </abstract>
