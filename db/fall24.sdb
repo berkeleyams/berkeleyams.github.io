@@ -130,12 +130,3 @@ Title: Lower bound for gate complexity via quantum optimal transport
 <abstract>
 We introduce a resource-dependent version of quantum Wasserstein distance motivated by the dual formulation of quantum optimal transport. We show that this distance can be a lower bound for convexified gate complexity. As applications, we discuss how our framework can provide a lower bound for gate complexity of random circuits, Hamiltonian simulations and open quantum systems.
 </abstract>
-
-Date: 12/04
-Host: Zhiyan
-Speaker: HongKang Ni
-Affiliation: Stanford University
-Title: TBD
-<abstract>
-TBD
-</abstract>
