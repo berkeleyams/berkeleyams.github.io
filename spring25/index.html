@@ -1,289 +1,153 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Author" content="Chris Rycroft">
-  <meta name="Description" content="A joint seminar series covering a wide variety of topics in
-	applied mathematics, PDEs, and scientific computation.">
-  <meta name="Keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    body {background-color: #1a1834}
-    p.p5 {margin: 0.0px 0.0px 16.0px 0.0px; text-align: justify; font: 16.0px Helvetica; -webkit-text-stroke: #000000}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Helvetica; -webkit-text-stroke: #000000}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; color: #420001; -webkit-text-stroke: #420001}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Helvetica; color: #0000e9; -webkit-text-stroke: #0000e9}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Helvetica; color: #354353; -webkit-text-stroke: #354353}
-    li.li9 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 16.0px Helvetica; -webkit-text-stroke: #000000}
-    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 16.0px Helvetica; color: #0000e9; -webkit-text-stroke: #0000e9}
-    span.s1 {font-kerning: none; background-color: #c6cdff}
-    span.s2 {font-kerning: none}
-    span.s3 {text-decoration: underline ; font-kerning: none; background-color: #c6cdff}
-    span.s4 {font: 13.0px Helvetica; text-decoration: underline ; font-kerning: none; color: #354353; -webkit-text-stroke: 0px #354353}
-    span.s5 {font-kerning: none; background-color: #ffffff}
-    span.s6 {font: 16.0px Helvetica; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
-    span.s7 {text-decoration: underline ; font-kerning: none; background-color: #ffffff}
-    span.s8 {text-decoration: underline ; font-kerning: none}
-    span.s9 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
-    span.s10 {font: 12.0px Helvetica; text-decoration: underline ; font-kerning: none; color: #354353; -webkit-text-stroke: 0px #354353}
-    table.t1 {margin: 0.0px 0.0px 20.0px 0.0px}
-    td.td1 {width: 134.6px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 4.0px 5.0px 4.0px 5.0px}
-    td.td2 {width: 324.8px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 4.0px 5.0px 4.0px 5.0px}
-    ul.ul1 {list-style-type: disc}
-    ul.ul2 {list-style-type: circle}
-  </style>
+	<title>UC Berkeley / LBL Applied Math Seminar</title>
+	<base href="https://berkeleyams.lbl.gov/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="default.css" />
+	<meta name="description" content="A joint seminar series covering a wide variety of topics in
+	applied mathematics, PDEs, and scientific computation." />
+	<meta name="keywords" content="Berkeley, applied math, applied, mathematics, LBL, LBNL, Lawrence, National, Lab, Laboratory, seminar, talks, PDE, numerics, numerical, mathematical, methods, computation, fluid, mechanics, dynamics, simulation, scientific" />
+	<meta name="author" content="Chris Rycroft" />
+	<meta name="robots" content="all" />
+	<link href="index.html" rel="start" title="Seminar Index" />
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 7.0px 0.0px; font: 28.0px Helvetica; color: #0f2f99; -webkit-text-stroke: #0f2f99"><span class="s1"><a href="https://berkeleyams.lbl.gov/index.html"><b>Applied Mathematics Seminar</b><span class="s2"><b></b></span></a></span></h1>
-<h2 style="margin: 0.0px 0.0px 2.6px 0.0px; font: 16.0px Helvetica; color: #354353; -webkit-text-stroke: #354353"><span class="s1">UC Berkeley / Lawrence Berkeley Laboratory</span></h2>
-<h3 style="margin: 0.0px 0.0px 13.0px 0.0px; text-align: right; font: 13.0px Helvetica; color: #354353; -webkit-text-stroke: #354353"><span class="s1">Organized by </span><span class="s3">Zhiyan Ding</span><span class="s1">, <a href="https://math.berkeley.edu/~linlin/"><span class="s4">Lin Lin</span></a>,</span><span class="s2"><br>
-<a href="https://quantumtative.github.io/"><span class="s4">Michael Lindsey</span></a></span><span class="s1">, <a href="https://math.berkeley.edu/~ktawri/"><span class="s4">Krutika Tawri</span></a>,</span><span class="s2"><br>
-</span><span class="s1">and <a href="https://sites.google.com/berkeley.edu/fweber"><span class="s4">Franziska Weber</span></a></span></h3>
-<h4 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 20.0px Helvetica; color: #355099; -webkit-text-stroke: #355099"><span class="s5"><b>Spring 2025 Schedule</b></span></h4>
-<p class="p5"><span class="s5">Unless otherwise noted, all seminars are on Wednesdays from 11:10AM-12:00PM in 939 Evans (for in-person talks) and <a href="https://berkeley.zoom.us/j/98667278310"><span class="s6">https://berkeley.zoom.us/j/98667278310</span></a>.</span><span class="s2"><br>
-<br>
-</span><span class="s5">To subscribe to our mailing list, <a href="https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/appliedmathseminar/join"><span class="s6">click here</span></a>.</span></p>
-<table cellspacing="0" cellpadding="0" class="t1">
-  <tbody>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">1/29:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Franziska)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Alexis Kaminski</b>, UC Berkeley</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/kaminski.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">02/05:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Franziska)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Jacob Elafandi</b>, UC Berkeley</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/elafandi.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">02/12:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">02/19:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Lin)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Hongkang Ni</b>, Stanford</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/ni.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">02/26:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">03/05:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Anuj)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Daniele Venturi</b>, UC Santa Cruz</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/venturi.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">03/12:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">03/19:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Franziska)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Noel Walkington</b>, Carnegie Mellon University</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/walkington.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/02:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Anuj/Franziska)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Tom Hou</b>, Caltech</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/hou.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/09:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">03/19:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/02:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Anuj/Franziska)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Tom Hou</b>, Caltech</span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/09:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Lin)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Jason Kaye</b>, Flatiron Institute</span></p>
-        <p class="p8"><span class="s7"><a href="https://berkeleyams.lbl.gov/spring25/kaye.html">TBA<span class="s8"></span></a></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/16:</span></p>
-        <p class="p7"><span class="s5"><i>(Host:Sunny)</i></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>Nisha Candramoorthy</b>, U Chicago</span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/23:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p6"><span class="s5">04/30:</span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p6"><span class="s5"><b>TBA</b></span></p>
-      </td>
-    </tr>
-  </tbody>
+	<div id="container">
+		<div id="head">
+			<div id="maintitle">
+				<h1><a href="index.html">Applied Mathematics Seminar</a></h1>
+			<h2>UC Berkeley / Lawrence Berkeley Laboratory</h2>
+			</div>
+
+<!--			<h3>Organized by <a href="https://math.berkeley.edu/people/faculty/sun-ica-ani-0">Suncica Canic</a>,<br/><a href="https://math.berkeley.edu/~difang/">Di Fang</a>,<br/><a href="https://math.berkeley.edu/~linlin/">Lin Lin</a>,<br/> and <a href="http://persson.berkeley.edu/">Per-Olof Persson</a> <br/>  </h3>
+-->
+			<h3>Organized by <a href=" ">Zhiyan Ding</a >, <a href="https://math.berkeley.edu/~linlin/">Lin Lin</a >,<br/><a href="https://quantumtative.github.io/">Michael Lindsey</a >, <a href="https://math.berkeley.edu/~ktawri/">Krutika Tawri</a >,<br/>and <a href="https://sites.google.com/berkeley.edu/fweber">Franziska Weber</a ></h3>
+<!--
+			<h3>Organized by <a href="https://quantumtative.github.io/">Michael Lindsey</a>,<br/><a href="https://math.berkeley.edu/~ktawri/">Krutika Tawri</a>,<br/> and <a href="https://sites.google.com/berkeley.edu/fweber">Franziska Weber</a> <br/>  </h3>
+-->
+		</div>
+<h4 class="top">Spring 2025 Schedule</h4>
+<p>Unless otherwise noted, all seminars are on Wednesdays from 11:10AM-12:00PM in 939 Evans (for in-person talks) and <a href="https://berkeley.zoom.us/j/98667278310">https://berkeley.zoom.us/j/98667278310</a>.<br> <br> To subscribe to our mailing list, <a href="https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/appliedmathseminar/join">click here</a>.<br><table class="talks">
+<tr><td class="date">1/29:<br /><span class="alter">(Host:Franziska)</span></td><td><b>Alexis Kaminski</b>, UC Berkeley<br /><a href="spring25/kaminski.html">TBA</a></td></tr>
+<tr><td class="date">02/05:<br /><span class="alter">(Host:Franziska)</span></td><td><b>Jacob Elafandi</b>, UC Berkeley<br /><a href="spring25/elafandi.html">TBA</a></td></tr>
+<tr><td class="date">02/12:</td><td><b>TBA</b></td></tr>
+<tr><td class="date">02/19:<br /><span class="alter">(Host:Lin)</span></td><td><b>Hongkang Ni</b>, Stanford<br /><a href="spring25/ni.html">TBA</a></td></tr>
+<tr><td class="date">02/26:</td><td><b>TBA</b></td></tr>
+<tr><td class="date">03/05:<br /><span class="alter">(Host:Anuj)</span></td><td><b>Daniele Venturi</b>, UC Santa Cruz<br /><a href="spring25/venturi.html">TBA</a></td></tr>
+<tr><td class="date">03/12:</td><td><b>TBA</b></td></tr>
+<tr><td class="date">03/19:<br /><span class="alter">(Host:Franziska)</span></td><td><b>Noel Walkington</b>, Carnegie Mellon University<br /><a href="spring25/walkington.html">TBA</a></td></tr>
+<tr><td class="date">04/02:<br /><span class="alter">(Host:Anuj/Franziska)</span></td><td><b>Tom Hou</b>, Caltech<br /><a href="spring25/hou.html">TBA</a></td></tr>
+<tr><td class="date">04/09:<br /><span class="alter">(Host:Lin)</span></td><td><b>Jason Kaye</b>, Flatiron Institute<br /><a href="spring25/kaye.html">TBA</a></td></tr>
+<tr><td class="date">04/16:<br /><span class="alter">(Host:Sunny)</span></td><td><b>Nisha Candramoorthy</b>, U Chicago</td></tr>
+<tr><td class="date">04/23:</td><td><b>TBA</b></td></tr>
+<tr><td class="date">04/30:</td><td><b>TBA</b></td></tr>
 </table>
-<h4 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 20.0px Helvetica; color: #355099; -webkit-text-stroke: #355099"><span class="s5"><b>Schedules from previous semesters</b></span></h4>
-<ul class="ul1">
-  <li class="li9"><span class="s9"></span><span class="s5">2024 academic year, organized by Zhiyan Ding, Anuj Kumar, Lin Lin, Michael Lindsey, Krutika Tawri, and Franziska Weber:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall24/"><span class="s8">Fall 2024</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring25/"><span class="s8">Spring 2025</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2023 academic year, organized by Michael Lindsey, Krutika Tawri, and Franziska Weber:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall23/"><span class="s8">Fall 2023</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring24/"><span class="s8">Spring 2024</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2022 academic year, organized by Di Fang, Michael Lindsey, and Franziska Weber:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring23/"><span class="s8">Spring 2023</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall22/"><span class="s8">Fall 2022</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2021 academic year, organized by Suncica Canic, Di Fang, Lin Lin, and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring22/"><span class="s8">Spring 2022</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall21/"><span class="s8">Fall 2021</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2020 academic year, organized by Suncica Canic, Di Fang, Lin Lin, and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring21/"><span class="s8">Spring 2021</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall20/"><span class="s8">Fall 2020</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2019 academic year, organized by Suncica Canic, Di Fang, Lin Lin, and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring20/"><span class="s8">Spring 2020</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall19/"><span class="s8">Fall 2019</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2018 academic year, organized by Suncica Canic, Lin Lin, Per-Olof Persson, and Matthew J. Zahr:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring19/"><span class="s8">Spring 2019</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall18/"><span class="s8">Fall 2018</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2017 academic year, organized by Lin Lin, Per-Olof Persson, and Matthew J. Zahr:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring18/"><span class="s8">Spring 2018</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall17/"><span class="s8">Fall 2017</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2016 academic year, organized by Lin Lin, Fei Lu, and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring17/"><span class="s8">Spring 2017</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall16/"><span class="s8">Fall 2016</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2015 academic year, organized by Lin Lin, Fei Lu, and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring16/"><span class="s8">Spring 2016</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall15/"><span class="s8">Fall 2015</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2014 academic year, organized by Lin Lin, Fei Lu, Matthias Morzfeld and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring15/"><span class="s8">Spring 2015</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall14/"><span class="s8">Fall 2014</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2013 academic year, organized by Matthias Morzfeld and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring14/"><span class="s8">Spring 2014</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall13/"><span class="s8">Fall 2013</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2012 academic year, organized by Chris Rycroft, Matthias Morzfeld, and Per-Olof Persson:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring13/"><span class="s8">Spring 2013</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall12/"><span class="s8">Fall 2012</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2011 academic year, organized by Alexandre Chorin:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall11/"><span class="s8">Fall 2011</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring12/"><span class="s8">Spring 2012</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2010 academic year, organized by Marcus Roper and Jon Wilkening:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall10/"><span class="s8">Fall 2010</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring11/"><span class="s8">Spring 2011</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2009 academic year, organized by Alexandre Chorin and Marcus Roper:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall09/"><span class="s8">Fall 2009</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring10/"><span class="s8">Spring 2010</span></a></span></li>
-  </ul>
-  <li class="li9"><span class="s9"></span><span class="s5">2008 academic year, organized by Jon Wilkening and Chris Rycroft:</span></li>
-  <ul class="ul2">
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/fall08/"><span class="s8">Fall 2008</span></a></span></li>
-    <li class="li10"><span class="s9"><a href="https://berkeleyams.lbl.gov/spring09/"><span class="s8">Spring 2009</span></a></span></li>
-  </ul>
+<h4>Schedules from previous semesters</h4>
+<ul>
+
+<li>2024 academic year, organized by Zhiyan Ding, Anuj Kumar, Lin Lin, Michael Lindsey, Krutika Tawri, and Franziska Weber:
+<ul> 
+<li><a href="fall24/">Fall 2024</a></li>
+<li><a href="spring25/">Spring 2025</a></li>
+</ul></li>
+
+
+<li>2023 academic year, organized by Michael Lindsey, Krutika Tawri, and Franziska Weber:
+<ul> 
+<li><a href="fall23/">Fall 2023</a></li>
+<li><a href="spring24/">Spring 2024</a></li>
+</ul></li>
+
+<li>2022 academic year, organized by Di Fang, Michael Lindsey, and Franziska Weber:
+<ul> 
+<li><a href="spring23/">Spring 2023</a></li>
+<li><a href="fall22/">Fall 2022</a></li>
+</ul></li>
+
+<li>2021 academic year, organized by Suncica Canic, Di Fang, Lin Lin, and Per-Olof Persson:
+<ul>
+<li><a href="spring22/">Spring 2022</a></li>
+<li><a href="fall21/">Fall 2021</a></li>
+</ul></li>
+
+<li>2020 academic year, organized by Suncica Canic, Di Fang, Lin Lin, and Per-Olof Persson:
+<ul>
+<li><a href="spring21/">Spring 2021</a></li>
+<li><a href="fall20/">Fall 2020</a></li>
+</ul></li>
+
+<li>2019 academic year, organized by Suncica Canic, Di Fang, Lin Lin, and Per-Olof Persson:
+<ul>
+<li><a href="spring20/">Spring 2020</a></li>
+<li><a href="fall19/">Fall 2019</a></li>
+</ul></li>
+
+<li>2018 academic year, organized by Suncica Canic, Lin Lin, Per-Olof Persson, and Matthew J. Zahr:
+<ul>
+<li><a href="spring19/">Spring 2019</a></li>
+<li><a href="fall18/">Fall 2018</a></li>
+</ul></li>
+
+<li>2017 academic year, organized by Lin Lin, Per-Olof Persson, and Matthew J. Zahr:
+<ul>
+<li><a href="spring18/">Spring 2018</a></li>
+<li><a href="fall17/">Fall 2017</a></li>
+</ul></li>
+<li>2016 academic year, organized by Lin Lin, Fei Lu, and Per-Olof Persson:
+<ul>
+<li><a href="spring17/">Spring 2017</a></li>
+<li><a href="fall16/">Fall 2016</a></li>
+</ul></li>
+<li>2015 academic year, organized by Lin Lin, Fei Lu, and Per-Olof Persson:
+<ul>
+<li><a href="spring16/">Spring 2016</a></li>
+<li><a href="fall15/">Fall 2015</a></li>
+</ul></li>
+<li>2014 academic year, organized by Lin Lin, Fei Lu, Matthias Morzfeld and Per-Olof Persson:
+<ul>
+<li><a href="spring15/">Spring 2015</a></li>        
+<li><a href="fall14/">Fall 2014</a></li>        
+</ul></li>
+<li>2013 academic year, organized by Matthias Morzfeld and Per-Olof Persson:
+<ul>
+<li><a href="spring14/">Spring 2014</a></li>
+<li><a href="fall13/">Fall 2013</a></li>        
+</ul></li>
+<li>2012 academic year, organized by Chris Rycroft, Matthias Morzfeld, and Per-Olof Persson:
+<ul>
+<li><a href="spring13/">Spring 2013</a></li>
+<li><a href="fall12/">Fall 2012</a></li>
+</ul></li>
+<li>2011 academic year, organized by Alexandre Chorin:
+<ul>
+<li><a href="fall11/">Fall 2011</a></li>
+<li><a href="spring12/">Spring 2012</a></li>
+</ul></li>
+<li>2010 academic year, organized by Marcus Roper and Jon Wilkening:
+<ul>
+<li><a href="fall10/">Fall 2010</a></li>
+<li><a href="spring11/">Spring 2011</a></li>
+</ul></li>
+<li>2009 academic year, organized by Alexandre Chorin and Marcus Roper:
+<ul>
+<li><a href="fall09/">Fall 2009</a></li>
+<li><a href="spring10/">Spring 2010</a></li>
+</ul></li>
+<li>2008 academic year, organized by Jon Wilkening and Chris Rycroft:
+<ul>
+<li><a href="fall08/">Fall 2008</a></li>
+<li><a href="spring09/">Spring 2009</a></li>
+</ul></li>
 </ul>
-<p class="p11"><span class="s2"></span><br></p>
-<p class="p12"><span class="s3"><a href="http://math.berkeley.edu/">UCB Math</a></span><span class="s1"> | <a href="http://math.lbl.gov/"><span class="s10">LBL Math</span></a></span></p>
+<br />
+	<div id="foot">
+		<div class="links">
+			<a href="http://math.berkeley.edu/">UCB Math</a> |
+			<a href="http://math.lbl.gov/">LBL Math</a>
+		</div>
+	</div>
+</div>
 </body>
 </html>
