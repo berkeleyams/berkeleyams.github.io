@@ -18,10 +18,10 @@ Date: 02/05
 Host: Franziska
 Speaker: Jacob Elafandi
 Affiliation: UC Berkeley
-Title: TBA
+Title: Finite element analysis of a nematic liquid crystal Landau-de Gennes model with quartic elastic terms
 
 <abstract>
-TBA
+In this talk, I will discuss the basic theory of liquid crystals, the theory of the Q-tensor model for liquid crystal dynamics, and various models of the elastic and thermotropic energy of liquid crystal samples. In particular, I will outline a model presented by Golovaty et al. in a 2020 paper which reduces to the Oseen-Frank director field model in uniaxial states. I will then show an energy stable scheme for the gradient flow of a closely related model, discuss a proof of its convergence via fixed-point iteration, and discuss a proof of the Gamma-convergence of discrete minimizers as the mesh size approaches zero. Finally, I will show the results of numerical experiments which successfully simulate isotropic-to-nematic phase transitions as expected.
 </abstract>
 
 
