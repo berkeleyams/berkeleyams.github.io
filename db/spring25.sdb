@@ -41,10 +41,10 @@ Date: 02/19
 Host: Lin
 Speaker: Hongkang Ni
 Affiliation: Stanford
-Title: TBA
+Title: Error Analysis of a New Eigenmatrix-Based Method for Unstructured Sparse Recovery
 
 <abstract>
-TBA
+Unstructured sparse recovery problems arise in various applications, including rational approximation, spectral function estimation, and sparse deconvolution. A recently proposed method, inspired by the ESPRIT algorithm, introduces a unifying data-driven framework that effectively recovers underlying sparse structures across different sparse recovery problems. In this talk, we establish its effectiveness by presenting a framework for analyzing its error bound, following a brief introduction to the method. We then examine the rational approximation problem as a concrete example, demonstrating how the analysis applies in this setting.
 </abstract>
 
 
