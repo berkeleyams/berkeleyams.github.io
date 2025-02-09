@@ -29,10 +29,14 @@ Date: 02/12
 Host: Michael Lindsey
 Speaker: Alfred Kirsch
 Affiliation: ENPC
-Title: TBA
+Title: An (Applied) Mathematical Analysis of Dynamical Mean-Field Theory
 
 <abstract>
-TBA
+In this talk, I will discuss the mathematical properties of the Dynamical Mean-Field Theory (DMFT), a standard approximation scheme in quantum condensed matter physics. After a general introduction and motivation, I will first define quantum one-body Green's functions, which appear to be (operator-valued) Nevanlinna-Pick functions. I then introduce and discuss the properties of the Hubbard and Anderson Impurity Models, and indicate how DMFT relates the former to a collection of the latter in a self-consistent way.
+
+Mathematically speaking, DMFT gives rise to a fixed-point equation that can be formulated in the set of probability measures via Cauchy-Stieltjes transforms. In the setting of the Iterated Perturbation Theory (IPT) approximation, I then prove the existence of solution(s) to this equation using a Schauder fixed-point theorem.
+
+Finally, I will discuss the properties of an existing discretized scheme and, if time permits, propose a novel approach that bypasses analytic continuations issues.
 </abstract>
 
 
