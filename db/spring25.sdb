@@ -78,10 +78,10 @@ Date: 03/12
 Host: Anuj 
 Speaker: Shilpa Vijay
 Affiliation: Stanford
-Title: TBD
+Title: Towards designer porous surfaces for multi-functional passive flow control
 
 <abstract>
-TBA
+In this talk, we will experimentally investigate how bulk thermo-physical properties of porous media such as permeability and porosity influence near-wall turbulence and pas- sive flow control. First, we will examine turbulent heat transfer across aluminum foams at Reb ≈ 800 − 2500. PIV and temperature measurements reveal that increasing permeability enhances thermal dispersion via Kelvin-Helmholtz (K-H) vortices but at the cost of higher friction. To mitigate this trade-off, we custom-deisgn anisotropic porous lattices and build phenomenological models to predict permeability and thermal conductivity. Finally, drag measurements in a benchtop channel (Reb ≈ 500 − 4000) show that streamwise permeability minimizes drag increase, while wall-normal permeability promotes spanwise K-H rollers. These findings demonstrate how tailored porous microstructures can optimize heat transfer with minimal drag penalties, advancing passive flow control strategies.
 </abstract>
 
 Date: 03/19
