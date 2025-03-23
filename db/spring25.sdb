@@ -153,6 +153,19 @@ Title: TBA
 
 </abstract>
 
+Date: 04/25
+Host: Sunny
+Speaker: Martina Bukac
+Time: 10.10am-11am
+Location: 732 Evans
+Affiliation: Notre Dame University
+Title: Adaptive, partitioned methods, and a fixed mesh, diffuse interface method for fluid-structure interaction 
+
+<abstract>
+Fluid-structure interaction problems arise in many applications. In biomedicine, such models are used to describe the interaction between blood and arterial walls. Other applications include geomechanics and aerodynamics. When a deformable structure is porous and allows flow through it, poroelastic models are commonly used to describe its behavior. The numerical simulation of fluid-elastic/poroelastic structure interaction problems has received considerable attention, but still remains a significant challenge in the mathematical and computational sciences. Main difficulties stem from the the intricate multiphysics nature of the problem, and strong nonlinearities. In this talk, we will present some recent advances in numerical modeling of fluid-structure interaction problems, including adaptive, partitioned methods where the domain movement is handled using an Arbitrary Lagragian-Eulerian approach, and a fixed mesh scheme based on the diffuse interface method. 
+</abstract>
+
+
 Date: 04/30
 Host:
 Speaker:
