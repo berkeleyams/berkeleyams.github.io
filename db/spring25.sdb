@@ -10,7 +10,7 @@ Speaker: Alexis Kaminski
 Affiliation: UC Berkeley
 Title: Fluxes and mixing of reacting biogeochemical scalars in a stratified shear layer
 <abstract>
-Turbulent mixing is a key physical process in the ocean, setting the distributions of momentum, heat, salt, and other important tracers. The latter includes biogeochemical scalars, representing many different species of plankton and nutrients that play an important role in marine ecosystems; representing their fluxes is a major challenge in earth system models. A common approach in studying ocean mixing is to represent individual mixing events in terms of canonical stratified shear instabilities. In this talk, I will first describe these instabilities and give an overview of their mixing behaviour. I will then show the results of recent direct numerical simulations in which these instabilities are coupled to an idealized reaction-advection-diffusion model for phytoplankton-nutrient interactions. With these simulations, I will discuss both the impact of the type of instability and the reaction timescale on the resulting fluxes. 
+Turbulent mixing is a key physical process in the ocean, setting the distributions of momentum, heat, salt, and other important tracers. The latter includes biogeochemical scalars, representing many different species of plankton and nutrients that play an important role in marine ecosystems; representing their fluxes is a major challenge in earth system models. A common approach in studying ocean mixing is to represent individual mixing events in terms of canonical stratified shear instabilities. In this talk, I will first describe these instabilities and give an overview of their mixing behaviour. I will then show the results of recent direct numerical simulations in which these instabilities are coupled to an idealized reaction-advection-diffusion model for phytoplankton-nutrient interactions. With these simulations, I will discuss both the impact of the type of instability and the reaction timescale on the resulting fluxes.
 </abstract>
 
 
@@ -53,17 +53,17 @@ Unstructured sparse recovery problems arise in various applications, including r
 
 
 Date: 02/26
-Host: 
-Speaker: 
-Affiliation: 
-Title: 
+Host:
+Speaker:
+Affiliation:
+Title:
 
 <abstract>
 
 </abstract>
 
 Date: 03/05
-Host: Lin 
+Host: Lin
 Speaker: Zane Rossi
 Affiliation: University of Tokyo
 Title: A Solovay-Kitaev theorem for quantum signal processing
@@ -75,7 +75,7 @@ Quantum signal processing (QSP) studies quantum circuits interleaving known unit
 </abstract>
 
 Date: 03/12
-Host: Anuj 
+Host: Anuj
 Speaker: Shilpa Vijay
 Affiliation: Stanford
 Title: Towards designer porous surfaces for multi-functional passive flow control
@@ -147,10 +147,10 @@ We are often given time series data from which we would like to learn their gove
 </abstract>
 
 Date: 04/23
-Host: 
-Speaker: 
+Host:
+Speaker:
 Affiliation:
-Title: TBA 
+Title: TBA
 
 <abstract>
 
@@ -162,10 +162,10 @@ Speaker: Martina Bukac
 Time: 10.10am-11am
 Location: 732 Evans
 Affiliation: Notre Dame University
-Title: Adaptive, partitioned methods, and a fixed mesh, diffuse interface method for fluid-structure interaction 
+Title: Adaptive, partitioned methods, and a fixed mesh, diffuse interface method for fluid-structure interaction
 
 <abstract>
-Fluid-structure interaction problems arise in many applications. In biomedicine, such models are used to describe the interaction between blood and arterial walls. Other applications include geomechanics and aerodynamics. When a deformable structure is porous and allows flow through it, poroelastic models are commonly used to describe its behavior. The numerical simulation of fluid-elastic/poroelastic structure interaction problems has received considerable attention, but still remains a significant challenge in the mathematical and computational sciences. Main difficulties stem from the the intricate multiphysics nature of the problem, and strong nonlinearities. In this talk, we will present some recent advances in numerical modeling of fluid-structure interaction problems, including adaptive, partitioned methods where the domain movement is handled using an Arbitrary Lagragian-Eulerian approach, and a fixed mesh scheme based on the diffuse interface method. 
+Fluid-structure interaction problems arise in many applications. In biomedicine, such models are used to describe the interaction between blood and arterial walls. Other applications include geomechanics and aerodynamics. When a deformable structure is porous and allows flow through it, poroelastic models are commonly used to describe its behavior. The numerical simulation of fluid-elastic/poroelastic structure interaction problems has received considerable attention, but still remains a significant challenge in the mathematical and computational sciences. Main difficulties stem from the the intricate multiphysics nature of the problem, and strong nonlinearities. In this talk, we will present some recent advances in numerical modeling of fluid-structure interaction problems, including adaptive, partitioned methods where the domain movement is handled using an Arbitrary Lagragian-Eulerian approach, and a fixed mesh scheme based on the diffuse interface method.
 </abstract>
 
 
@@ -178,7 +178,7 @@ Title: Exploiting Low-Dimensional Structure in Bayesian Inverse Problems Governe
 <abstract>
 Abstract: Model-based projections of complex systems will play a central role in prediction and decision-making, e.g., anticipate ice sheet contribution to sea level rise. However, models are typically subject to uncertainties stemming from uncertain inputs in the model such as coefficient fields, source terms, etc. Refining our understanding of such models requires solving a (Bayesian) inverse problem that integrates measurement data and the model to estimate and quantify the uncertainties in the parameters. Such problems face several challenges, e.g., high dimensionality of the inversion parameters and expensive to evaluate models. In this talk, I will focus on identifying and exploiting low-dimensional structure in such inverse problems stemming for example from local sensitivity of the data with respect to parameters, diffusive models, sparse data, etc. The key idea is to look at the Hessian operator arising in these inverse problems, which often exhibits a high (global) rank but a lower off-diagonal rank structure and build approximations of this operator. These approximations then can be used as preconditioners for the Newton-Krylov systems encountered when computing the maximum a posteriori (MAP) point or to build high-quality proposals for Markov chain Monte Carlo algorithms to explore the full posterior of the Bayesian inverse problem. Combining an efficient matrix-free point spread function (PSF) method for approximating operators with fast hierarchical (H-)matrix methods, we show that Hessian information can be obtained using only a small number of operator applications.
 
- 
+
 
 Reference:  <a href="https://epubs.siam.org/doi/abs/10.1137/23M1584745">https://epubs.siam.org/doi/abs/10.1137/23M1584745</a>
 
@@ -190,8 +190,9 @@ Date: 05/07
 Host: Lin/Zhiyan
 Speaker: Marius Junge
 Affiliation: University of Illinois Urbana-Champaign
-Title:
+Title: Concentration Inequalities for sub-Riemanian geometry and the connection to certain simulation costs.
 
 <abstract>
+Abstract: We start from sub-Riemian geometry on compact Lie groups and how they connect to Lindbladian in open systems. We review the tools to obtain Talagrand type concentration inequalities and how the can be use to diameter estimates and obstructions for simulation costs.
 
 </abstract>
