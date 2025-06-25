@@ -12,7 +12,15 @@ redirected to https://berkeleyams.lbl.gov/fall22/
 
 https://docs.google.com/spreadsheets/d/1S4fqiUZqd_FivdEvU2cXWb6MKWWSJhntjaXJrABD-t0/edit?usp=sharing
 
-1. Github 
+After inviting a speaker, contact Kerri Peyovich (kpeyovich@lbl.gov) to
+schedule the logistics of the travel. Kerri will also be responsible for
+the reimbursement process after the visit.
+
+Contact Jasan Fujii (jaifuj@berkeley.edu) and Brian Underwood
+(nonsenateap@math.berkeley.edu) to inform the department in order to
+reserve an office for the visitor.
+
+1. Update information on Github (see below). Then
 make
 git add ../fall22/*
 git commit -a -m "edit"
