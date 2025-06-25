@@ -1,7 +1,13 @@
-Applied Math Seminar Announcement by Di Fang
-=======================================================================
+Applied Math Seminar Announcement
+=================================
 
-Make necessary modifications each semester
+Make necessary modifications each semester. For instance, replace fall22,
+host names etc by the updated information of the semester.
+
+0. Update the Google sheet to indicate the speakers you would like to
+   invite to help coordination
+
+https://docs.google.com/spreadsheets/d/1S4fqiUZqd_FivdEvU2cXWb6MKWWSJhntjaXJrABD-t0/edit?usp=sharing
 
 1. Github 
 make
@@ -29,7 +35,7 @@ Welcome to the Applied Mathematics seminar for the Fall 2022 semester. This year
 To join the applied math seminar mailing list, click
 https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/appliedmathseminar/join
 
-3. Email announcement to emailing list every Monday (morning preferred; written via AMS google group conversations)
+3. Email announcement to emailing list every Monday (morning preferred; written via the "LBNL-UCB Applied Math Seminar" Google group conversations)
 
 
 
