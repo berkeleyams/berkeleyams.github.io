@@ -2,7 +2,10 @@ Applied Math Seminar Announcement
 =================================
 
 Make necessary modifications each semester. For instance, replace fall22,
-host names etc by the updated information of the semester.
+host names etc by the updated information of the semester. 
+
+The actual website is https://berkeleyams.github.io/, which will be automatically
+redirected to https://berkeleyams.lbl.gov/fall22/
 
 0. Update the Google sheet to indicate the speakers you would like to
    invite to help coordination
