@@ -16,8 +16,9 @@ Date: 9/10
 Host: Lin/Franziska
 Speaker: Qin Li
 Affiliation: UW Madison
-Title: 
+Title: Inverse problems over probability measure space
 <abstract>
+Inverse problems are ubiquitous. Traditionally, the goal is to infer an unknown vector or function. But what if the unknown is a probability measure? Seeking a measure that generates data consistent with given observations leads to an optimization problem over probability space. However, the complex geometric nature of this space prevents the direct use of standard arguments and solvers. We unravel some of the surprises that emerge in this setting and discuss potential solutions.
 </abstract>
 
 
