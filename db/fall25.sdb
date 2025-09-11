@@ -26,8 +26,11 @@ Date: 9/17
 Host: Franziska
 Speaker: Sanjukta Krishnagopal
 Affiliation: UCSB
-Title: 
+Title: Graph signal processing: from machine learning theory to simplicial complexes
 <abstract>
+In this talk I will discuss some aspects at the intersection of mathematics, machine learning, and network science.
+First, I will discuss some results in graph machine learning. I will present some theoretical results on how learning evolves when training graph neural networks in the wide limit via neural tangent kernels, using graphons - a graph limiting object, or a graph with infinitely many nodes. I show how these results can be used perform transfer learning on large graphs with rigorous guarantees of performance. 
+Then, I will discuss some work on higher-order networks: simplicial complexes - that can capture simultaneous many-body interactions, unlike conventional pairwise graphs. I will present some recent results on spectral theory of simplicial complexes using Hodge theory, and discuss how these results can be used to study how signals/information spreads on these higher-order networks.
 </abstract>
 
 Date: 9/24
