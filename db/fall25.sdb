@@ -37,8 +37,10 @@ Date: 9/24
 Host: Franziska
 Speaker: Athanasios Tzavaras
 Affiliation: KAUST
-Title: 
+Title: The Maxwell-Stefan system of multi-component diffusion
 <abstract>
+The Maxwell-Stefan is a system of nonlinear equations commonly used in the description of diffusion processes in multi-component systems, like gases with many constituents. I will first discuss how the Maxwell-Stefan system emerges through a process of alignment in the high-friction limit of multi-component Euler flows. Then I focus to : (i) Analytical issues on existence and uniqueness of the Maxwell-Stefan system and the role of relative entropy. (ii) Structure and existence theory of Maxwell-Stefan Cahn-Hilliard systems. (iii) The connection between minimization of the frictional
+dissipation and the Maxwell-Stefan system.
 </abstract>
 
 Date: 10/1
