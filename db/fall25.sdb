@@ -47,8 +47,9 @@ Date: 10/1
 Host: Lin
 Speaker: Yulong Dong
 Affiliation: U Michigan
-Title: 
+Title: Learning from Quantum Experiments via Structured Signal Processing
 <abstract>
+The pursuit of quantum advantage in solving large-scale computational problems is often seen as a shining treasure. Achieving this goal, however, requires the accurate realization of smaller-scale quantum gates and control operations. Understanding and characterizing modular gate and control errors is therefore essential for building reliable quantum applications. Earlier work has typically pursued either universal algorithms with theoretical guarantees or black-box engineering approaches with no guarantees. Yet, problem-specific structures offer opportunities for efficient and robust system characterization at the intersection of theory and practice. In this talk, I will present how structured signal transformation and processing can be used to exploit such structures. I will first introduce a gate characterization method that is both resource-efficient and robust against complex experimental errors, drawing parallels to parameter estimation in classical statistics. I will then generalize this idea to functional signals and present a novel non-parametric estimation paradigm, with applications to characterizing control pulses and quantum sensing.
 </abstract>
 
 Date: 10/8
