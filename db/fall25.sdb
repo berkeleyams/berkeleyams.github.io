@@ -81,8 +81,9 @@ Date: 11/12
 Host: Lin
 Speaker: Xun Tang
 Affiliation: Stanford
-Title: 
+Title: Quantum state tomography with classical shadow and tensor sketching
 <abstract>
+In this talk, I introduce Sketch Tomography, an efficient procedure for quantum state tomography based on the classical shadow protocol used for quantum observable estimations. The procedure applies to the case where the ground truth quantum state is a matrix product state (MPS). The density matrix of the ground truth state admits a tensor train ansatz, and we estimate the tensor components of the ansatz through a series of observable estimations, thus outputting an approximation of the density matrix. The procedure is provably convergent with only a quadratic dependence on the qubit size. We conduct extensive numerical experiments to show that the procedure outputs an accurate approximation to the quantum state. For observable estimation tasks involving moderately large subsystems, we show that our procedure gives rise to a more accurate estimation than the classical shadow protocol. We also show that sketch tomography is more accurate in observable estimation than quantum states trained from the maximum likelihood estimation formulation.
 </abstract>
 
 
