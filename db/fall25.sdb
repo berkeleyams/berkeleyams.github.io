@@ -58,6 +58,7 @@ Speaker: Andrew Scharf
 Affiliation: UC Berkeley
 Title: A partitioned scheme for fluid-structure interaction involving poroelastic plates and bulk poroelastic media
 <abstract>
+Poroelastic materials are deformable porous media that exhibit both fluid-dynamic and elastodynamic properties. Such media frequently occur in biological tissues such as cartilage, liver, cornea, arterial endothelium, and intervertebral disc, which are often multilayered with one or more layers having a small thickness. I discuss a general plate model for thin poroelastic structures, review numerical implementations of thin plates as both the boundary and interface of coupled fluid-structure models, and prove the stability of splitting schemes that convert the large multi-physics problem into a sequence of simpler, loosely-coupled subproblems. I then show the application of these techniques to a biologically motivated blood vessel flow problem with poroelastic walls.
 </abstract>
 
 Date: 10/22
