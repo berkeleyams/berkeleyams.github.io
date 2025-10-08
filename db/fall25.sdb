@@ -64,9 +64,12 @@ Poroelastic materials are deformable porous media that exhibit both fluid-dynami
 Date: 10/22
 Host: Lin
 Speaker: Nicholas Rubin
-Affiliation: Google
-Title: 
+Affiliation: Google Quantum AI
+Title: Faster quantum simulation by sum-of-squares representations and spectral amplification
 <abstract>
+We present a method of integrating low-energy assumptions into a variety of quantum algorithms for physical simulation that leverages Hamiltonians represented as a sum of squares and spectral amplification. Spectral amplification minimizes query costs by useful uncertainty propagation when performing a parameter estimation task if the initial state is in the low-energy sector of a non-negative Hamiltonian. The non-negative Hamiltonian representations we utilize are sum-of-squares certificates on the lowest eigenvalue. This work connects non-commutative polynomial optimization to quantum algorithms and is demonstrated to lower quantum gate complexities when computing the ground state of strongly correlated electronic systems in first and second quantization. We will also highlight how sum-of-squares Hamiltonian representations can be used in classical electronic structure simulation with potentially reduced costs.
+
+arXiv:2505.01528, arXiv:2502.15882
 </abstract>
 
 Date: 11/5
