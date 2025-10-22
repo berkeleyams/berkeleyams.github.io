@@ -72,6 +72,15 @@ We present a method of integrating low-energy assumptions into a variety of quan
 arXiv:2505.01528, arXiv:2502.15882
 </abstract>
 
+Date: 10/29
+Host: Ethan
+Speaker: Robert Webber
+Affiliation: UCSD
+Title: Adaptive Algorithms for Data Summarization
+<abstract>
+Clustering, low-rank approximation, and nonnegative matrix factorization are all summarization problems based on selecting a small number of prototypes from a large data set. We provide a unified formulation of these problems and many others. Natural algorithms for solving these problems include adaptive search, which is a greedy deterministic selection rule, and adaptive sampling, which is a randomized selection rule based on distances to existing prototypes. We evaluate the utility of the two approaches theoretically and empirically, pointing out when each approach is preferable.
+</abstract>
+
 Date: 11/5
 Host: Lin
 Speaker: Yifan Chen
