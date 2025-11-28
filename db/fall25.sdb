@@ -109,3 +109,12 @@ Title:
 <abstract>
 </abstract>
 
+
+Date: 12/3
+Host: Ethan
+Speaker: Thomas Strohmer
+Affiliation: UC Davis
+Title: Can AI Truly Forget? A Mathematical Framework for Machine Unlearning
+<abstract>
+As AI models are trained on ever-expanding datasets, the ability to remove the influence of specific data from trained models has become essential for privacy protection and regulatory compliance. Unlearning addresses this challenge by selectively removing parametric knowledge from the trained models without retraining from scratch, which is critical for resource-intensive models such as Large Language Models (LLMs).  However, existing unlearning methods often severely degrade model performance by removing more information than necessary when attempting to "forget" specific data. We introduce a mathematical framework based on information-theoretic regularization that can accommodate different types of machine unlearning, such as feature unlearning and data point unlearning. Our theoretical analysis reveals intriguing connections between machine unlearning, information theory, optimal transport, and extremal sigma algebras. For LLMs, we propose Forgetting-MarI, an unlearning framework that provably removes only the additional (marginal) information contributed by the data to be unlearned, while preserving the information supported by the data to be retained.  Extensive experiments confirm that our approach outperforms current state-of-the-art unlearning methods, delivering reliable forgetting and better preserved general model performance across diverse benchmarks.  This advancement represents an important step toward making AI systems more controllable and compliant with privacy and copyright regulations without compromising their effectiveness. We will also discuss applications in machine learning driven scientific discovery. This is joint work with Shizhou Xu, Yuan Ni, and Stefan Broecker.
+</abstract>
