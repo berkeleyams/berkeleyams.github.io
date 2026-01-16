@@ -8,8 +8,9 @@ Date: 2/4
 Host: Lin
 Speaker: Anil Damle
 Affiliation: Cornell University
-Title: 
+Title: Rank-Structured Methods for Data-Driven Problems
 <abstract>
+Rank-structured matrices are central to many modern applications, including kernel methods in machine learning, numerical PDE solvers, and data analysis. This talk presents two recent advances. First, we address the estimation of high-dimensional covariance matrices from very limited data, a pervasive challenge in fields such as computational fluid dynamics and computational geoscience. Second, we describe how the fast Gauss transform can be extended to a broad class of kernels, yielding a fast kernel transform (FKT) that is practically efficient in low to moderate dimensions. We conclude with remarks on strategies for improving FKT performance in genuinely high-dimensional settings.
 </abstract>
 
 
