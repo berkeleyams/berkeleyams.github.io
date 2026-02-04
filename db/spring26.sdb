@@ -18,8 +18,9 @@ Date: 2/11
 Host: Ethan
 Speaker: Alex Hsu
 Affiliation: University of Washington
-Title: 
+Title: Bounds and Extremal Examples for the Hot Spots Ratio
 <abstract>
+The shape of the fluctuations as heat approaches equilibrium in an insulated body are governed by the first Neumann eigenfunction of the Laplacian. Rauch's hot spots conjecture states that the extrema of the first nontrivial Neumann Laplacian eigenfunction for a Lipschitz domain lies on the boundary. While this conjecture is false in general, its failure can be measured by the hot spots ratio, defined as the maximum over the entire domain divided by the maximum on the boundary. We determine the supremum of this quantity over all Lipschitz domains in every dimension $d$ and construct a sequence of sets where the associated hot spots ratios approach this supremum. As $d\to \infty$, this maximal ratio converges to $\sqrt{e}$, which matches the previously best known upper bounds. 
 </abstract>
 
 Date: 3/11
