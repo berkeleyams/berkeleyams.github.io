@@ -26,15 +26,16 @@ The shape of the fluctuations as heat approaches equilibrium in an insulated bod
 Date: 2/18
 Host: Lin
 Speaker: Ethan Epperly
-Affiliation: University of California Berkeley
-Title: 
+Affiliation: UC Berkeley
+Title: Sparser, better, faster, stronger: Emerging approaches in the theory and practice of randomized dimensionality reduction
 <abstract>
+For approaching thirty years, randomized dimensionality reduction techniques have been a core tool in the theory and practice of computation. But despite this robust history, basic questions remain hotly debated: Which dimensionality reduction map should be used? How can the map be adapted to structure in the problem? What is the right theoretical approach to analyzing randomized dimensionality reduction? This talk presents a new approach to the theory of randomized dimensionality reduction under which the core feature of a good dimensionality map is injectivity: It is fine if the map stretches things out a bit as long as it does not annihilate any element of the data space. This new approach yields new analysis of sparse and tensor-structured dimensionality reduction maps that comes closer to describing how these maps behave in practice. This talk is designed for a general audience and assumes no prior familiarity with randomized dimensionality reduction.
 </abstract>
 
 Date: 2/25
 Host: Lin
 Speaker: Zhen Huang
-Affiliation: University of California Berkeley
+Affiliation: UC Berkeley
 Title: 
 <abstract>
 </abstract>
