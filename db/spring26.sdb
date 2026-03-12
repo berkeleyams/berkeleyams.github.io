@@ -55,8 +55,9 @@ Date: 3/18
 Host: Ethan
 Speaker: Heather Wilber
 Affiliation: University of Washington
-Title: 
+Title: Cauchy matrices explain a lot
 <abstract>
+In many applications in computational mathematics, Cauchy and Cauchy-like matrices are lurking not too far from the surface of things. Understanding why they show up, how to compute effectively with them, and what properties they possess, can lead to improved analysis and algorithmic developments for a variety of problems. In this talk, we discuss the connections between Cauchy-like matrices and Zolotarev numbers. We apply these connections to a range of tasks, including in the development of specialized interpolative decompositions for (nonysmmetric) bivariate functions, as a means for explaining the effectiveness of proxy point methods for (hierarchical) compression schemes, as a way to construct numerical filters, and as a way to develop superfast rank-structured solvers for highly-structured linear systems.
 </abstract>
 
 Date: 4/6 
