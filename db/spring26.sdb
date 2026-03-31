@@ -82,8 +82,13 @@ Date: 4/8
 Host: Franziska
 Speaker: Yekaterina Epshteyn
 Affiliation: The University of Utah
-Title: 
+Title: Structure-Preserving Algorithms for Hyperbolic Balance Laws and Related PDE-Based Models 
 <abstract>
+Hyperbolic conservation/balance laws and related PDE-based models are essential mathematical apparatus for modeling a variety of complex physical phenomena, including but not limited to wave propagation, fluid flow, biological and materials science phenomena. Over the past few decades, there has been enormous progress in designing stable, robust, structure-preserving numerical schemes (such as positivity-preserving and/or well-balanced schemes) that have enabled high-fidelity simulation of phenomena described by nonlinear hyperbolic PDEs. The main goal of our recent work is to extend these capabilities to systems with a stochastic component, which are relevant models in practical real-world situations since precise knowledge of an environment or operating conditions is frequently absent in such scenarios, and naturally results in models where randomness is used to describe the ignorance. 
+
+In this talk, we will discuss progress in the design of structure-preserving numerical methods for hyperbolic and related nonlinear PDE-based models, including systems with uncertainty. As a primary example, shallow water equations will be considered, but the developed ideas can be extended to a wider class of models, including different models of conservation and balance laws. Shallow water systems are widely used in many scientific and engineering applications related to the modeling of water flows in rivers, lakes, and coastal areas. Thus, stable and accurate numerical methods for shallow water models are needed. Although some algorithms are well-studied for deterministic shallow water systems, more effort should be devoted to handling such equations with uncertainty. We will show that the structure-preserving numerical methods that we developed for these models deliver high resolution and satisfy important stability conditions. We will illustrate the performance of the designed algorithms on a number of challenging numerical tests. Current and future research will be discussed as well.
+
+Part of this talk is based on the recent work with Dihan Dai, Akil Narayan, Yinqian Yu, and is partially supported by the NSF-DMS Award 2207207 and Simons Fellowship Award SFI-MPS-00010667. 
 </abstract>
 
 
