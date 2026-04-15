@@ -105,8 +105,13 @@ Date: 4/22
 Host: Ethan
 Speaker: Angxiu Ni
 Affiliation: UC Irvine
-Title: 
+Title: New Linear Response Methods for Data Assimilation and Generative Modeling
 <abstract>
+We present two new formulas for linear response (parameter derivatives of marginal or stationary measures) of random dynamical systems. These formulas unify classical approaches, including path-perturbation, divergence, and kernel-differentiation methods, while overcoming major difficulties such as chaos, high dimensionality, and parameter-dependent multiplicative noise.
+
+Using the new adjoint path-kernel formula, we solve the data assimilation problem in a general setting with chaotic high-dimensional dynamics, partial and noisy observations, unknown parameters, a single loss over a long time window, and no synchronization assumption.
+
+Using the new divergence-kernel formula, we introduce a generative modeling framework, DK-SDE, in which the model is a parameterized nonlinear SDE trained by minimizing the KL divergence between the data distribution and the SDE marginal law. This framework naturally incorporates explicit dynamical priors and has substantially lower memory cost.
 </abstract>
 
 Date: 4/29
