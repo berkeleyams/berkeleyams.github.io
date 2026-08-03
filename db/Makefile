@@ -16,7 +16,7 @@ PAGES=../fall08/index.html \
 ../spring23/index.html ../fall23/index.html \
 ../spring24/index.html ../fall24/index.html \
 ../spring25/index.html ../fall25/index.html \
-../spring26/index.html 
+../spring26/index.html ../fall26/index.html 
 
 all: $(PAGES)
 
@@ -30,7 +30,9 @@ all: $(PAGES)
 # ../spring25/index.html: spring25.sdb template.html sched.html compile.pl
 # ../fall25/index.html: fall25.sdb template.html sched.html compile.pl
 #	perl compile.pl -c $<
- ../spring26/index.html: spring26.sdb template.html sched.html compile.pl
+# ../spring26/index.html: spring26.sdb template.html sched.html compile.pl
+#	perl compile.pl -c $<
+ ../fall26/index.html: fall26.sdb template.html sched.html compile.pl
 	perl compile.pl -c $<
 #	cp ../spring23/index.html ../index.html
 #	cp ../fall22/index.html ../index.html
