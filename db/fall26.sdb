@@ -32,8 +32,9 @@ Date: 9/23
 Host: Sunny
 Speaker: Krutika Tawri
 Affiliation: University of Washington
-Title:
+Title: On finite-time contact in a fluid-elastic structure interaction problem
 <abstract>
+Abstract: In this talk, we will consider a fluid-structure interaction problem involving a viscous, incompressible fluid flow, modeled by the 2D Navier-Stokes equations, through a thin deformable elastic tube, elastodynamics of which is modeled by 1D plate equations. The fluid and the structure are nonlinearly coupled at the fluid-structure interface. The fluid flow is driven by Bernoulli pressure data imposed at the inlet and the outlet of the tube. In this talk, we will impose the Navier-slip boundary condition at the fluid-structure interface and at the bottom rigid boundary of the fluid domain. We will first discuss the existence of weak solutions and reveal a `hidden' spatial regularity result for the structure displacement. We then present our recent result identifying conditions under which a weak solution reaches a finite time at which the compliant upper boundary meets the lower boundary, causing the elastic channel to collapse. This result resolves the ``no-collision'' paradox previously identified in the no-slip setting and thus validates the model to correctly capture near-contact dynamics. 
 </abstract>
 
 Date: 9/30
