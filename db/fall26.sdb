@@ -1,0 +1,126 @@
+Semester: Fall 2026
+Usual location: 939 Evans (for in-person talks) and <a href="https://berkeley.zoom.us/j/98667278310">https://berkeley.zoom.us/j/98667278310</a>
+Usual time: 11:10AM-12:00PM
+Usual day: Wednesday
+
+Date: 9/2
+Host: Per
+Speaker: Justin Sirignano
+Affiliation: University of Oxford
+Title: Machine Learning for PDEs: Global Convergence and Applications to Fluid Mechanics
+<abstract>
+Physics-Informed Neural Networks (PINNs) and the Deep Galerkin Method (DGM) have become widely used for physics-constrained learning and solving PDEs. In particular, DGM can solve high-dimensional (including infinite-dimensional) PDEs that are computationally intractable for traditional numerical methods. Due to the non-convexity of the PDE residual objective function used in these methods, the trained neural network may, in principle, converge to a local minimizer that does not correspond to a solution of the PDE. Consequently, there is a longstanding question regarding the mathematical foundations of these algorithms. For a class of semilinear PDEs, we prove that neural networks trained with gradient descent will converge to the PDE solution as the network width and training time become large. In the final part of the presentation, applications of machine learning to modeling turbulent flows in fluid mechanics will be discussed. A physics-based machine learning closure model is developed for the Reynolds-averaged Navier-Stokes (RANS) equations, which outperforms existing AI for Science methods (e.g., deep operator networks, PINNs, and TBNNs) on several canonical turbulent flow cases.
+</abstract>
+
+Date: 9/9
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 9/16      
+Host: Ethan
+Speaker: Chris Camaño
+Affiliation: Caltech
+Title:
+<abstract>
+</abstract>
+
+Date: 9/23
+Host: Sunny
+Speaker: Krutika Tawri
+Affiliation: University of Washington
+Title: On finite-time contact in a fluid-elastic structure interaction problem
+<abstract>
+Abstract: In this talk, we will consider a fluid-structure interaction problem involving a viscous, incompressible fluid flow, modeled by the 2D Navier-Stokes equations, through a thin deformable elastic tube, elastodynamics of which is modeled by 1D plate equations. The fluid and the structure are nonlinearly coupled at the fluid-structure interface. The fluid flow is driven by Bernoulli pressure data imposed at the inlet and the outlet of the tube. In this talk, we will impose the Navier-slip boundary condition at the fluid-structure interface and at the bottom rigid boundary of the fluid domain. We will first discuss the existence of weak solutions and reveal a `hidden' spatial regularity result for the structure displacement. We then present our recent result identifying conditions under which a weak solution reaches a finite time at which the compliant upper boundary meets the lower boundary, causing the elastic channel to collapse. This result resolves the ``no-collision'' paradox previously identified in the no-slip setting and thus validates the model to correctly capture near-contact dynamics. 
+</abstract>
+
+Date: 9/30
+Host: Mark 
+Speaker: Venkatesan Guruswami
+Affiliation: UC Berkeley
+Title:
+<abstract>
+</abstract>
+
+Date: 10/7
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 10/14
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 10/21
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 10/28
+Host: Ethan
+Speaker: Tammy Kolda
+Affiliation: MathSci.ai
+Title:
+<abstract>
+</abstract>
+
+Date: 11/4
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 11/11
+Host:
+Speaker: No seminar. Happy Veterans Day!
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 11/18
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 11/25
+Host:
+Speaker: No seminar. Happy Thanksgiving!
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 12/2
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
+
+Date: 12/9
+Host:
+Speaker:
+Affiliation:
+Title:
+<abstract>
+</abstract>
