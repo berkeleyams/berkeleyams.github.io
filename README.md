@@ -34,14 +34,25 @@ list)
 https://nweb.math.berkeley.edu/events/new/ 
 
 * For LBL system:
-https://cs.lbl.gov/for-staff/schedule-a-seminar/
-and enter info as follows:
+https://cs.lbl.gov/staff-portal/announce-a-seminar/
 
-- Host Names and Affiliations:
-Di Fang, Michael Lindsey, Franziska Weber,  Mathematics Group
+and enter info.
 
-- Additional information you want to include in the announcement:
-Welcome to the Applied Mathematics seminar for the Fall 2022 semester. This year, the seminar series is being organized by Di Fang (difang@berkeley.edu), Michael Lindsey (lindsey@math.berkeley.edu), and Franziska Weber (fweber@berkeley.edu). If you have any inquiries, please contact one of them.
+- Sample introduction message (from Fall 2026):
+
+Welcome to the Applied Mathematics Seminar for the Fall 2026 semester! We will meet at the usual time and place, Wednesdays from 11:10am - 12:00pm in 939 Evans, as well as via Zoom at https://berkeley.zoom.us/j/98089348656.
+
+We will start off this Wednesday, September 2, with Justin Sirignano from the University of Oxford. Please see the title and abstract below.
+
+Looking forward to seeing you there!
+
+Best,
+
+Ethan Epperly
+Mark Fornace
+Franziska Weber
+Per-Olof Persson
+
 
 To join the applied math seminar mailing list, click
 https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/appliedmathseminar/join
