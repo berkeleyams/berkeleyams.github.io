@@ -15,9 +15,10 @@ Physics-Informed Neural Networks (PINNs) and the Deep Galerkin Method (DGM) have
 Date: 9/9
 Host: Ethan
 Speaker: Mark Fornace
-Affiliation: Lawrence Berkeley National Lab
-Title:
+Affiliation: Lawrence Berkeley National Laboratory
+Title: New bounds and theories for reduced-order models of reversible Markov chains
 <abstract>
+In this talk, I discuss our recent work on the compression of discrete-space reversible Markov chains with rigorous error control. This task is a vital target of reduced-order models in various fields, including the construction of Markov state (or "macrostate") models in computational chemistry. After introducing the problem, I sketch our new proofs of spectral and nuclear norm bounds on the recovery error in terms of a suitably interpreted Nystrom approximation error. These proofs leverage a novel combination of techniques from linear algebra, probability theory, and complex analysis. Next, I introduce two compression schemes: a projective compression based on committor functions, and a structure-preserving compression defined in terms of an induced Markov chain over the selected states. I describe how the Nystrom error appearing in our bounds can be controlled using recent results linking column subset selection with submodular function maximization. Finally, I show numerical experiments that validate our theory and demonstrate the scalability of our approach. Joint work with Michael Lindsey.
 </abstract>
 
 Date: 9/16      
