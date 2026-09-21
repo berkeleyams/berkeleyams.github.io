@@ -61,8 +61,9 @@ Date: 10/14
 Host: Jon 
 Speaker: Levent Batakci 
 Affiliation: University of Washington
-Title:
+Title: Three-Dimensional Water Waves
 <abstract>
+Three-dimensional water waves (two-dimensional surface) that are inviscid and irrotational are modeled by the free-boundary Euler equations. In this talk, I will investigate (i) the spectral stability, both computationally and asymptotically, of three-dimensional Stokes waves, i.e., waves of permanent form traveling with constant velocity, and (ii) to what extent such waves are described well by solutions of the integrable KP equation.
 </abstract>
 
 Date: 10/21
