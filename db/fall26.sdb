@@ -45,8 +45,15 @@ Date: 9/30
 Host: Mark 
 Speaker: Venkatesan Guruswami
 Affiliation: UC Berkeley
-Title:
+Title: Rate bounds for binary error correcting codes: Unification and improvement via classical-quantum channels
 <abstract>
+How many binary strings of length n can one pick so that every two differ in at least δn coordinates? This packing question in the Hamming cube is among the oldest in coding theory and combinatorics, and its asymptotic answer is still unknown. The best lower bound (Gilbert–Varshamov, 1952) is a greedy packing, and the best upper bound (McEliece–Rodemich–Rumsey–Welch, 1977) comes from Delsarte's linear program; neither has been improved asymptotically since.
+
+This talk presents a new route to upper bounds. The idea is to exploit the fact that minimum distance is oblivious to the channel: a code with distance δn admits a decoder with a constant chance of success on any channel whose noise is "less than δ" in a suitable sense. A strong converse then bounds its rate by the channel's capacity, and we get to choose the channel. Classical channels already recover the Plotkin bound (erasures) and the Elias–Bassalygo bound (bit flips), but cannot give stronger bounds via this framework. Our insight is that allowing the channel to have quantum outputs unlocks more power. A pure-state channel — the binary symmetric channel with a coherent output — decoded with the pretty good measurement (the quantum analog of posterior sampling) reproduces the first MRRW bound. Mixing the output states slightly then yields a bound strictly below the first MRRW bound for every 0 < δ < ½. A masking construction on top of the pure-state channel recovers the second MRRW bound exactly, and its mixed-state version improves on that bound too.
+
+The talk will describe the framework, the specific channels that realize each bound, and some extensions. No quantum background will be assumed.
+
+Joint work with Omar Alrabiah (arXiv:2608.09347).
 </abstract>
 
 Date: 10/7
