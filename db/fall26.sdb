@@ -60,8 +60,9 @@ Date: 10/7
 Host: Mark 
 Speaker: Igor Mezic
 Affiliation: UC Santa Barbara
-Title: TBA
+Title: Koopman Operator, Dynamical Systems and World Models
 <abstract>
+Many approaches to machine learning have struggled with applications that possess complex process dynamics. I will describe an approach to machine learning of dynamical systems based on Koopman Operator Theory (KOT) that produces generative, predictive, context-aware, interpretable World Models amenable to (feedback) control applications. KOT has deep mathematical roots and I will discuss its basic tenets.
 </abstract>
 
 Date: 10/14
