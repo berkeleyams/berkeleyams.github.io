@@ -95,8 +95,9 @@ Date: 11/4
 Host: Ethan 
 Speaker: John Urschel
 Affiliation: MIT
-Title:
+Title: The Growth Factor in Gaussian Elimination
 <abstract>
+Gaussian elimination is arguably the simplest and most used matrix algorithm. After a millennia of practice, eighty of those years with the computer, we still do not understand everything, especially regarding its numerical stability. In this talk, we will study the history of Gaussian elimination, consider old questions regarding this algorithm, and discuss recent results that give some satisfying answers.
 </abstract>
 
 Date: 11/11
