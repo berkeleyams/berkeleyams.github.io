@@ -16,7 +16,8 @@ PAGES=../fall08/index.html \
 ../spring23/index.html ../fall23/index.html \
 ../spring24/index.html ../fall24/index.html \
 ../spring25/index.html ../fall25/index.html \
-../spring26/index.html ../fall26/index.html 
+../spring26/index.html ../fall26/index.html \
+../spring27/index.html
 
 all: $(PAGES)
 
@@ -34,8 +35,8 @@ all: $(PAGES)
 #	perl compile.pl -c $<
  ../fall26/index.html: fall26.sdb template.html sched.html compile.pl
 	perl compile.pl -c $<
-#	cp ../spring23/index.html ../index.html
-#	cp ../fall22/index.html ../index.html
+ ../spring27/index.html: spring27.sdb template.html sched.html compile.pl
+	perl compile.pl -c $<
 
 
 # General Makefile rule for semester page
