@@ -124,12 +124,14 @@ Title:
 <abstract>
 </abstract>
 
-Date: 12/2
+Date: 12/1
+Note: Special date
 Host: Franziska
 Speaker: Gonzalo Benavides
 Affiliation: University of Maryland
-Title: TBA
+Title: A priori error analysis for the Shliomis ferrofluid model without magnetic regularization
 <abstract>
+We develop and analyze a family of conforming, energy-stable spatial semidiscretizations of the Shliomis ferrofluid model in two and three space dimensions. Unlike many existing numerical analyses, we treat the system without introducing magnetic diffusion. The limited spatial control supplied by the energy law complicates the treatment of magnetic nonlinearities in the error analysis. Our formulation retains the rotational coupling and nonlinear magnetic relaxation and incorporates the magnetic normal-flux condition naturally, overcoming the dimensional restriction and boundary-enforcement difficulties of the two-potential approach of Benavides, Nochetto and Shakipov (2026). The error analysis combines consistent stabilization of the Maxwell constraint with a cancellation arising from exact incompressibility and the pointwise symmetry of the Hessian of the magnetic potential. We prove global solvability of the semidiscrete scheme and establish a priori error estimates for sufficiently regular exact solutions under explicit approximation and projection-stability assumptions. We also construct an averaged $\mathrm{H}^2$-conforming projector, following Girault and Scott (2002), that is defined on $\mathrm{L}^1$, and establish its Sobolev approximation and stability properties. These properties are needed for the error analysis and are of independent interest.
 </abstract>
 
 Date: 12/9
